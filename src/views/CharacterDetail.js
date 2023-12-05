@@ -1,6 +1,10 @@
+import data from "../data/dataset.js";
+import { renderItems } from "../componets/view.js";
+import { footer } from "../componets/footer.js";
+
 export const characterDetail = () => {
-    const detallesView = document.createElement("section")
-    const detallesDelPersonaje = `
+  const detallesView = document.createElement("section");
+  const detallesDelPersonaje = `
         <button data-testid="boton-home" name="boton-home">Salir</button>
         <div id="detalles"></div>
         <div id="chat-box" contenteditable="true"></div>
@@ -8,8 +12,9 @@ export const characterDetail = () => {
         <textarea id=chatIndividual placeholder="Escribe aquí tu mensaje"></textarea>
         <button data-testid="boton-enviar" name="boton-enviar>Enviar</button>
         </div>`;
-    const conteinDetails=document.createElement("div");
-    conteinDetails=detallesDelPersonaje;
-    detallesView.appendChild(renderItems(data));
-    return detallesView;
-}
+  detallesView += footer();
+  const conteinDetails = document.createElement("div");
+  conteinDetails = detallesDelPersonaje;
+  detallesView.appendChild(renderItems(data));
+  return detallesView;
+};
