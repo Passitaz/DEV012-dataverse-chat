@@ -5,8 +5,8 @@
       "shortDescription": "Icono de los videojuegos, Mario lucha contra Bowser para rescatar a la princesa Peach.",
       "description": "Super Mario Bros es un videojuego de plataformas creado por Nintendo. El juego sigue las aventuras de Mario, un fontanero que debe rescatar a la Princesa Peach del malvado rey Bowser. El juego se desarrolla en el Reino Champiñón y presenta una variedad de niveles desafiantes llenos de enemigos, obstáculos y power-ups. Mario puede crecer en tamaño, lanzar bolas de fuego y saltar sobre tuberías para avanzar. Con su icónico diseño de niveles y personajes, Super Mario Bros se ha convertido en un clásico de los videojuegos y un emblema de Nintendo.",
       "imageUrl": "https://naciongrita.com.mx/wp-content/uploads/2017/09/Mario-2-1.jpg",
-      “personajeUrl”:”https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fes%2Ffree-png-vwdit&psig=AOvVaw1nbZoloG7I50UkZBjF2HHe&ust=1701628708255000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDZ2oez8YIDFQAAAAAdAAAAABAE”
-      “logo”:”https://e7.pngegg.com/pngimages/831/127/png-clipart-super-mario-bros-2-super-mario-maker-super-mario-bros-3-mario-bros-angle-text.png”
+      "personajeUrl":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fes%2Ffree-png-vwdit&psig=AOvVaw1nbZoloG7I50UkZBjF2HHe&ust=1701628708255000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDZ2oez8YIDFQAAAAAdAAAAABAE”,
+      "logo":"https://e7.pngegg.com/pngimages/831/127/png-clipart-super-mario-bros-2-super-mario-maker-super-mario-bros-3-mario-bros-angle-text.png”,
       "facts": {
         "yearReleased":"1985",
         "gender": "Aventuras",
@@ -346,8 +346,8 @@
       "shortDescription": "Participa en emocionantes combates en equipos con héroes únicos y habilidades especiales.",
       "description": "Overwatch es un juego de disparos en primera persona desarrollado por Blizzard Entertainment. El juego se centra en partidas en equipos de seis jugadores, cada uno seleccionando entre una variedad de héroes con habilidades únicas. Los jugadores trabajan juntos para completar objetivos y derrotar al equipo contrario. Overwatch es conocido por su enfoque en la jugabilidad cooperativa y competitiva, así como por su diverso elenco de personajes. Ha sido un título popular en los deportes electrónicos.",
       "imageUrl": "https://phantom-marca.unidadeditorial.es/8d87143c78ee004466437439e5df364d/resize/1200/f/webp/assets/multimedia/imagenes/2022/10/03/16648149397801.jpg",
-  “personajeUrl”:”https://c0.klipartz.com/pngpicture/555/466/gratis-png-overwatch-d-va-pixel-art-mercy-thumbnail.png”,
-  “logo”:”https://c0.klipartz.com/pngpicture/377/566/gratis-png-logo-de-overwatch-overwatch-hearthstone-league-of-legends-esports-videojuego-overwatch-thumbnail.png”,
+      "personajeUrl": "https://c0.klipartz.com/pngpicture/555/466/gratis-png-overwatch-d-va-pixel-art-mercy-thumbnail.png",
+      "logo": "https://c0.klipartz.com/pngpicture/377/566/gratis-png-logo-de-overwatch-overwatch-hearthstone-league-of-legends-esports-videojuego-overwatch-thumbnail.png",
       "facts": {
         "yearReleased": "2016",
         "gender": "Disparos",
@@ -362,8 +362,8 @@
       "shortDescription": "Embárcate en una aventura para capturar y entrenar a criaturas conocidas como Pokémon.",
       "description": "Pokémon Red y Blue son juegos de rol desarrollados por Game Freak y publicados por Nintendo y The Pokémon Company. Los juegos te colocan en la piel de un entrenador Pokémon que debe atrapar y entrenar criaturas conocidas como Pokémon. El objetivo es convertirse en el Campeón de la Liga Pokémon al derrotar a otros entrenadores y la Liga Pokémon. Pokémon Red y Blue fueron los primeros juegos de la serie y dieron origen a una franquicia multimedia que incluye juegos, series de televisión, películas y más.",
       "imageUrl": "https://www.tonica.la/export/sites/debate/img/2020/04/12/pokxmon-rojo-azul-portadas.jpg_1748969033.jpg",
-  “personajeUrl”:”https://static.wikia.nocookie.net/pelea-versus/images/7/72/Rojo_RFVH_%28Ilustraci%C3%B3n%29.png/revision/latest?cb=20141103203453&path-prefix=es”,
-  “logo”:”https://c0.klipartz.com/pngpicture/579/122/gratis-png-mystic-pokemon-go-logo-pokemon-go-calcomania-pokemon-camiseta-en-blanco-y-negro-pokemon-go-thumbnail.png””https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a1a2ce7b-ba4e-41cd-aa86-cd3a69bf7cd9/daa2wnv-f9265191-85ec-4fd7-8143-0e560e4cf21b.png/v1/fill/w_1024,h_1024/team_valor_badge_by_joesboredomdesign_daa2wnv-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2ExYTJjZTdiLWJhNGUtNDFjZC1hYTg2LWNkM2E2OWJmN2NkOVwvZGFhMndudi1mOTI2NTE5MS04NWVjLTRmZDctODE0My0wZTU2MGU0Y2YyMWIucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.ayC2FWapFBscsZ89t5hb3TcNkhWoVYhrbaPA_i0MfSs”,
+      "personajeUrl": "https://static.wikia.nocookie.net/pelea-versus/images/7/72/Rojo_RFVH_%28Ilustraci%C3%B3n%29.png/revision/latest?cb=20141103203453&path-prefix=es",
+      "logo": "https://c0.klipartz.com/pngpicture/579/122/gratis-png-mystic-pokemon-go-logo-pokemon-go-calcomania-pokemon-camiseta-en-blanco-y-negro-pokemon-go-thumbnail.png””https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a1a2ce7b-ba4e-41cd-aa86-cd3a69bf7cd9/daa2wnv-f9265191-85ec-4fd7-8143-0e560e4cf21b.png/v1/fill/w_1024,h_1024/team_valor_badge_by_joesboredomdesign_daa2wnv-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2ExYTJjZTdiLWJhNGUtNDFjZC1hYTg2LWNkM2E2OWJmN2NkOVwvZGFhMndudi1mOTI2NTE5MS04NWVjLTRmZDctODE0My0wZTU2MGU0Y2YyMWIucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.ayC2FWapFBscsZ89t5hb3TcNkhWoVYhrbaPA_i0MfSs",
       "facts": {
         "yearReleased": "1996",
         "gender": "Rol",
@@ -378,8 +378,8 @@
       "shortDescription": "Explora el vasto mundo abierto de Hyrule y libera a la Princesa Zelda en esta épica aventura.",
       "description": "The Legend of Zelda: Breath of the Wild es un juego de aventuras de mundo abierto desarrollado por Nintendo. El juego presenta un vasto y hermoso mundo abierto que los jugadores pueden explorar a su propio ritmo. Los jugadores asumen el papel de Link, quien debe despertar de un largo sueño para rescatar a la Princesa Zelda y derrotar al malvado Calamity Ganon. El juego es conocido por su libertad de exploración y su enfoque en la supervivencia. Ha sido elogiado por su diseño y su capacidad de redefinir los juegos de mundo abierto.",
       "imageUrl": "https://zelda.nintendo.com/breath-of-the-wild/assets/icons/BOTW-Share_icon.jpg",
-  “personajeUrl”:”https://static.wikia.nocookie.net/zelda/images/1/1c/TotK_-_Link_imagen_oficial.png/revision/latest?cb=20230220223232&path-prefix=es”,
-  “logo”:”https://static.wikia.nocookie.net/zelda/images/d/d7/Zelda_Breath_of_the_Wild_BotW_Logo.png/revision/latest?cb=20170523125012&path-prefix=es”,
+      "personajeUrl":"https://static.wikia.nocookie.net/zelda/images/1/1c/TotK_-_Link_imagen_oficial.png/revision/latest?cb=20230220223232&path-prefix=es",
+      "logo":"https://static.wikia.nocookie.net/zelda/images/d/d7/Zelda_Breath_of_the_Wild_BotW_Logo.png/revision/latest?cb=20170523125012&path-prefix=es",
       "facts": {
         "yearReleased": "2017",
         "gender": "Aventuras",
@@ -394,8 +394,8 @@
     "shortDescription": "Participa en emocionantes partidas en línea con campeones y estrategias únicas.",
     "description": "League of Legends (LoL) es un popular juego en línea desarrollado por Riot Games. El juego se enmarca en el género de los juegos MOBA (Arenas de batalla en línea multijugador). Los jugadores eligen campeones con habilidades únicas y se enfrentan en partidas en equipos con el objetivo de destruir el nexo del equipo contrario. League of Legends es conocido por su diversa selección de campeones, estrategias y juego en equipo. Ha sido un pionero en los deportes electrónicos y es uno de los juegos en línea más jugados del mundo.",
     "imageUrl": "https://esports.eldesmarque.com/wp-content/uploads/2019/09/LoL2.jpg",
-  “personajeUrl”:”https://i.pinimg.com/originals/aa/64/bc/aa64bc014c6fa168aefc9fcb92d583eb.png”,
-  “logo”:”https://www.riotgames.com/darkroom/original/9a50f5b3bdcfb815580ef103ec9b6ee2:d49b78b12cf185e10127cdf81b144a00/lol-logo-rendered-hi-res.png”,
+    "personajeUrl": "https://i.pinimg.com/originals/aa/64/bc/aa64bc014c6fa168aefc9fcb92d583eb.png",
+    "logo": "https://www.riotgames.com/darkroom/original/9a50f5b3bdcfb815580ef103ec9b6ee2:d49b78b12cf185e10127cdf81b144a00/lol-logo-rendered-hi-res.png",
     "facts": {
       "yearReleased": "2009",
       "gender": "Estrategia",
@@ -410,8 +410,8 @@
     "shortDescription": "Participa en partidas en línea estratégicas con héroes poderosos en este juego de batalla de equipos.",
     "description": "Dota 2 es un juego en línea desarrollado por Valve. El juego se enmarca en el género de los juegos MOBA y es una secuela del popular mod de Warcraft III, Defense of the Ancients. Los jugadores eligen héroes con habilidades únicas y se enfrentan en partidas en equipos con el objetivo de destruir el antiguo del equipo contrario. Dota 2 es conocido por su profundidad estratégica, su alto nivel de competición y su comunidad activa. Ha sido un título importante en los deportes electrónicos (eSports).",
     "imageUrl": "https://i.blogs.es/de368e/dota-2-wallpaper/1366_2000.jpg",
-  “personajeUrl”:”https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/crops/phantom_assassin.png”,
-  “logo”:”https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Dota_logo.svg/2560px-Dota_logo.svg.png”,
+    "personajeUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/crops/phantom_assassin.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Dota_logo.svg/2560px-Dota_logo.svg.png",
     "facts": {
       "yearReleased": "2013",
       "gender": "Estrategia",
@@ -425,9 +425,9 @@
     "name": "The Elder Scrolls III: Morrowind",
     "shortDescription": "Explora la exótica isla de Vvardenfell en este juego de rol de mundo abierto.",
     "description": "The Elder Scrolls III: Morrowind es un juego de rol de mundo abierto desarrollado por Bethesda Game Studios. El juego se desarrolla en la isla de Vvardenfell en la provincia de Morrowind. Los jugadores asumen el papel de un preso liberado con un destino profético y son libres de explorar un vasto mundo lleno de criaturas, facciones y secretos. Morrowind es conocido por su mundo exótico y su narrativa rica. Ha ganado un lugar especial en los corazones de los fanáticos de la serie Elder Scrolls.",
-     "imageUrl": "https://www.muycomputer.com/wp-content/uploads/2019/03/morrowind-0.jpg",
-  “personajeUrl”:”https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7c069bfa-aaf1-47b4-8282-5e7848d48f53/dfasedq-a17b1323-2dd8-4f84-aa1a-4624b6739703.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjMDY5YmZhLWFhZjEtNDdiNC04MjgyLTVlNzg0OGQ0OGY1M1wvZGZhc2VkcS1hMTdiMTMyMy0yZGQ4LTRmODQtYWExYS00NjI0YjY3Mzk3MDMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.rewUicaoAXnfQTXtjh2AfkLd2S-Ru6vrLvufAzxMiZ0”,
-  “logo”:”https://upload.wikimedia.org/wikipedia/commons/2/28/The_Elder_Scrolls_III_-_Morrowind_-_Text_Logo.png”,
+    "imageUrl": "https://www.muycomputer.com/wp-content/uploads/2019/03/morrowind-0.jpg",
+    "personajeUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7c069bfa-aaf1-47b4-8282-5e7848d48f53/dfasedq-a17b1323-2dd8-4f84-aa1a-4624b6739703.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjMDY5YmZhLWFhZjEtNDdiNC04MjgyLTVlNzg0OGQ0OGY1M1wvZGZhc2VkcS1hMTdiMTMyMy0yZGQ4LTRmODQtYWExYS00NjI0YjY3Mzk3MDMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.rewUicaoAXnfQTXtjh2AfkLd2S-Ru6vrLvufAzxMiZ0",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/28/The_Elder_Scrolls_III_-_Morrowind_-_Text_Logo.png",
     "facts": {
         "yearReleased":"2002",
         "gender": "Rol",
@@ -442,8 +442,8 @@
     "shortDescription": "Enfréntate a horrores biológicos en esta entrega de la serie Resident Evil.",
     "description": "Resident Evil 4 es un juego de disparos en tercera persona desarrollado por Capcom. La historia sigue a Leon S. Kennedy, un agente del gobierno, mientras se embarca en una misión para rescatar a la hija del Presidente de los Estados Unidos en un pueblo europeo plagado de horrores biológicos. El juego se destaca por su atmósfera tensa, su acción intensa y su sistema de apuntar sobre el hombro. Resident Evil 4 ha sido ampliamente elogiado como uno de los mejores juegos de la serie y un referente en el género de supervivencia.",
     "imageUrl": "https://i.blogs.es/2130fd/150519-re4-review/1366_2000.jpeg",
-  “personajeUrl”:”https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c78bc3fc-9f08-47ca-81ae-d89055c7ec49/d7xjmvv-6de8015b-6420-47c0-919f-ec2a9375499c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M3OGJjM2ZjLTlmMDgtNDdjYS04MWFlLWQ4OTA1NWM3ZWM0OVwvZDd4am12di02ZGU4MDE1Yi02NDIwLTQ3YzAtOTE5Zi1lYzJhOTM3NTQ5OWMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.YJ_YIMm_yBDA_kv9e0wpRLEFKSHlRY5c5iPc7tA6UHE”,
-  “logo”:”https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Resident_Evil_4_logo_%282023%29.svg/1200px-Resident_Evil_4_logo_%282023%29.svg.png”,
+    "personajeUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c78bc3fc-9f08-47ca-81ae-d89055c7ec49/d7xjmvv-6de8015b-6420-47c0-919f-ec2a9375499c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M3OGJjM2ZjLTlmMDgtNDdjYS04MWFlLWQ4OTA1NWM3ZWM0OVwvZDd4am12di02ZGU4MDE1Yi02NDIwLTQ3YzAtOTE5Zi1lYzJhOTM3NTQ5OWMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.YJ_YIMm_yBDA_kv9e0wpRLEFKSHlRY5c5iPc7tA6UHE",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Resident_Evil_4_logo_%282023%29.svg/1200px-Resident_Evil_4_logo_%282023%29.svg.png",
     "facts": {
         "yearReleased":"2005",
         "gender": "Disparos",
@@ -457,9 +457,9 @@
     "name": "God of War",
     "shortDescription": "Acompaña a Kratos en su viaje para enfrentar a los dioses y redimir sus pecados.",
     "description": "God of War es una serie de juegos de acción y aventuras desarrollada por Santa Monica Studio. El protagonista, Kratos, es un guerrero espartano que busca vengarse de los dioses del Olimpo que lo traicionaron. Acompaña a Kratos en su viaje para enfrentar a criaturas mitológicas y resolver puzles en un mundo épico. La serie es conocida por su jugabilidad intensa y su narrativa épica, y el juego más reciente, lanzado en 2018, reinventó la franquicia con un enfoque en la relación entre Kratos y su hijo, Atreus.",
-  "imageUrl":"https://i.ytimg.com/vi/_20c_V2Er88/maxresdefault.jpg",
-  “personajeUrl”:”https://w7.pngwing.com/pngs/501/1001/png-transparent-god-of-war-kratos-god-of-war-iii-god-of-war-ascension-god-of-war-origins-collection-god-of-war-file-game-video-game-arm.png”,
-  “logo”:”https://tuzonagamer.com/wp-content/uploads/2018/01/God-of-War-Logo-PNG-Photos.png”,
+    "imageUrl":"https://i.ytimg.com/vi/_20c_V2Er88/maxresdefault.jpg",
+    "personajeUrl": "https://w7.pngwing.com/pngs/501/1001/png-transparent-god-of-war-kratos-god-of-war-iii-god-of-war-ascension-god-of-war-origins-collection-god-of-war-file-game-video-game-arm.png",
+    "logo":"https://tuzonagamer.com/wp-content/uploads/2018/01/God-of-War-Logo-PNG-Photos.png",
     "facts": {
       "yearReleased": "2005",
       "gender": "Acción",
@@ -474,8 +474,8 @@
     "shortDescription": "Embárcate en un viaje futurista en Night City, luchando por la supervivencia y el poder en un mundo ciberpunk.",
     "description": "Cyberpunk 2077 es un juego de rol de acción desarrollado por CD Projekt. Situado en Night City, un megaurbe obsesionado con el poder y las modificaciones cibernéticas, el juego sigue la historia de V, un mercenario en busca de un implante único que otorga la inmortalidad. A lo largo del juego, los jugadores enfrentan decisiones morales impactantes y exploran un mundo futurista lleno de intriga y peligro.",
     "imageUrl": "https://i.blogs.es/b109e9/cyberpunk2077-johnny-v-rgb_en/1366_2000.jpg",
-  “personajeUrl”:”https://i.pinimg.com/originals/29/66/ee/2966ee9e18daba084c145dd2897d79e0.png”,
-  “logo”:”https://purepng.com/public/uploads/large/purepng.com-cyberpunk-2077-logologosgame-logogame-logosgameslogocyberpunk-2077-12715289961328hlgr.png”,
+    "personajeUrl": "https://i.pinimg.com/originals/29/66/ee/2966ee9e18daba084c145dd2897d79e0.png",
+    "logo": "https://purepng.com/public/uploads/large/purepng.com-cyberpunk-2077-logologosgame-logogame-logosgameslogocyberpunk-2077-12715289961328hlgr.png",
     "facts": {
       "yearReleased": "2020",
       "genrder": "Acción",
