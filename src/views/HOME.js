@@ -39,8 +39,8 @@ export const Home= () => {
   
     <p id="estadisticas"></p>
   </div>`;
-  const conteinConteiner=document.createElement("div")
-  conteinConteiner=filtrosHtml
-  homeView.appendChild(renderItems(data))
+  const conteinConteiner=document.createElement("div");
+  conteinConteiner=filtrosHtml;
+  homeView.appendChild(renderItems(data));
   return homeView;
 }
