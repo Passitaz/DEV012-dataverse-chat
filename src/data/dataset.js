@@ -167,8 +167,8 @@
       "shortDescription": "Explora un mundo de fantasía épico y embárcate en una búsqueda heroica en Skyrim.",
       "description": "The Elder Scrolls V: Skyrim es un juego de rol de mundo abierto desarrollado por Bethesda Game Studios. El juego se desarrolla en la provincia de Skyrim y presenta un vasto mundo lleno de aventuras, criaturas y misterios. Los jugadores asumen el papel de un Dovahkiin, un héroe destinado a enfrentarse al dragón Alduin. El juego ofrece una jugabilidad no lineal, lo que permite a los jugadores tomar decisiones que afectan la historia y explorar un mundo lleno de misiones secundarias y secretos. Skyrim se ha convertido en un título emblemático de los juegos de rol occidentales.",
       "imageUrl": "https://gepig.com/game_cover_460w/3557.jpg",
-  “personajeUrl”: “https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fdremoravalkynaz%2Fart%2FDovahkiin-265500170&psig=AOvVaw080EcBUXCXfEpSKemn11h9&ust=1701631097071000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDv5_q78YIDFQAAAAAdAAAAABAE”,
-  “logo”: “https://static.wikia.nocookie.net/logopedia/images/8/8a/The_Elder_Scrolls_V_-_Skyrim.png/revision/latest?cb=20210725172416&path-prefix=es”,
+      "personajeUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fdremoravalkynaz%2Fart%2FDovahkiin-265500170&psig=AOvVaw080EcBUXCXfEpSKemn11h9&ust=1701631097071000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDv5_q78YIDFQAAAAAdAAAAABAE",
+      "logo": "https://static.wikia.nocookie.net/logopedia/images/8/8a/The_Elder_Scrolls_V_-_Skyrim.png/revision/latest?cb=20210725172416&path-prefix=es",
       "facts": {
         "yearReleased":"2011",
         "gender": "Rol",
@@ -183,8 +183,8 @@
       "shortDescription": "Embárcate en una epopeya del viejo oeste como Arthur Morgan en este juego de mundo abierto.",
       "description": "Red Dead Redemption 2 es un juego de acción-aventura desarrollado por Rockstar Studios. El juego se desarrolla en el Viejo Oeste y sigue la historia de Arthur Morgan, un forajido miembro de la pandilla de Dutch van der Linde. Los jugadores pueden explorar un mundo abierto lleno de paisajes impresionantes, vida silvestre y actividades variadas. El juego combina narrativa intensa con una jugabilidad de mundo abierto, lo que permite a los jugadores decidir su propio camino y enfrentarse a las consecuencias de sus elecciones. Red Dead Redemption 2 es ampliamente elogiado por su inmersión y atención al detalle.",
       "imageUrl": "https://i.blogs.es/169695/red0/1366_2000.jpg",
-  “personajeUrl”: “https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7f69a0b6-e8ff-43a0-8b23-0094b917323c/dey1kbp-f7997552-528a-4607-a03f-69c5c7b2b4e1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdmNjlhMGI2LWU4ZmYtNDNhMC04YjIzLTAwOTRiOTE3MzIzY1wvZGV5MWticC1mNzk5NzU1Mi01MjhhLTQ2MDctYTAzZi02OWM1YzdiMmI0ZTEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.P6_LzOr4hAhGWEr3haYMZUhODA9ss_Hk7-UTOduQ0Oc”,
-  “logo”: “https://upload.wikimedia.org/wikipedia/commons/2/22/Red_Dead_Redemption_2_Logo.png”,
+      "personajeUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7f69a0b6-e8ff-43a0-8b23-0094b917323c/dey1kbp-f7997552-528a-4607-a03f-69c5c7b2b4e1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdmNjlhMGI2LWU4ZmYtNDNhMC04YjIzLTAwOTRiOTE3MzIzY1wvZGV5MWticC1mNzk5NzU1Mi01MjhhLTQ2MDctYTAzZi02OWM1YzdiMmI0ZTEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.P6_LzOr4hAhGWEr3haYMZUhODA9ss_Hk7-UTOduQ0Oc",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/22/Red_Dead_Redemption_2_Logo.png",
       "facts": {
         "yearReleased":"2018",
         "gender": "Acción",
@@ -199,8 +199,8 @@
       "shortDescription": "Resuelve rompecabezas en este juego de plataformas en primera persona con un portal de teletransporte.",
       "description": "Portal es un juego de plataformas en primera persona desarrollado por Valve. El juego presenta una jugabilidad única basada en la resolución de rompecabezas utilizando un dispositivo de teletransporte llamado Portal Gun. Los jugadores asumen el papel de Chell, una mujer que se despierta en las instalaciones de Aperture Science y debe resolver una serie de desafíos diseñados por la inteligencia artificial GLaDOS. Portal es conocido por su humor negro y su ingenioso diseño de rompecabezas, lo que lo convierte en un título icónico en el mundo de los juegos de lógica y resolución de acertijos.",
       "imageUrl":"https://cdn.cloudflare.steamstatic.com/steam/apps/400/capsule_616x353.jpg?t=1696346380",
-  “personajeUrl”: “https://static.wikia.nocookie.net/ficcion-sin-limites/images/4/40/Chell.png/revision/latest?cb=20230119211258&path-prefix=es”,
-  “logo”: “https://assets.stickpng.com/images/584e8d0f6a5ae41a83ddee3d.png”,
+      "personajeUrl": "https://static.wikia.nocookie.net/ficcion-sin-limites/images/4/40/Chell.png/revision/latest?cb=20230119211258&path-prefix=es",
+      "logo": "https://assets.stickpng.com/images/584e8d0f6a5ae41a83ddee3d.png",
   
       "facts": {
         "yearReleased": 2007,
@@ -216,8 +216,8 @@
       "shortDescription": "Explora la ciudad flotante de Columbia en este juego de disparos en primera persona con elementos de ciencia ficción.",
       "description": "BioShock Infinite es un juego de disparos en primera persona desarrollado por Irrational Games. El juego se desarrolla en la ciudad flotante de Columbia y sigue la historia de Booker DeWitt, un investigador privado que debe rescatar a Elizabeth, una joven con habilidades especiales, de las garras del líder de Columbia, Comstock. BioShock Infinite combina elementos de disparos, exploración y narrativa en un mundo vibrante y complejo. El juego aborda temas como la religión, el nacionalismo y la libertad.",
       "imageUrl":"https://i.blogs.es/68073b/650_1000_bioshock-infinite-llegara-a-linux/450_1000.jpg",
-  “personajeUrl”: “https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8d3cea73-e78d-4785-b48a-e9f25a7adc23/de6w8if-5513cfff-1411-4b9b-a8fa-cb935b0069d5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhkM2NlYTczLWU3OGQtNDc4NS1iNDhhLWU5ZjI1YTdhZGMyM1wvZGU2dzhpZi01NTEzY2ZmZi0xNDExLTRiOWItYThmYS1jYjkzNWIwMDY5ZDUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ke87_S4B4c7rrJnITeL0FKuVPmX8ix6533n_25EW5LM”,
-  “logo”: “https://static.wikia.nocookie.net/logopedia/images/1/14/BioShock_Infinite_Logo.png/revision/latest?cb=20130915154603”,
+      "personajeUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8d3cea73-e78d-4785-b48a-e9f25a7adc23/de6w8if-5513cfff-1411-4b9b-a8fa-cb935b0069d5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhkM2NlYTczLWU3OGQtNDc4NS1iNDhhLWU5ZjI1YTdhZGMyM1wvZGU2dzhpZi01NTEzY2ZmZi0xNDExLTRiOWItYThmYS1jYjkzNWIwMDY5ZDUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ke87_S4B4c7rrJnITeL0FKuVPmX8ix6533n_25EW5LM",
+      "logo": "https://static.wikia.nocookie.net/logopedia/images/1/14/BioShock_Infinite_Logo.png/revision/latest?cb=20130915154603",
       "facts": {
         "yearReleased": "2013",
         "gender": "Disparos",
@@ -232,8 +232,8 @@
       "shortDescription": "Embárcate en una epopeya de fantasía y aventura en el mundo de Cyrodiil.",
       "description": "The Elder Scrolls IV: Oblivion es un juego de rol de mundo abierto desarrollado por Bethesda Game Studios. El juego se desarrolla en la provincia de Cyrodiil y presenta un mundo expansivo lleno de misiones, criaturas y secretos. Los jugadores asumen el papel de un prisionero liberado que se convierte en el héroe destinado a detener una amenaza demoníaca. Oblivion es conocido por su jugabilidad no lineal y la libertad que ofrece a los jugadores para explorar y tomar decisiones. Es un título emblemático de la serie Elder Scrolls.",
       "imageUrl": "https://i0.wp.com/xboxera.com/wp-content/uploads/2021/03/U69uTJH.jpg?fit=1920%2C1080&ssl=1",
-  “personajeUrl”: “https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7c069bfa-aaf1-47b4-8282-5e7848d48f53/dfgbhkl-34678a6d-81f3-407c-b3a8-de00758b0501.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjMDY5YmZhLWFhZjEtNDdiNC04MjgyLTVlNzg0OGQ0OGY1M1wvZGZnYmhrbC0zNDY3OGE2ZC04MWYzLTQwN2MtYjNhOC1kZTAwNzU4YjA1MDEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KG4rlTIuSFG-FZkOZ6OR7-0UTQUCPbpe3dwrTA3PTBg”,
-  “logo”: “https://1000marcas.net/wp-content/uploads/2021/05/Oblivion-logo.png”,
+      "personajeUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7c069bfa-aaf1-47b4-8282-5e7848d48f53/dfgbhkl-34678a6d-81f3-407c-b3a8-de00758b0501.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjMDY5YmZhLWFhZjEtNDdiNC04MjgyLTVlNzg0OGQ0OGY1M1wvZGZnYmhrbC0zNDY3OGE2ZC04MWYzLTQwN2MtYjNhOC1kZTAwNzU4YjA1MDEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KG4rlTIuSFG-FZkOZ6OR7-0UTQUCPbpe3dwrTA3PTBg",
+      "logo": "https://1000marcas.net/wp-content/uploads/2021/05/Oblivion-logo.png",
       "facts": {
         "yearReleased":"2006",
         "gender": "Rol",
@@ -249,8 +249,8 @@
       "shortDescription": "Enfrenta a las hordas del infierno en este juego de rol de acción y loot.",
       "description": "Diablo II es un juego de rol de acción desarrollado por Blizzard Entertainment. Los jugadores asumen el papel de un héroe que debe enfrentarse a las hordas demoníacas y desentrañar un complot siniestro. El juego se destaca por su sistema de loot adictivo, que recompensa a los jugadores con objetos poderosos. Diablo II también incluye múltiples clases de personajes y un multijugador robusto, lo que lo convierte en un título clásico del género ARPG.",
       "imageUrl": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/02/24/16141611996450.jpg",
-  “personajeUrl”: “https://img.rankedboost.com/wp-content/plugins/diablo-2/assets/icons/Necromancer.png”,
-  “logo”: “https://blz-contentstack-images.akamaized.net/v3/assets/blt45749e0fed8aa592/blte66a3fe9f4e3ea89/6062202df31b360cc84def07/diablo2-logo-lg.png”,
+      "personajeUrl": "https://img.rankedboost.com/wp-content/plugins/diablo-2/assets/icons/Necromancer.png",
+      "logo": "https://blz-contentstack-images.akamaized.net/v3/assets/blt45749e0fed8aa592/blte66a3fe9f4e3ea89/6062202df31b360cc84def07/diablo2-logo-lg.png",
       "facts": {
         "yearReleased": "2000",
         "gender": "Rol de acción",
@@ -266,8 +266,8 @@
       "shortDescription": "Participa en combates tácticos en equipos como terroristas o fuerzas especiales.",
       "description": "Counter-Strike: Global Offensive (CS: GO) es un juego de disparos en primera persona desarrollado por Valve y Hidden Path Entertainment. El juego es una versión actualizada de la serie Counter-Strike y se centra en partidas competitivas en equipos. Los jugadores se dividen en terroristas y fuerzas especiales, y deben completar objetivos específicos o eliminar al equipo contrario. CS: GO es conocido por su juego táctico, estratégico y habilidades de puntería. Es un título popular en los deportes electrónicos (eSports).",
       "imageUrl": "https://media.steampowered.com/apps/csgo/blog/images/fb_image.png?v=6",
-  “personajeUrl”: “https://static.wikia.nocookie.net/counterstrike/images/4/48/SAS.png/revision/latest?cb=20230214015504&path-prefix=es”,
-  “logo”: “https://www.freepnglogos.com/uploads/counter-strike-png-logo/counter-strike-symbol-png-logo-11.png”,
+      "personajeUrl": "https://static.wikia.nocookie.net/counterstrike/images/4/48/SAS.png/revision/latest?cb=20230214015504&path-prefix=es",
+      "logo": "https://www.freepnglogos.com/uploads/counter-strike-png-logo/counter-strike-symbol-png-logo-11.png",
       "facts": {
         "yearReleased":"2012",
         "gender": "Disparos",
@@ -282,8 +282,8 @@
       "shortDescription": "Juega como Gordon Freeman en esta aventura de ciencia ficción en primera persona.",
       "description": "Half-Life es un juego de disparos en primera persona desarrollado por Valve. El juego presenta una narrativa de ciencia ficción en la que los jugadores asumen el papel de Gordon Freeman, un científico atrapado en un centro de investigación secreto después de un experimento fallido. Deben enfrentarse a criaturas alienígenas y resolver acertijos para sobrevivir. Half-Life es conocido por su inmersión y su enfoque en la narrativa en tiempo real. Ha dado lugar a secuelas y expansiones muy populares.",
       "imageUrl": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/02/half-life-1877229.jpg?tf=3840x",
-  “personajeUrl”: “https://www.pngkit.com/png/full/391-3914791_gordon-freeman-half-life-2.png”,
-  “logo”: “https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Half-Life_lambda_logo.svg/2048px-Half-Life_lambda_logo.svg.png”,
+      "personajeUrl": "https://www.pngkit.com/png/full/391-3914791_gordon-freeman-half-life-2.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Half-Life_lambda_logo.svg/2048px-Half-Life_lambda_logo.svg.png",
       "facts": {
         "yearReleased": "1998",
         "gender": "Disparos",
@@ -298,8 +298,8 @@
       "shortDescription": "Adéntrate en un vasto mundo de fantasía y completa misiones en línea con jugadores de todo el mundo.",
       "description": "World of Warcraft (WoW) es un juego de rol en línea masivo (MMORPG) desarrollado por Blizzard Entertainment. Los jugadores eligen una facción y una raza, crean un personaje y se aventuran en el mundo de Azeroth. El juego ofrece una amplia variedad de misiones, mazmorras y raides, así como un mundo abierto para explorar. WoW es conocido por su comunidad activa y su compromiso constante con la expansión de contenidos. Ha sido un pionero en el género MMORPG.",
       "imageUrl": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2017/04/world-warcraft.jpg",
-  “personajeUrl:” “https://wow.zamimg.com/modelviewer/classic/webthumbs/npc/241/2289.png”,
-  “logo”: “https://logos-world.net/wp-content/uploads/2021/03/World-of-Warcraft-Logo.png”,
+      "personajeUrl": "https://wow.zamimg.com/modelviewer/classic/webthumbs/npc/241/2289.png",
+      "logo": "https://logos-world.net/wp-content/uploads/2021/03/World-of-Warcraft-Logo.png",
       "facts": {
         "yearReleased": "2004",
         "gender": "Rol en línea masivo",
@@ -314,8 +314,8 @@
       "shortDescription": "Enfréntate en emocionantes batallas en línea de Battle Royale en un mundo colorido.",
       "description": "Fortnite es un juego en línea desarrollado por Epic Games. El juego se divide en dos modos principales: Salvar el mundo y Battle Royale. El modo Battle Royale ha ganado una inmensa popularidad con su mecánica de supervivencia en la que 100 jugadores se enfrentan en una isla, recolectan recursos y luchan hasta quedar un único superviviente. Fortnite es conocido por su estética colorida, trajes personalizables y eventos en vivo. Ha sido un fenómeno en la cultura pop y los eSports.",
       "imageUrl": "https://static.13.cl/7/sites/default/files/esports/articulos/field-image/portadafortnite_10.jpg",
-  “personajeUrl”: “https://static.wikia.nocookie.net/fortnite/images/2/29/Black_Knight_%28Featured%29_-_Outfit_-_Fortnite.png/revision/latest?cb=20230113223203”,
-  “logo”: “https://static.vecteezy.com/system/resources/previews/027/127/477/non_2x/fortnite-logo-fortnite-icon-transparent-free-png.png”
+      "personajeUrl": "https://static.wikia.nocookie.net/fortnite/images/2/29/Black_Knight_%28Featured%29_-_Outfit_-_Fortnite.png/revision/latest?cb=20230113223203",
+      "logo": "https://static.vecteezy.com/system/resources/previews/027/127/477/non_2x/fortnite-logo-fortnite-icon-transparent-free-png.png",
       "facts": {
         "yearReleased": "2017",
         "gender": "Acción",
@@ -330,8 +330,8 @@
       "shortDescription": "Explora el mundo abierto de Los Santos y participa en actividades delictivas y misiones.",
       "description": "Grand Theft Auto V (GTA V) es un juego de acción-aventura desarrollado por Rockstar North. El juego se desarrolla en la ficticia ciudad de Los Santos y sus alrededores. Los jugadores asumen los roles de tres personajes principales y pueden alternar entre ellos. GTA V es conocido por su mundo abierto, su narrativa ramificada y su libertad para realizar actividades delictivas. También incluye un modo en línea llamado Grand Theft Auto Online, que permite a los jugadores explorar y competir en el mismo mundo.",
       "imageUrl": "https://www.cinemascomics.com/wp-content/uploads/2014/09/gtav_ng.jpg",
-  “personajeUrl”:”https://c0.klipartz.com/pngpicture/728/49/gratis-png-shawn-fonteno-grand-theft-auto-vs-grand-theft-auto-san-andres-franklinlin-clinton-gta5-thumbnail.png”,
-  “logo”:”https://c0.klipartz.com/pngpicture/468/230/sticker-png-grand-theft-auto-v-logo-playstation-3-jpeg-gta-5-logo-text-logo-grand-theft-auto-v-area-symbol-thumbnail.png”,
+      "personajeUrl": "https://c0.klipartz.com/pngpicture/728/49/gratis-png-shawn-fonteno-grand-theft-auto-vs-grand-theft-auto-san-andres-franklinlin-clinton-gta5-thumbnail.png",
+      "logo": "https://c0.klipartz.com/pngpicture/468/230/sticker-png-grand-theft-auto-v-logo-playstation-3-jpeg-gta-5-logo-text-logo-grand-theft-auto-v-area-symbol-thumbnail.png",
       "facts": {
         "yearReleased": "2013",
         "gender": "Acción",
