@@ -1,9 +1,10 @@
-import data from '../data/dataset.js';
+import data from "../data/dataset.js";
 import { renderItems } from "../componets/view.js";
+import { footer } from "../componets/footer.js";
 
-export const Home= () => { 
-    const homeView=document.createElement("section")
-    const filtrosHtml= `
+export const Home = () => {
+  const homeView = document.createElement("section");
+  const filtrosHtml = `
     <div class="contenedor-flex">
 
     <label class="label-select" for="filtrar-por-género">Filtrar por género</label>
@@ -39,8 +40,9 @@ export const Home= () => {
   
     <p id="estadisticas"></p>
   </div>`;
-  const conteinConteiner=document.createElement("div");
-  conteinConteiner=filtrosHtml;
+  homeView += footer();
+  const conteinConteiner = document.createElement("div");
+  conteinConteiner = filtrosHtml;
   homeView.appendChild(renderItems(data));
   return homeView;
-}
+};
