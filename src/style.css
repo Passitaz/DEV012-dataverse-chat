@@ -1,1 +1,130 @@
-[]
+body {
+    background-image: url("https://i.pinimg.com/736x/d1/2d/10/d12d10d136e57bf48bee776e84004f60.jpg");
+    background-size: 1000px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header h1 {
+    font-size: 2.5vw; /* Comienza con un tamaño de fuente más pequeño */
+    line-height: 1.2; /* La altura de línea proporcional */
+    text-align: center; /* Alineación a la izquierda */
+    font-weight: 200; /* El peso de la fuente */
+    margin: 0 auto; /* Centrado automático */
+    max-width: 100%; /* Máximo ancho del título */
+    padding: 1em 0; /* Espacio arriba y abajo */
+    color: #F6F4E6; /* Color del texto */
+    font-family: "Georgia", serif; /* Tipo de letra */
+  }
+  
+  
+  /* Contenedor principal que contiene todos los items (tarjetas) */
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 1em;
+    padding: 1em;
+    list-style: none;
+    width: 100%;
+  }
+  
+  /* Estilos para los items (tarjetas) */
+  li {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* Se ajusta el flex-basis para tener en cuenta el margen y el relleno */
+    flex-basis: calc(33.333% - 20px); /* Restar el total de márgenes y paddings */
+    margin: 10px; /* Se reduce el margen para ajustar las tarjetas */
+    padding: 0 1em;
+    justify-content: space-between;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .contenedor-flex {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos uniformemente */
+    align-items: center; /* Centra los elementos verticalmente */
+    background-color:#41444B; /* Color de fondo */
+    padding: 1px 5px; /* Relleno interno */
+    border-radius: 2px; /* Bordes redondeados */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 5px auto; /* Margen alrededor del contenedor */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 100%; /* Asegura que no sea más ancho que el padre */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola fila */
+  }
+  
+  label {
+    font-family: "Georgia" ;
+    font-size: 20px;
+    color:#EAEAEA;
+    margin-left: 25px;
+    text-align: right;
+    
+  }
+  
+  [data-testid="select-filter"] {
+    font-size: 17px;
+    font-family: "Balthazar", serif;
+    height: 30px;
+    width: 120px;
+    margin-left: 5px;
+    background-color: #52575D;
+    border: none;
+    border-radius: 5px; 
+  }
+  
+  
+  button {
+    border: none; 
+    color: black; 
+    font-size: 17px;
+    padding: 7px 7px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    background-color:#FDDB3A;
+    
+  }
+  #estadisticas{
+    font-family: "Georgia" ;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    margin-left: 25px;
+    text-align:left;
+  
+    
+  }
+  
+  footer {
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: auto;
+  }
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 4vw; /* Aumenta el tamaño de fuente para pantallas más pequeñas para mantener la legibilidad */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 5vw; /* Tamaño de fuente mayor para dispositivos muy pequeños */
+    }
+  }
