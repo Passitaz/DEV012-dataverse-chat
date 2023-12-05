@@ -5,15 +5,15 @@
       "shortDescription": "Icono de los videojuegos, Mario lucha contra Bowser para rescatar a la princesa Peach.",
       "description": "Super Mario Bros es un videojuego de plataformas creado por Nintendo. El juego sigue las aventuras de Mario, un fontanero que debe rescatar a la Princesa Peach del malvado rey Bowser. El juego se desarrolla en el Reino Champiñón y presenta una variedad de niveles desafiantes llenos de enemigos, obstáculos y power-ups. Mario puede crecer en tamaño, lanzar bolas de fuego y saltar sobre tuberías para avanzar. Con su icónico diseño de niveles y personajes, Super Mario Bros se ha convertido en un clásico de los videojuegos y un emblema de Nintendo.",
       "imageUrl": "https://naciongrita.com.mx/wp-content/uploads/2017/09/Mario-2-1.jpg",
-      “personajeUrl”:”https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fes%2Ffree-png-vwdit&psig=AOvVaw1nbZoloG7I50UkZBjF2HHe&ust=1701628708255000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDZ2oez8YIDFQAAAAAdAAAAABAE”
-      “logo”:”https://e7.pngegg.com/pngimages/831/127/png-clipart-super-mario-bros-2-super-mario-maker-super-mario-bros-3-mario-bros-angle-text.png”
+      "personajeUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fes%2Ffree-png-vwdit&psig=AOvVaw1nbZoloG7I50UkZBjF2HHe&ust=1701628708255000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDZ2oez8YIDFQAAAAAdAAAAABAE",
+      "logo": "https://e7.pngegg.com/pngimages/831/127/png-clipart-super-mario-bros-2-super-mario-maker-super-mario-bros-3-mario-bros-angle-text.png",
       "facts": {
-        "yearReleased":"1985",
-        "gender": "Aventuras",
+        "yearReleased": "1985",
+        "genre": "Aventuras",
         "playingStyles": ["Plataformas 2D"],
         "pointsOfView": "Vista lateral",
         "multiplayer": "No"
-      },
+      }
     },
     {
       "id": "the-legend-of-zelda",
@@ -21,16 +21,15 @@
       "shortDescription": "Link se embarca en una aventura épica para rescatar a la princesa Zelda y derrotar a Ganon.",
       "description": "The Legend of Zelda es una serie de videojuegos de acción y aventuras creada por Shigeru Miyamoto. En el juego, los jugadores asumen el papel de Link, un valiente héroe que debe enfrentarse a peligrosos enemigos y resolver acertijos para rescatar a la Princesa Zelda y derrotar al malvado Ganon. La serie es conocida por su mundo abierto y exploración, así como por sus mazmorras intrincadas. Cada juego de la serie ofrece una experiencia única en el mundo de Hyrule, lleno de magia, criaturas y desafíos épicos.",
       "imageUrl": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/02/569022-legend-zelda-analisis-retro.jpg",
-  “personajeUrl”:”https://c0.klipartz.com/pngpicture/836/81/gratis-png-la-leyenda-de-zelda-ocarina-of-time-3d-link-princesa-zelda-la-leyenda-de-zelda-aliento-salvaje-leyenda-de-zelda-link-y-navi.png”,
-  “logo”:”https://c3.klipartz.com/pngpicture/806/141/sticker-png-zelda-logo-the-legend-of-zelda-wallpaper.png”,
-  
+      "personajeUrl": "https://c0.klipartz.com/pngpicture/836/81/gratis-png-la-leyenda-de-zelda-ocarina-of-time-3d-link-princesa-zelda-la-leyenda-de-zelda-aliento-salvaje-leyenda-de-zelda-link-y-navi.png",
+      "logo": "https://c3.klipartz.com/pngpicture/806/141/sticker-png-zelda-logo-the-legend-of-zelda-wallpaper.png",
       "facts": {
         "yearReleased": "1986",
-        "gender": "Aventuras",
+        "genre": "Aventuras",
         "playingStyles": ["Mundo abierto"],
         "pointsOfView": "Vista superior",
         "multiplayer": "No"
-     },
+      }
     },
     {
       "id": "street-fighter-ii",
@@ -38,11 +37,11 @@
       "shortDescription": "Luchadores de todo el mundo se enfrentan en intensos combates uno contra uno.",
       "description": "Street Fighter II es un juego de lucha desarrollado por Capcom. El juego se ha convertido en un clásico del género de juegos de lucha y ha inspirado numerosas secuelas y adaptaciones. Los jugadores eligen entre una variedad de luchadores, cada uno con sus propios movimientos y técnicas especiales, y se enfrentan en combates uno contra uno. Street Fighter II es conocido por su jugabilidad profunda y estratégica, así como por su competición multijugador en los salones recreativos y consolas. Es un título fundamental en la historia de los juegos de lucha.",
       "imageUrl": "https://i.blogs.es/f476ec/streetfighter/1366_2000.jpg",
-      “personajeUrl”: “https://static.wikia.nocookie.net/streetfighter/images/9/9e/ChunLi-hdstance.gif/revision/latest?cb=20180513174829&path-prefix=es”,
-       “logo”:”https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cleanpng.com%2Fpng-street-fighter-ii-the-world-warrior-super-street-f-105852%2F&psig=AOvVaw152nhT7bP7RTkbzx50hgkJ&ust=1701629938849000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPjbwdK38YIDFQAAAAAdAAAAABAE”,
+      "personajeUrl": "https://static.wikia.nocookie.net/streetfighter/images/9/9e/ChunLi-hdstance.gif/revision/latest?cb=20180513174829&path-prefix=es",
+      "logo": "https://www.cleanpng.com/png-street-fighter-ii-the-world-warrior-super-street-f-105852/",
       "facts": {
-        "yearReleased":"1991",
-        "gender": "Lucha",
+        "yearReleased": "1991",
+        "genre": "Lucha",
         "playingStyles": ["2D, peleas uno contra uno"],
         "pointsOfView": "Vista lateral",
         "multiplayer": "Sí"
@@ -54,113 +53,117 @@
       "shortDescription": "Controla a Pac-Man y come todos los puntos mientras evitas a los fantasmas.",
       "description": "Pac-Man es un clásico de los videojuegos de arcade creado por Namco. En el juego, los jugadores asumen el papel de Pac-Man, una figura amarilla que debe comer todos los puntos en un laberinto mientras evita ser atrapado por los fantasmas Blinky, Pinky, Inky y Clyde. Pac-Man puede ganar poderes especiales al comer las píldoras grandes, lo que le permite perseguir a los fantasmas. El juego se ha convertido en un ícono de la cultura pop y ha inspirado numerosas secuelas y spin-offs.",
       "imageUrl": "https://i.ytimg.com/vi/VYIBm-t1VZM/maxresdefault.jpg",
-   “personajeUrl”:”https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/62759fa1-0d48-4e9f-9372-f917c1a83dad/dfic04n-fba7df42-a4b9-41a9-9233-d2b5133c55bf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYyNzU5ZmExLTBkNDgtNGU5Zi05MzcyLWY5MTdjMWE4M2RhZFwvZGZpYzA0bi1mYmE3ZGY0Mi1hNGI5LTQxYTktOTIzMy1kMmI1MTMzYzU1YmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ZvWAXv3jCKoltomszipwod8SYlvSxHr7VJ5ZQIzo-QI”,
-       “logo”:”https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiE67c5x7sF6acKv-b9WzO-5zPZsm3aSDMYrv_cAjE2-iA6uxBlvFLtbmhtpRPSj1V__A&usqp=CAU”,
+      "personajeUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/62759fa1-0d48-4e9f-9372-f917c1a83dad/dfic04n-fba7df42-a4b9-41a9-9233-d2e413c0d1e9.png/v1/fill/w_1024,h_576,q_80,strp/pac_man_by_ritchieremaster_dfic04n-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzYyNzU5ZmExLTBkNDgtNGU5Zi05MzcyLWY5MTdjMWE4M2RhZFwvZGZpYzA0bi1mYmE3ZGY0Mi1hNGI5LTQxYTktOTIzMy1kMmU0MTNjMGQxZTkucG5nIiwid2lkdGgiOiI8PTU3NiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.nfodPfvjXOWx4hSb7ROvmDbiShH8a3JDlzXE2lUb89g",
+      "logo": "https://www.pinclipart.com/picdir/middle/368-3686927_pac-man-ghost-png-logo-pac-man.png",
       "facts": {
         "yearReleased": "1980",
-        "gender": "Laberinto",
-        "playingStyles": ["Comecocos"],
+        "genre": "Arcade",
+        "playingStyles": ["Laberinto"],
         "pointsOfView": "Vista superior",
         "multiplayer": "No"
       }
     },
-    {
-      "id": "doom",
-      "name": "Doom",
-      "shortDescription": "Enfréntate a hordas de demonios en este clásico shooter en primera persona.",
-      "description": "Doom es un videojuego de disparos en primera persona desarrollado por id Software. El juego es conocido por su acción rápida y frenética, así como por su temática de lucha contra demonios y criaturas del infierno. Los jugadores asumen el papel de un marine espacial solitario que debe abrirse paso a través de niveles infernales llenos de enemigos. Doom ha sido influyente en el género de los juegos de disparos en primera persona y ha dado lugar a numerosas secuelas y mods creados por la comunidad de jugadores.",
-      "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2280/header.jpg?t=1663861909",
-   “personajeUrl”:”https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f6b0bf93-bf66-4551-8b9b-b723ee634429/deyuuzm-e4586aa4-257f-4066-b7d8-229ed1140459.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y2YjBiZjkzLWJmNjYtNDU1MS04YjliLWI3MjNlZTYzNDQyOVwvZGV5dXV6bS1lNDU4NmFhNC0yNTdmLTQwNjYtYjdkOC0yMjllZDExNDA0NTkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.t5WbYRZl5wpRFslXOOvgLwYIpADstMqek2eQwN_mMv4”,
-       “logo”:”https://www.liblogo.com/img-logo/do3012d412-doom-logo-doom-logo-png.png”,
-      "facts": {
-        "yearReleased": "1993",
-        "gender": "Disparos",
-        "playingStyles": ["Shooter en primera persona"],
-        "pointsOfView": "Primera persona",
-        "multiplayer": "Sí"
-      }
-    },
-    {
-      "id": "tetris",
-      "name": "Tetris",
-      "shortDescription": "Encaja las piezas que caen para completar líneas y evitar que se acumulen.",
-      "description": "Tetris es un juego de rompecabezas creado por Alexey Pajitnov. El objetivo del juego es encajar las piezas que caen, conocidas como tetriminos, para completar líneas horizontales y evitar que se acumulen. A medida que avanzas en el juego, la velocidad de caída de las piezas aumenta, lo que lo hace cada vez más desafiante. Tetris se ha convertido en un juego icónico y ha sido adaptado a numerosas plataformas. Su simplicidad y adictividad lo convierten en un clásico intemporal.",
-      "imageUrl": "https://i.blogs.es/6884f7/tetris-1984-original-screenshot/650_1200.jpg",
-   “personajeUrl”:”https://c0.klipartz.com/pngpicture/505/588/gratis-png-tetris-amigos-3d-tetris-tetris-mundos-tetromino-bloques-thumbnail.png”,
-       “logo”:”https://upload.wikimedia.org/wikipedia/commons/4/46/Tetris_logo.png”,
-      "facts": {
-        "yearReleased": "1984",
-        "gender": "Puzzle",
-        "playingStyles": ["Rompecabezas de bloques"],
-        "pointsOfView": "Vista superior",
-        "multiplayer": "No"
-      }
-    },
-    {
-      "id": "final-fantasy-vii",
-      "name": "Final Fantasy VII",
-      "shortDescription": "Acompaña a Cloud Strife en su lucha contra el malvado Shinra Corporation y Sephiroth.",
-      "description": "Final Fantasy VII es un juego de rol (RPG) desarrollado por Square Enix. El juego sigue la historia de Cloud Strife, un ex soldado convertido en mercenario, mientras se une a un grupo de rebeldes para enfrentarse a la malvada Shinra Corporation y al temible Sephiroth. El juego presenta una trama épica, personajes memorables y un sistema de combate por turnos. Final Fantasy VII es ampliamente considerado como uno de los mejores juegos de la serie y un hito en la historia de los RPG.",
-      "imageUrl": "https://www.lascosasquenoshacenfelices.com/wp-content/uploads/2020/03/final-fantasy-vii-steam-edition-7477-backdrop.jpg",
-   “personajeUrl”:”https://e7.pngegg.com/pngimages/215/236/png-clipart-dissidia-final-fantasy-nt-final-fantasy-vii-cloud-strife-final-fantasy-video-game-fictional-character.png”,
-       “logo”:”https://c0.klipartz.com/pngpicture/514/975/gratis-png-dirge-of-cerberus-final-fantasy-vii-cloud-strife-crisis-core-final-fantasy-vii-vincent-valentine-thumbnail.png”,
-   
-      "facts": {
-        "yearReleased": "1997",
-        "gender": "Rol",
-        "playingStyles": ["RPG de aventuras"],
-        "pointsOfView": "Tercera persona",
-        "multiplayer": "No"
-      }
-    },
-    {
-      "id":"minecraft",
-      "name": "Minecraft",
-      "shortDescription": "Crea y explora un mundo de bloques en este juego de construcción y supervivencia.",
-      "description": "Minecraft es un juego de construcción y supervivencia creado por Markus Persson. Los jugadores se sumergen en un mundo abierto lleno de bloques y tienen la libertad de construir, explorar y sobrevivir como prefieran. El juego presenta modos de juego creativo y de supervivencia, lo que permite a los jugadores enfrentarse a peligros como monstruos y explorar paisajes infinitos. Minecraft se ha convertido en un fenómeno global y ha inspirado una comunidad activa de creadores de contenido y modificaciones.",
-      "imageUrl": "https://as01.epimg.net/betech/imagenes/2017/09/20/portada/1505936498_948978_1505938201_noticia_normal.jpg",
-   “personajeUrl”:”https://media.tenor.com/Md5tohzP1fgAAAAC/minecraft-steve.gif”,
-       “logo”:”https://1000logos.net/wp-content/uploads/2018/10/Minecraft-Logo.png”,
-      "facts": {
-        "yearReleased": "2011",
-        "gender": "Aventuras",
-        "playingStyles": ["Construcción", "Supervivencia"],
-        "pointsOfView": "Primera persona",
-        "multiplayer": "Sí"
-      }
-    },
-    {
-      "id": "the-witcher-3-wild-hunt",
-      "name": "The Witcher 3: Wild Hunt",
-      "shortDescription": "Embárcate en una épica cacería de monstruos en un mundo de fantasía oscuro y envolvente.",
-      "description": "The Witcher 3: Wild Hunt es un juego de rol de mundo abierto desarrollado por CD Projekt Red. Los jugadores asumen el papel de Geralt de Rivia, un cazador de monstruos conocido como un brujo, mientras se embarcan en una misión para encontrar a su hija adoptiva y enfrentarse a la Cacería Salvaje. El juego presenta un vasto mundo lleno de misterios, monstruos y personajes complejos. Con su narrativa rica y su jugabilidad inmersiva, The Witcher 3 ha sido aclamado como uno de los mejores juegos de rol de la última década.",
-      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjI1NTM4MDQ0OF5BMl5BanBnXkFtZTgwNDE0MTY0MzI@._V1_.jpg",
-   “personajeUrl”:”https://purepng.com/public/uploads/large/purepng.com-geralt-of-riviawitcherthe-witcherandrzej-sapkowskiwriterfantasy-serieswitcher-geralt-of-riviawitchersbooksmonster-hunterssupernaturaldeadly-beastsseriesvideo-gamesxbox-1701528660914sa4gm.png”,
-       “logo”:”https://e7.pngegg.com/pngimages/975/398/png-clipart-the-witcher-3-wild-hunt-geralt-of-rivia-call-of-duty-infinite-warfare-the-game-awards-2015-witcher-3-logo-text-logo.png”,
-      "facts": {
-        "yearReleased":"2015",
-        "gender": "Rol",
-        "playingStyles": ["Mundo abierto", "Aventuras"],
-        "pointsOfView": "Tercera persona",
-        "multiplayer": "No"
-      }
-    },
-    {
-      "id": "fallout-3",
-      "name": "Fallout 3",
-      "shortDescription": "Sobrevive en un mundo postapocalíptico y busca a tu padre en este juego de rol.",
-      "description": "Fallout 3 es un juego de rol de mundo abierto desarrollado por Bethesda Game Studios. El juego se desarrolla en un mundo devastado por la guerra nuclear, y los jugadores asumen el papel de un habitante del Refugio 101 en busca de su padre desaparecido. El juego combina elementos de exploración, combate y toma de decisiones, y los jugadores pueden interactuar con un mundo lleno de facciones, mutantes y tecnología retrofuturista. Fallout 3 es conocido por su narrativa rica y su mundo postapocalíptico detallado.",
-  "imageUrl":"https://store-images.s-microsoft.com/image/apps.43444.13574127358458005.65070c14-0cf2-44ab-b4fc-c66107fdb092.5acef951-2322-424c-93ad-6bfc679a27ef?q=90&w=480&h=270",
-   “personajeUrl”:”https://c0.klipartz.com/pngpicture/27/382/gratis-png-fallout-4-fallout-3-fallout-new-vegas-fallout-76.png”,
-       “logo”:”https://pngimg.es/d/fallout_PNG7.png”,
-      "facts": {
-        "yearReleased": "2008",
-        "gender": "Rol",
-        "playingStyles": ["Mundo abierto", "Aventuras"],
-        "pointsOfView": "Primera persona",
-        "multiplayer": "No"
-      }
-    },
+  
+    
+        {
+          "id": "doom",
+          "name": "Doom",
+          "shortDescription": "Enfréntate a hordas de demonios en este clásico shooter en primera persona.",
+          "description": "Doom es un videojuego de disparos en primera persona desarrollado por id Software. El juego es conocido por su acción rápida y frenética, así como por su temática de lucha contra demonios y criaturas del infierno. Los jugadores asumen el papel de un marine espacial solitario que debe abrirse paso a través de niveles infernales llenos de enemigos. Doom ha sido influyente en el género de los juegos de disparos en primera persona y ha dado lugar a numerosas secuelas y mods creados por la comunidad de jugadores.",
+          "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2280/header.jpg?t=1663861909",
+          "personajeUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f6b0bf93-bf66-4551-8b9b-b723ee634429/deyuuzm-e4586aa4-257f-4066-b7d8-229ed1140459.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y2YjBiZjkzLWJmNjYtNDU1MS04YjliLWI3MjNlZTYzNDQyOVwvZGV5dXV6bS1lNDU4NmFhNC0yNTdmLTQwNjYtYjdkOC0yMjllZDExNDA0NTkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.t5WbYRZl5wpRFslXOOvgLwYIpADstMqek2eQwN_mMv4",
+          "logo": "https://www.liblogo.com/img-logo/do3012d412-doom-logo-doom-logo-png.png",
+          "facts": {
+            "yearReleased": "1993",
+            "gender": "Disparos",
+            "playingStyles": ["Shooter en primera persona"],
+            "pointsOfView": "Primera persona",
+            "multiplayer": "Sí"
+          }
+        },
+        {
+          "id": "tetris",
+          "name": "Tetris",
+          "shortDescription": "Encaja las piezas que caen para completar líneas y evitar que se acumulen.",
+          "description": "Tetris es un juego de rompecabezas creado por Alexey Pajitnov. El objetivo del juego es encajar las piezas que caen, conocidas como tetriminos, para completar líneas horizontales y evitar que se acumulen. A medida que avanzas en el juego, la velocidad de caída de las piezas aumenta, lo que lo hace cada vez más desafiante. Tetris se ha convertido en un juego icónico y ha sido adaptado a numerosas plataformas. Su simplicidad y adictividad lo convierten en un clásico intemporal.",
+          "imageUrl": "https://i.blogs.es/6884f7/tetris-1984-original-screenshot/650_1200.jpg",
+          "personajeUrl": "https://c0.klipartz.com/pngpicture/505/588/gratis-png-tetris-amigos-3d-tetris-tetris-mundos-tetromino-bloques-thumbnail.png",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/4/46/Tetris_logo.png",
+          "facts": {
+            "yearReleased": "1984",
+            "gender": "Puzzle",
+            "playingStyles": ["Rompecabezas de bloques"],
+            "pointsOfView": "Vista superior",
+            "multiplayer": "No"
+          }
+        },
+        {
+          "id": "final-fantasy-vii",
+          "name": "Final Fantasy VII",
+          "shortDescription": "Acompaña a Cloud Strife en su lucha contra el malvado Shinra Corporation y Sephiroth.",
+          "description": "Final Fantasy VII es un juego de rol (RPG) desarrollado por Square Enix. El juego sigue la historia de Cloud Strife, un ex soldado convertido en mercenario, mientras se une a un grupo de rebeldes para enfrentarse a la malvada Shinra Corporation y al temible Sephiroth. El juego presenta una trama épica, personajes memorables y un sistema de combate por turnos. Final Fantasy VII es ampliamente considerado como uno de los mejores juegos de la serie y un hito en la historia de los RPG.",
+          "imageUrl": "https://www.lascosasquenoshacenfelices.com/wp-content/uploads/2020/03/final-fantasy-vii-steam-edition-7477-backdrop.jpg",
+          "personajeUrl": "https://e7.pngegg.com/pngimages/215/236/png-clipart-dissidia-final-fantasy-nt-final-fantasy-vii-cloud-strife-final-fantasy-video-game-fictional-character.png",
+          "logo": "https://c0.klipartz.com/pngpicture/514/975/gratis-png-dirge-of-cerberus-final-fantasy-vii-cloud-strife-crisis-core-final-fantasy-vii-vincent-valentine-thumbnail.png",
+          "facts": {
+            "yearReleased": "1997",
+            "gender": "Rol",
+            "playingStyles": ["RPG de aventuras"],
+            "pointsOfView": "Tercera persona",
+            "multiplayer": "No"
+          }
+        },
+        [
+            {
+              "id": "minecraft",
+              "name": "Minecraft",
+              "shortDescription": "Crea y explora un mundo de bloques en este juego de construcción y supervivencia.",
+              "description": "Minecraft es un juego de construcción y supervivencia creado por Markus Persson. Los jugadores se sumergen en un mundo abierto lleno de bloques y tienen la libertad de construir, explorar y sobrevivir como prefieran. El juego presenta modos de juego creativo y de supervivencia, lo que permite a los jugadores enfrentarse a peligros como monstruos y explorar paisajes infinitos. Minecraft se ha convertido en un fenómeno global y ha inspirado una comunidad activa de creadores de contenido y modificaciones.",
+              "imageUrl": "https://as01.epimg.net/betech/imagenes/2017/09/20/portada/1505936498_948978_1505938201_noticia_normal.jpg",
+              "personajeUrl": "https://media.tenor.com/Md5tohzP1fgAAAAC/minecraft-steve.gif",
+              "logo": "https://1000logos.net/wp-content/uploads/2018/10/Minecraft-Logo.png",
+              "facts": {
+                "yearReleased": "2011",
+                "gender": "Aventuras",
+                "playingStyles": ["Construcción", "Supervivencia"],
+                "pointsOfView": "Primera persona",
+                "multiplayer": "Sí"
+              }
+            },
+            {
+              "id": "the-witcher-3-wild-hunt",
+              "name": "The Witcher 3: Wild Hunt",
+              "shortDescription": "Embárcate en una épica cacería de monstruos en un mundo de fantasía oscuro y envolvente.",
+              "description": "The Witcher 3: Wild Hunt es un juego de rol de mundo abierto desarrollado por CD Projekt Red. Los jugadores asumen el papel de Geralt de Rivia, un cazador de monstruos conocido como un brujo, mientras se embarcan en una misión para encontrar a su hija adoptiva y enfrentarse a la Cacería Salvaje. El juego presenta un vasto mundo lleno de misterios, monstruos y personajes complejos. Con su narrativa rica y su jugabilidad inmersiva, The Witcher 3 ha sido aclamado como uno de los mejores juegos de rol de la última década.",
+              "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjI1NTM4MDQ0OF5BMl5BanBnXkFtZTgwNDE0MTY0MzI@._V1_.jpg",
+              "personajeUrl": "https://purepng.com/public/uploads/large/purepng.com-geralt-of-riviawitcherthe-witcherandrzej-sapkowskiwriterfantasy-serieswitcher-geralt-of-riviawitchersbooksmonster-hunterssupernaturaldeadly-beastsseriesvideo-gamesxbox-1701528660914sa4gm.png",
+              "logo": "https://e7.pngegg.com/pngimages/975/398/png-clipart-the-witcher-3-wild-hunt-geralt-of-rivia-call-of-duty-infinite-warfare-the-game-awards-2015-witcher-3-logo-text-logo.png",
+              "facts": {
+                "yearReleased": "2015",
+                "gender": "Rol",
+                "playingStyles": ["Mundo abierto", "Aventuras"],
+                "pointsOfView": "Tercera persona",
+                "multiplayer": "No"
+              }
+            },
+            {
+              "id": "fallout-3",
+              "name": "Fallout 3",
+              "shortDescription": "Sobrevive en un mundo postapocalíptico y busca a tu padre en este juego de rol.",
+              "description": "Fallout 3 es un juego de rol de mundo abierto desarrollado por Bethesda Game Studios. El juego se desarrolla en un mundo devastado por la guerra nuclear, y los jugadores asumen el papel de un habitante del Refugio 101 en busca de su padre desaparecido. El juego combina elementos de exploración, combate y toma de decisiones, y los jugadores pueden interactuar con un mundo lleno de facciones, mutantes y tecnología retrofuturista. Fallout 3 es conocido por su narrativa rica y su mundo postapocalíptico detallado.",
+              "imageUrl": "https://store-images.s-microsoft.com/image/apps.43444.13574127358458005.65070c14-0cf2-44ab-b4fc-c66107fdb092.5acef951-2322-424c-93ad-6bfc679a27ef?q=90&w=480&h=270",
+              "personajeUrl": "https://c0.klipartz.com/pngpicture/27/382/gratis-png-fallout-4-fallout-3-fallout-new-vegas-fallout-76.png",
+              "logo": "https://pngimg.es/d/fallout_PNG7.png",
+              "facts": {
+                "yearReleased": "2008",
+                "gender": "Rol",
+                "playingStyles": ["Mundo abierto", "Aventuras"],
+                "pointsOfView": "Primera persona",
+                "multiplayer": "No"
+              }
+            },
+          
+          
     {
       "id": "the-elder-scrolls-v-skyrim",
       "name": "The Elder Scrolls V: Skyrim",
