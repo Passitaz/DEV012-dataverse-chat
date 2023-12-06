@@ -1,15 +1,21 @@
-//el objeto que mapea las rutas de nuestro sitio
-let routes ={}; 
-//va a ser la referencia al elemento HTML donde vamos a dibujar el contenido de nuestros componentes 
-let rootElement= '';
 
-export const setRootEl = (newRootElementValue) => {
-    rootElement=newRootElementValue;
-  }
-  
-export const setRoutes = (routes) => {
-    // optional Throw errors if routes isn't an object
-    // optional Throw errors if routes doesn't define an /error route
-    // assign ROUTES
-  }
-  
+let routes = {};
+let rootElement = '';
+
+export const setRootEl = (newRootElement) => {
+    rootElement = newRootElement;
+};
+
+export const setRoutes = (newRoutes) => {
+    routes = newRoutes;
+};
+
+export const navigateTo = (pathname) => {
+    const viewFunction = routes[pathname];
+    if (viewFunction) {
+        rootElement.innerHTML = '';
+        rootElement.appendChild(viewFunction());
+    } else {
+        // Manejar ruta no encontrada
+    }
+};

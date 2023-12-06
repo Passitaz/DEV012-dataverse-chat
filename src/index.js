@@ -1,4 +1,39 @@
-// En este archivo definirás tus rutas e importarás los componentes que vas a renderizar.
+import { setRootEl, setRoutes, navigateTo } from './router.js';
+import { Home } from './views/HOME.js';
+
+// Configura el elemento raíz
+const root = document.getElementById('root');
+setRootEl(root);
+
+// Configura las rutas
+setRoutes({
+    '/': Home,
+    // Aquí puedes añadir más rutas y vistas
+});
+
+// Función para manejar los cambios de ruta
+const handleRouteChange = () => {
+    const path = window.location.pathname;
+    navigateTo(path);
+};
+
+// Eventos para manejar el cambio de ruta
+window.addEventListener('load', handleRouteChange);
+window.addEventListener('popstate', handleRouteChange);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 import Example from './views/Example.js';

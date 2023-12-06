@@ -1,4 +1,4 @@
-[
+export default[
   {
     id: "super-mario-bros",
     name: "Super Mario Bros",
