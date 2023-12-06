@@ -1,5 +1,5 @@
 import { setRootEl, setRoutes, navigateTo } from './router.js';
-import { Home } from './views/Home.js';
+import { Home } from './views/HOME.js';
 
 // Configura el elemento raíz
 const root = document.getElementById('root');
