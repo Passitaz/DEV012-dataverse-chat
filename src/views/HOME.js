@@ -3,7 +3,9 @@ import { renderItems } from "../componets/tarjetas.js";
 import { footer } from "../componets/footer.js";
 import { header } from "../componets/header.js";
 import { vistaFiltro } from "../componets/filtros.js";
-import { filtrosT } from "../lib/dataFunctions.js";
+import { filtrosT, ordenaZA } from "../lib/dataFunctions.js";
+
+let newData = data.slice();
 
 export const Home = () => {
   const divHome = document.createElement('div');
@@ -46,7 +48,7 @@ export const Home = () => {
     itemsDiv.innerHTML = "";
 
     const dataFiltrada = filtrosT(data, optionSelect.value, optionSelectPOV.value, ordenar.value);
-    itemsDiv.appendChild(renderItems(dataFiltrada));
+    itemsDiv.appendChild(renderItems(dataFiltrada)); 
   }
 
   const boton = divHome.querySelector('[data-testid="restablecerFiltros"]');
@@ -61,7 +63,7 @@ export const Home = () => {
     filtrarPOV.value = 'nada';
     ordenaAZ.value = 'nada';
     itemsDiv.innerHTML = "";
-    itemsDiv.appendChild(renderItems(data));
+    itemsDiv.appendChild(renderItems(newData));
   }
 
   document.body.appendChild(divHome);
