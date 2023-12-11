@@ -1,4 +1,4 @@
-export const filtros = () => {
+export const  vistaFiltro = () => {
   const filtrosHtml = `
     <div class="contenedor-flex">
 
@@ -37,3 +37,4 @@ export const filtros = () => {
   </div>`;
   return filtrosHtml;
 };
+
