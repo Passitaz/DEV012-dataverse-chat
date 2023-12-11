@@ -2,7 +2,7 @@ import data from "../data/dataset.js";
 import { renderItems } from "../componets/tarjetas.js";
 import { footer } from "../componets/footer.js";
 import { header } from "../componets/header.js";
-import { vistaFiltro } from "../componets/filtros.js"; // Asegúrate de que esta importación es correcta
+import { vistaFiltro } from "../componets/filtros.js";
 import { filtrosT } from "../lib/dataFunctions.js";
 
 export const Home = () => {
@@ -10,7 +10,7 @@ export const Home = () => {
   divHome.setAttribute('id', 'vistaHome');
 
   const homeView = document.createElement("section");
-  homeView.innerHTML = header() + vistaFiltro(); // Asegúrate de que vistaFiltro() retorna el HTML esperado
+  homeView.innerHTML = header() + vistaFiltro();
 
   const itemsDiv = document.createElement('div');
   itemsDiv.setAttribute('id', 'itemsDiv');
@@ -33,7 +33,6 @@ export const Home = () => {
   }
 
   function aplicarFiltros() {
-    // Las variables deben ser definidas dentro de esta función
     const filtrarGenero = document.querySelector('[id="filtrar-por-género"]');
     const filtrarPOV = document.querySelector('[id="filtrar-por-POV"]');
     const ordenaAZ = document.querySelector('[id="ordenar-por"]');
@@ -50,12 +49,27 @@ export const Home = () => {
     itemsDiv.appendChild(renderItems(dataFiltrada));
   }
 
+  const boton = divHome.querySelector('[data-testid="restablecerFiltros"]');
+  boton.addEventListener("click", limpiar);
+
+  function limpiar() {
+    const filtrarGenero = document.querySelector('[id="filtrar-por-género"]');
+    const filtrarPOV = document.querySelector('[id="filtrar-por-POV"]');
+    const ordenaAZ = document.querySelector('[id="ordenar-por"]');
+    
+    filtrarGenero.value = 'nada';
+    filtrarPOV.value = 'nada';
+    ordenaAZ.value = 'nada';
+    itemsDiv.innerHTML = "";
+    itemsDiv.appendChild(renderItems(data));
+  }
+
   document.body.appendChild(divHome);
   agregarEventosFiltros();
   aplicarFiltros();
+
   return divHome;
 };
-
 
 
 
