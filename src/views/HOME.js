@@ -52,7 +52,7 @@ export const Home = () => {
   const boton = divHome.querySelector('[data-testid="restablecerFiltros"]');
   boton.addEventListener("click", limpiar);
 
-  function limpiar() {
+  function limpiar() {//funcion
     const filtrarGenero = document.querySelector('[id="filtrar-por-género"]');
     const filtrarPOV = document.querySelector('[id="filtrar-por-POV"]');
     const ordenaAZ = document.querySelector('[id="ordenar-por"]');
