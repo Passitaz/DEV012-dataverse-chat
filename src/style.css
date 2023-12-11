@@ -117,14 +117,92 @@ body {
     padding: 1em;
     margin-top: auto;
   }
-  @media (max-width: 768px) {
-    header h1 {
-      font-size: 4vw; /* Aumenta el tamaño de fuente para pantallas más pequeñas para mantener la legibilidad */
+
+  @media (max-width: 912px) {
+
+   
+
+    [data-testid="select-filter"] {
+      margin-right: 10px;
+      display: flex;
+      flex-direction: center;
+      width: 100%;
+      text-align: center;
     }
+
+    button {
+      border: none; 
+      color: black; 
+      font-size: 17px;
+      padding: 7px 7px; 
+      cursor: pointer; 
+      border-radius: 5px; 
+      background-color:#FDDB3A;
+    }
+    
+  
+    li {
+      width: calc(50% - 10px);
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      text-align: left;
+      display: flex;
+      flex-basis: calc(33.333% - 20px);
+      white-space: normal;
+      overflow: visible;
+      max-width: 100%;
+      flex-basis: calc(33.333% - 20px); /* Restar el total de márgenes y paddings */
+      margin: 10px; /* Se reduce el margen para ajustar las tarjetas */
+      padding: 0 1em;
+      justify-content: space-between;
+      justify-content: center; /* Centra verticalmente las tarjetas en la columna */
+    }
+  
+    #estadisticas{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center; /* Centra horizontalmente las tarjetas en el contenedor */
+      align-items: center; /* Centra verticalmente las tarjetas en el contenedor */
+      text-align: center;
+    }
+  
+    li {
+      width: 100%;
+      margin: 0;
+      white-space: normal; /* Restaura el salto de línea en el texto */
+      overflow: visible; /* Hace visible el contenido desbordado */
+    }
+  
+    img{
+      width: 180px; 
+      height: 130px; 
+      display: block;
+      margin: auto;
+      padding: 5px;
+    
+    }
+  
+    .estilo {
+      white-space: normal;
+      text-overflow: clip;
+    }
+   
+  
+  }
+  /* dispostivo movil */
+  
+  @media (max-width:480px){
+    
+    li  {
+      width: calc(100% - 10px);
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      text-align: left;
+      display: flex;
+      justify-content: center; /* Centra verticalmente las tarjetas en la columna */
+    }
+     
   }
   
-  @media (max-width: 480px) {
-    header h1 {
-      font-size: 5vw; /* Tamaño de fuente mayor para dispositivos muy pequeños */
-    }
-  }
