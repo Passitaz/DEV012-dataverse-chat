@@ -4,15 +4,18 @@ import { footer } from "../componets/footer.js";
 import { header } from "../componets/header.js";
 import { vistaFiltro } from "../componets/filtros.js";
 import { filtrosT, ordenaZA } from "../lib/dataFunctions.js";
+import { chatGrupal } from "../componets/chatGrupal.js";
 
 let newData = data.slice();
 
 export const Home = () => {
   const divHome = document.createElement('div');
   divHome.setAttribute('id', 'vistaHome');
-
+  
   const homeView = document.createElement("section");
   homeView.innerHTML = header() + vistaFiltro();
+
+  divHome.innerHTML = chatGrupal();
 
   const itemsDiv = document.createElement('div');
   itemsDiv.setAttribute('id', 'itemsDiv');
@@ -54,7 +57,7 @@ export const Home = () => {
   const boton = divHome.querySelector('[data-testid="restablecerFiltros"]');
   boton.addEventListener("click", limpiar);
 
-  function limpiar() {//funcion
+  function limpiar() {
     const filtrarGenero = document.querySelector('[id="filtrar-por-género"]');
     const filtrarPOV = document.querySelector('[id="filtrar-por-POV"]');
     const ordenaAZ = document.querySelector('[id="ordenar-por"]');
@@ -63,7 +66,15 @@ export const Home = () => {
     filtrarPOV.value = 'nada';
     ordenaAZ.value = 'nada';
     itemsDiv.innerHTML = "";
+    alert("se limpio la data");
     itemsDiv.appendChild(renderItems(newData));
+  }
+
+  const boton2 = divHome.querySelector('[data-testid="botonChatGrupal"]');
+  boton2.addEventListener("click", abrir);
+
+  function abrir() {
+    alert("Hola");
   }
 
   document.body.appendChild(divHome);
