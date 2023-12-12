@@ -1,5 +1,6 @@
 import { setRootEl, setRoutes, navigateTo } from './router.js';
 import { Home } from './views/HOME.js';
+import { characterDetail } from './views/CharacterDetail.js';
 
 // Configura el elemento raíz
 const root = document.getElementById('root');
@@ -8,6 +9,7 @@ setRootEl(root);
 // Configura las rutas
 setRoutes({
     '/': Home,
+    '/detalle' : characterDetail,
     // Aquí puedes añadir más rutas y vistas
 });
 

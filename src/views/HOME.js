@@ -66,7 +66,6 @@ export const Home = () => {
     filtrarPOV.value = 'nada';
     ordenaAZ.value = 'nada';
     itemsDiv.innerHTML = "";
-    alert("se limpio la data");
     itemsDiv.appendChild(renderItems(newData));
   }
 
