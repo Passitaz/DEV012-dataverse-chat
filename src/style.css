@@ -21,7 +21,6 @@ body {
     font-family: "Georgia", serif; /* Tipo de letra */
   }
   
-  
   /* Contenedor principal que contiene todos los items (tarjetas) */
   ul {
     display: flex;
@@ -88,8 +87,9 @@ body {
     border-radius: 5px; 
   }
   
-  
+
   button {
+    display: flex;
     border: none; 
     color: black; 
     font-size: 17px;
@@ -99,6 +99,20 @@ body {
     background-color:#FDDB3A;
     
   }
+
+  #chatGrupal{
+    border: none; 
+    color: black; 
+    font-size: 17px;
+    padding: 7px 7px; 
+    position:absolute;
+    margin-top: 132px;
+    margin-left: auto;
+    cursor: pointer; 
+    border-radius: 5px; 
+    background-color:#FDDB3A
+  }
+
   #estadisticas{
     font-family: "Georgia" ;
     font-size: 20px;
@@ -212,7 +226,6 @@ body {
       border-radius: 5px; 
     }
     
-  
 
     button {
       border: none; 
