@@ -55,4 +55,4 @@
     const logoJuego = document.createElement("img");
     contenedorDatos.appendChild(logoJuego);
     logoJuego.src = datos.logo;
-  return contenedorUl;;
+  return contenedorUl;
