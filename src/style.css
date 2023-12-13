@@ -21,7 +21,6 @@ body {
     font-family: "Georgia", serif; /* Tipo de letra */
   }
   
-  
   /* Contenedor principal que contiene todos los items (tarjetas) */
   ul {
     display: flex;
@@ -88,8 +87,9 @@ body {
     border-radius: 5px; 
   }
   
-  
+
   button {
+    display: flex;
     border: none; 
     color: black; 
     font-size: 17px;
@@ -99,6 +99,20 @@ body {
     background-color:#FDDB3A;
     
   }
+
+  #chatGrupal{
+    border: none; 
+    color: black; 
+    font-size: 17px;
+    padding: 7px 7px; 
+    position:absolute;
+    margin-top: 132px;
+    margin-left: auto;
+    cursor: pointer; 
+    border-radius: 5px; 
+    background-color:#FDDB3A
+  }
+
   #estadisticas{
     font-family: "Georgia" ;
     font-size: 20px;
@@ -135,6 +149,8 @@ body {
       color: black; 
       font-size: 17px;
       padding: 7px 7px; 
+      margin-left: 300px;
+      margin-top: 5%;
       cursor: pointer; 
       border-radius: 5px; 
       background-color:#FDDB3A;
@@ -142,6 +158,7 @@ body {
     
   
     li {
+      height: 350px;
       width: calc(50% - 10px);
       box-sizing: border-box;
       margin-bottom: 10px;
@@ -155,7 +172,7 @@ body {
       margin: 10px; /* Se reduce el margen para ajustar las tarjetas */
       padding: 0 1em;
       justify-content: space-between;
-      justify-content: center; /* Centra verticalmente las tarjetas en la columna */
+      
     }
   
     #estadisticas{
@@ -180,6 +197,7 @@ body {
       height: 130px; 
       display: block;
       margin: auto;
+      margin-top: 5px;
       padding: 5px;
     
     }
@@ -193,16 +211,90 @@ body {
   }
   /* dispostivo movil */
   
-  @media (max-width:480px){
+  
+  @media (max-width:415px){
+
+    
+    
+    [data-testid="select-filter"] {
+      display: flex;
+      flex-direction: center;
+      width: 110px;
+      height: auto;
+      text-align: center;
+      border: none;
+      border-radius: 5px; 
+    }
+    
+
+    button {
+      border: none; 
+      color: black; 
+      font-size: 17px;
+      margin-left: 120px;
+      margin-top: 5%;
+      padding: 7px 7px; 
+      cursor: pointer; 
+      border-radius: 5px; 
+      background-color:#FDDB3A;
+    }
     
     li  {
-      width: calc(100% - 10px);
+      width: 100%;
       box-sizing: border-box;
       margin-bottom: 10px;
       text-align: left;
       display: flex;
       justify-content: center; /* Centra verticalmente las tarjetas en la columna */
+      
     }
-     
+    img{
+      width: 180px; 
+      height: 130px; 
+      display: block;
+      margin: auto;
+      margin-top: 5px;
+      padding: 5px;
+    
+    }
   }
-  
+  @media (max-width:480px){
+    [data-testid="select-filter"] {
+      display: flex;
+      flex-direction: center;
+      width: 150px;
+      height: auto;
+      text-align: center;
+    }
+
+    button {
+      border: none; 
+      color: black; 
+      font-size: 17px;
+      margin-left: 120px;
+      margin-top: 5%;
+      padding: 7px 7px; 
+      cursor: pointer; 
+      border-radius: 5px; 
+      background-color:#FDDB3A;
+    }
+    
+    li  {
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      text-align: left;
+      display: flex;
+      justify-content: center; /* Centra verticalmente las tarjetas en la columna */
+      
+    }
+    img{
+      width: 180px; 
+      height: 130px; 
+      display: block;
+      margin: auto;
+      margin-top: 5px;
+      padding: 5px;
+    
+    }
+  }
