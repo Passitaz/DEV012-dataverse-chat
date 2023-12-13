@@ -1,5 +1,5 @@
 import data from "../data/dataset.js";
-import { renderItems } from "../componets/view.js";
+//import { renderItems } from "../componets/view.js";
 import { footer } from "../componets/footer.js";
 
 export const characterDetail = () => {
@@ -12,9 +12,10 @@ export const characterDetail = () => {
         <textarea id=chatIndividual placeholder="Escribe aquí tu mensaje"></textarea>
         <button data-testid="boton-enviar" name="boton-enviar>Enviar</button>
         </div>`;
-  detallesView += footer();
+//  detallesView += footer();
   const conteinDetails = document.createElement("div");
-  conteinDetails = detallesDelPersonaje;
-  detallesView.appendChild(renderItems(data));
+  conteinDetails.innerHTML = detallesDelPersonaje;
+  detallesView.appendChild(conteinDetails);
+ // detallesView.appendChild(renderItems(data));
   return detallesView;
 };
