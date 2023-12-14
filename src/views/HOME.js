@@ -6,6 +6,7 @@ import { vistaFiltro } from "../componets/filtros.js";
 import { filtrosT, ordenaZA } from "../lib/dataFunctions.js";
 import { chatGrupal } from "../componets/chatGrupal.js";
 
+
 let newData = data.slice();
 
 export const Home = () => {
