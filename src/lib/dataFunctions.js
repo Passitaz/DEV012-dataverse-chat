@@ -1,3 +1,5 @@
+import data from "../data/dataset.js";
+
 export const filtrosT = (data, genero, pov, orden) => {
   let dataFiltrada = data;
   if (genero !== "nada") {
@@ -48,18 +50,4 @@ export const ordenaZA = (data) => {
   return ordenaZa;
 };
 
-export function computeStats(data) {
-  const estadisticas = data.reduce(
-    (stats, juego) => {
-      if (juego.facts.multiplayer === "Sí") {
-        stats.juegosMultijugador += 1;
-      } else {
-        stats.juegosNoMultijugador += 1;
-      }
-      return stats;
-    },
-    { juegosMultijugador: 0, juegosNoMultijugador: 0 }
-  );
 
-  return estadisticas;
-}

@@ -3,9 +3,9 @@ import { renderItems } from "../componets/tarjetas.js";
 import { footer } from "../componets/footer.js";
 import { header } from "../componets/header.js";
 import { vistaFiltro } from "../componets/filtros.js";
-import { filtrosT, ordenaZA } from "../lib/dataFunctions.js";
+import { filtrosT } from "../lib/dataFunctions.js";
 import { chatGrupal } from "../componets/chatGrupal.js";
-
+import { estadisticaJuegos } from "../componets/estadistica.js";
 
 let newData = data.slice();
 
@@ -17,6 +17,13 @@ export const Home = () => {
   homeView.innerHTML = header() + vistaFiltro();
 
   divHome.innerHTML = chatGrupal();
+
+  const divEstadistica = document.createElement('div');
+  divEstadistica.setAttribute('id','contenedorEstadistica');
+
+  const estadisticasElemento = estadisticaJuegos();
+  divEstadistica.appendChild(estadisticasElemento);
+  homeView.appendChild(divEstadistica);
 
   const itemsDiv = document.createElement('div');
   itemsDiv.setAttribute('id', 'itemsDiv');
