@@ -32,8 +32,11 @@ export const  vistaFiltro = () => {
     </select>
 
     <button data-testid="restablecerFiltros" name="limpiarFiltros" id="restablecer-Filtros">Restablecer Filtros</button>
-  
-    <p id="estadisticas"></p>
+    
+
+    </div>
+  <div class="contenedor-flex" id= "contenedor-2">
+    <button data-testid="botonChatGrupal" name="chatGrupalBoton"  id="chatGrupal">Chat Grupal</button>
   </div>`;
   return filtrosHtml;
 };

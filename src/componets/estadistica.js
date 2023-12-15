@@ -23,5 +23,6 @@ export const estadisticaJuegos = () => {
   pEstadistica.setAttribute('id', 'estadistica');
   pEstadistica.textContent = `Juegos Multijugador: ${estadisticas.juegosMultijugador}, Juegos No Multijugador: ${estadisticas.juegosNoMultijugador}`;
 
+
   return pEstadistica;
 }
