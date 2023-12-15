@@ -135,6 +135,39 @@ button {
   margin-left: 25px;
   text-align: right;
 }
+#mensajeError{
+  color: black;
+  font-weight: bold; 
+  font-size: 20px; 
+  padding: 10px 10px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  top: -100px; 
+  margin-left: auto;
+  right: 50%; 
+  transform: translateX(50%); 
+  background-color: #F6F4E6;
+  top: 50px;
+  margin-left: auto;
+  right: 50%; 
+  transform: translateX(50%);
+  text-align: center;
+}
+#botonRegresar{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px; 
+  padding: 10px 20px; 
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #ff0000;
+  margin: 0 auto;
+}
 
 footer {
   width: 100%;
