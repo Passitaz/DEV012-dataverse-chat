@@ -75,6 +75,19 @@ img {
   max-width: 100%; /* Asegura que no sea más ancho que el padre */
   flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola fila */
 }
+#contenedor-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #41444B;
+  padding: 1px 5px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 5px auto;
+  width: 100%;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
 label {
   font-family: "Georgia" ;
   font-size: 20px;
