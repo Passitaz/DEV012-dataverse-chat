@@ -1,6 +1,7 @@
 import { setRootEl, setRoutes, navigateTo } from './router.js';
 import { Home } from './views/HOME.js';
 import { characterDetail } from './views/CharacterDetail.js';
+import {error} from './views/Error.js';
 
 // Configura el elemento raíz
 const root = document.getElementById('root');
@@ -10,6 +11,7 @@ setRootEl(root);
 setRoutes({
     '/': Home,
     '/detalle' : characterDetail,
+    '/error': error,
     // Aquí puedes añadir más rutas y vistas
 });
 
@@ -22,6 +24,7 @@ const handleRouteChange = () => {
 // Eventos para manejar el cambio de ruta
 window.addEventListener('load', handleRouteChange);
 window.addEventListener('popstate', handleRouteChange);
+
 
 
 
