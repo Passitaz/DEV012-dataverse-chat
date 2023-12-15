@@ -2,6 +2,8 @@ import { setRootEl, setRoutes, navigateTo } from './router.js';
 import { Home } from './views/HOME.js';
 import { characterDetail } from './views/CharacterDetail.js';
 import {error} from './views/Error.js';
+import {chatGrupal} from './views/chatGrupal.js';
+import {api} from './views/api.js';
 
 // Configura el elemento raíz
 const root = document.getElementById('root');
@@ -12,6 +14,8 @@ setRoutes({
     '/': Home,
     '/detalle' : characterDetail,
     '/error': error,
+    '/apiKey': api,
+    '/chatGrupal':chatGrupal,
     // Aquí puedes añadir más rutas y vistas
 });
 
