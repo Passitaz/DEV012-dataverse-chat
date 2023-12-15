@@ -169,6 +169,48 @@ button {
   margin: 0 auto;
 }
 
+#chat_grupal{
+  color: black;
+  font-weight: bold; 
+  font-size: 20px; 
+  padding: 10px 10px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  top: -100px; 
+  margin-left: auto;
+  right: 50%; 
+  transform: translateX(50%); 
+  background-color: #F6F4E6;
+  top: 50px;
+  margin-left: auto;
+  right: 50%; 
+  transform: translateX(50%);
+  text-align: center;
+}
+
+#ingreso{
+  color: black;
+  font-weight: bold; 
+  font-size: 20px; 
+  padding: 10px 10px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  top: -100px; 
+  margin-left: auto;
+  right: 50%; 
+  transform: translateX(50%); 
+  background-color: #F6F4E6;
+  top: 50px;
+  margin-left: auto;
+  right: 50%; 
+  transform: translateX(50%);
+  text-align: center;
+}
+
 footer {
   width: 100%;
   background-color: #333333;
