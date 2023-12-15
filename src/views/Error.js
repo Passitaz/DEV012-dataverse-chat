@@ -9,7 +9,7 @@ export const error = () => {
         </div>`;
   errorView.innerHTML = pantallaError;
 
-  document.body.style.backgroundImage = 'url("https://raw.githubusercontent.com/Passitaz/DEV012-dataverse-chat/main/Pantalla%20error.png")';
+  document.body.style.backgroundImage = 'url("https://raw.githubusercontent.com/Passitaz/DEV012-dataverse-chat/main/Pantalla%20de%20error.png")';
   document.body.style.backgroundSize = '100% 500%';
   document.body.style.backgroundRepeat = 'no-repeat';
  
