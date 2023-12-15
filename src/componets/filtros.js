@@ -1,6 +1,6 @@
 export const  vistaFiltro = () => {
   const filtrosHtml = `
-    <div class="contenedor-flex" id="contenedorFlex">
+    <div class="contenedor-flex">
 
     <label class="label-select" for="filtrar-por-género">Filtrar por género</label>
     <select  data-testid="select-filter"  name="género"  id="filtrar-por-género">
@@ -34,7 +34,8 @@ export const  vistaFiltro = () => {
     <button data-testid="restablecerFiltros" name="limpiarFiltros" id="restablecer-Filtros">Restablecer Filtros</button>
     
 
-    
+    </div>
+  <div class="contenedor-flex" id= "contenedor-2">
     <button data-testid="botonChatGrupal" name="chatGrupalBoton"  id="chatGrupal">Chat Grupal</button>
   </div>`;
   return filtrosHtml;

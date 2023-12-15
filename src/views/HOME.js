@@ -16,8 +16,8 @@ export const Home = () => {
   homeView.innerHTML = header() + vistaFiltro();
 
   const estadisticasElemento = estadisticaJuegos();
-  const contenedorEstadisticas = homeView.querySelector('.contenedor-flex'); // Asegúrate de que '.contenedor-flex' es el nombre correcto de la clase
-  contenedorEstadisticas.appendChild(estadisticasElemento); 
+  const contenedorEstadisticas = homeView.querySelector('#contenedor-2'); 
+  contenedorEstadisticas.appendChild(estadisticasElemento);
 
 
   const itemsDiv = document.createElement('div');
