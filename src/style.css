@@ -210,7 +210,53 @@ button {
   transform: translateX(50%);
   text-align: center;
 }
-
+#logoDetalles{
+  width: 210px;
+  height: 190px;
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  padding: 5px;
+}
+#fotoPersonaje{
+  width: 880px;
+  height: 830px;
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  padding: 5px;
+}
+#descripcion{
+  background-color: rgba(0, 161, 213, 0.5); /* Ajusta la opacidad aquí (50% en este caso) */
+  padding: 20px; /* Espacio dentro del cuadro */
+  margin: 20px; /* Espacio fuera del cuadro */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: agrega un efecto de sombra */
+  font-family: 'Arial', sans-serif; /* Familia tipográfica */
+  font-size: 24px; /* Aumenta el tamaño de la fuente según necesites */
+  font-weight: bold; /* Hace que el texto sea más grueso */
+  color: #FFFFFF; /* Asegúrate de que el color del texto contraste bien con el fondo */
+  text-shadow: 1px 1px 2px #000;
+  line-height: 1.6; /* Espaciado entre líneas */
+  text-align: center;
+}
+#lanzamiento, #generoJuego, #estiloDeJuego, #perspectivaJuego, #multiplayerJuego{
+  background-color: rgba(255, 229, 0, 0.5); /* Ajusta la opacidad aquí (50% en este caso) */
+  padding: 20px; /* Espacio dentro del cuadro */
+  margin: 20px; /* Espacio fuera del cuadro */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: agrega un efecto de sombra */
+  font-family: 'Arial', sans-serif; /* Familia tipográfica */
+  font-size: 24px; /* Aumenta el tamaño de la fuente según necesites */
+  font-weight: bold; /* Hace que el texto sea más grueso */
+  color: #FFFFFF; /* Asegúrate de que el color del texto contraste bien con el fondo */
+  text-shadow: 1px 1px 2px #000;
+  display: inline-block; /* Hace que el cuadro se adapte al contenido */
+  max-width: 300px; /* Establece un ancho máximo */
+  min-width: 100px; /* Establece un ancho mínimo */
+  word-wrap: break-word; /* Asegura que el texto no sobrepase el ancho del cuadro */
+  
+}
 footer {
   width: 100%;
   background-color: #333333;

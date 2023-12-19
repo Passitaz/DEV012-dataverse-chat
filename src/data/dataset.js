@@ -9,11 +9,11 @@ export default[
     imageUrl:
       "https://naciongrita.com.mx/wp-content/uploads/2017/09/Mario-2-1.jpg",
     personajeUrl:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fes%2Ffree-png-vwdit&psig=AOvVaw1nbZoloG7I50UkZBjF2HHe&ust=1701628708255000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDZ2oez8YIDFQAAAAAdAAAAABAE",
-    logo: "https://e7.pngegg.com/pngimages/831/127/png-clipart-super-mario-bros-2-super-mario-maker-super-mario-bros-3-mario-bros-angle-text.png",
+      "https://i.pinimg.com/originals/aa/73/17/aa7317e5df75ceeeed28936d464ea20e.png",
+    logo: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ec545603-cf4e-48e0-936d-5376ea12fdc0/dfyhdo3-60d653bb-8f23-4ccf-802c-3123d62f8b7d.png/v1/fill/w_1036,h_704/super_mario_bros__logo_png_2023_by_wcwjunkbox_dfyhdo3-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzA0IiwicGF0aCI6IlwvZlwvZWM1NDU2MDMtY2Y0ZS00OGUwLTkzNmQtNTM3NmVhMTJmZGMwXC9kZnloZG8zLTYwZDY1M2JiLThmMjMtNGNjZi04MDJjLTMxMjNkNjJmOGI3ZC5wbmciLCJ3aWR0aCI6Ijw9MTAzNiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.qgmE63Kkr1cFw9aAhqYl-wmn0tJ-aA8hbI8TPcVyU5M",
     facts: {
       yearReleased: "1985",
-      genre: "Aventuras",
+      gender: "Aventuras",
       playingStyles: ["Plataformas 2D"],
       pointsOfView: "Vista lateral",
       multiplayer: "No",
@@ -29,11 +29,11 @@ export default[
     imageUrl:
       "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/02/569022-legend-zelda-analisis-retro.jpg",
     personajeUrl:
-      "https://c0.klipartz.com/pngpicture/836/81/gratis-png-la-leyenda-de-zelda-ocarina-of-time-3d-link-princesa-zelda-la-leyenda-de-zelda-aliento-salvaje-leyenda-de-zelda-link-y-navi.png",
-    logo: "https://c3.klipartz.com/pngpicture/806/141/sticker-png-zelda-logo-the-legend-of-zelda-wallpaper.png",
+      "https://images.wikidexcdn.net/mwuploads/esssbwiki/2/28/latest/20160506012116/Link_TLoZ_BotW.png",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Saga_The_Legend_of_Zelda.png",
     facts: {
       yearReleased: "1986",
-      genre: "Aventuras",
+      gender: "Aventuras",
       playingStyles: ["Mundo abierto"],
       pointsOfView: "Vista superior",
       multiplayer: "No",
@@ -48,11 +48,11 @@ export default[
       "Street Fighter II es un juego de lucha desarrollado por Capcom. El juego se ha convertido en un clásico del género de juegos de lucha y ha inspirado numerosas secuelas y adaptaciones. Los jugadores eligen entre una variedad de luchadores, cada uno con sus propios movimientos y técnicas especiales, y se enfrentan en combates uno contra uno. Street Fighter II es conocido por su jugabilidad profunda y estratégica, así como por su competición multijugador en los salones recreativos y consolas. Es un título fundamental en la historia de los juegos de lucha.",
     imageUrl: "https://i.blogs.es/f476ec/streetfighter/1366_2000.jpg",
     personajeUrl:
-      "https://static.wikia.nocookie.net/streetfighter/images/9/9e/ChunLi-hdstance.gif/revision/latest?cb=20180513174829&path-prefix=es",
-    logo: "https://www.cleanpng.com/png-street-fighter-ii-the-world-warrior-super-street-f-105852/",
+      "https://i.pinimg.com/originals/57/a8/15/57a8154cae4a2ae2635669d5cfa64b51.png",
+    logo: "https://seeklogo.com/images/S/Street_Fighter_II-logo-4CCAD283A9-seeklogo.com.png",
     facts: {
       yearReleased: "1991",
-      genre: "Lucha",
+      gender: "Lucha",
       playingStyles: ["2D, peleas uno contra uno"],
       pointsOfView: "Vista lateral",
       multiplayer: "Sí",
@@ -67,11 +67,11 @@ export default[
       "Pac-Man es un clásico de los videojuegos de arcade creado por Namco. En el juego, los jugadores asumen el papel de Pac-Man, una figura amarilla que debe comer todos los puntos en un laberinto mientras evita ser atrapado por los fantasmas Blinky, Pinky, Inky y Clyde. Pac-Man puede ganar poderes especiales al comer las píldoras grandes, lo que le permite perseguir a los fantasmas. El juego se ha convertido en un ícono de la cultura pop y ha inspirado numerosas secuelas y spin-offs.",
     imageUrl: "https://i.ytimg.com/vi/VYIBm-t1VZM/maxresdefault.jpg",
     personajeUrl:
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/62759fa1-0d48-4e9f-9372-f917c1a83dad/dfic04n-fba7df42-a4b9-41a9-9233-d2e413c0d1e9.png/v1/fill/w_1024,h_576,q_80,strp/pac_man_by_ritchieremaster_dfic04n-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzYyNzU5ZmExLTBkNDgtNGU5Zi05MzcyLWY5MTdjMWE4M2RhZFwvZGZpYzA0bi1mYmE3ZGY0Mi1hNGI5LTQxYTktOTIzMy1kMmU0MTNjMGQxZTkucG5nIiwid2lkdGgiOiI8PTU3NiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.nfodPfvjXOWx4hSb7ROvmDbiShH8a3JDlzXE2lUb89g",
-    logo: "https://www.pinclipart.com/picdir/middle/368-3686927_pac-man-ghost-png-logo-pac-man.png",
+      "https://mb.srb2.org/attachments/pacman-png.53974/",
+    logo: "https://logos-world.net/wp-content/uploads/2023/03/Pac-Man-Logo.png",
     facts: {
       yearReleased: "1980",
-      genre: "Arcade",
+      gender: "Arcade",
       playingStyles: ["Laberinto"],
       pointsOfView: "Vista superior",
       multiplayer: "No",
@@ -88,7 +88,7 @@ export default[
       "https://cdn.cloudflare.steamstatic.com/steam/apps/2280/header.jpg?t=1663861909",
     personajeUrl:
       "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f6b0bf93-bf66-4551-8b9b-b723ee634429/deyuuzm-e4586aa4-257f-4066-b7d8-229ed1140459.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y2YjBiZjkzLWJmNjYtNDU1MS04YjliLWI3MjNlZTYzNDQyOVwvZGV5dXV6bS1lNDU4NmFhNC0yNTdmLTQwNjYtYjdkOC0yMjllZDExNDA0NTkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.t5WbYRZl5wpRFslXOOvgLwYIpADstMqek2eQwN_mMv4",
-    logo: "https://www.liblogo.com/img-logo/do3012d412-doom-logo-doom-logo-png.png",
+    logo: "https://static.doomworld.com/monthly_2021_03/1173265372_Doom64logowithout64small.png.c7ff3df18e137291b52071d8bd956c73.png",
     facts: {
       yearReleased: "1993",
       gender: "Disparos",
@@ -98,23 +98,23 @@ export default[
     },
   },
   {
-    id: "tetris",
-    name: "Tetris",
+    id: "high-on-life",
+    name: "High On Life",
     shortDescription:
-      "Encaja las piezas que caen para completar líneas y evitar que se acumulen.",
+      "Explora mundos alienígenas y lucha contra enemigos con un arsenal de armas parlantes.",
     description:
-      "Tetris es un juego de rompecabezas creado por Alexey Pajitnov. El objetivo del juego es encajar las piezas que caen, conocidas como tetriminos, para completar líneas horizontales y evitar que se acumulen. A medida que avanzas en el juego, la velocidad de caída de las piezas aumenta, lo que lo hace cada vez más desafiante. Tetris se ha convertido en un juego icónico y ha sido adaptado a numerosas plataformas. Su simplicidad y adictividad lo convierten en un clásico intemporal.",
+      "High On Life es un juego de disparos en primera persona con un giro cómico y único, creado por Squanch Games. El jugador se embarca en un viaje a través de múltiples mundos alienígenas, luchando contra una variedad de enemigos y jefes. El juego es notable por su uso de armas parlantes, cada una con su propia personalidad y comentarios humorísticos. La narrativa y las mecánicas de juego se entrelazan para ofrecer una experiencia inmersiva que combina acción, exploración y comedia. Con su estilo visual distintivo y su humor característico, High On Life busca ofrecer una experiencia de juego memorable y entretenida.",
     imageUrl:
-      "https://i.blogs.es/6884f7/tetris-1984-original-screenshot/650_1200.jpg",
+      "https://cdn1.epicgames.com/spt-assets/8ae3e6daa99b4f54aa17551d1818571f/high-on-life-offer-1111f.jpg",
     personajeUrl:
-      "https://c0.klipartz.com/pngpicture/505/588/gratis-png-tetris-amigos-3d-tetris-tetris-mundos-tetromino-bloques-thumbnail.png",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/4/46/Tetris_logo.png",
+      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/73206bd9-257c-4f50-b1f3-59a306e24084/dfjth4u-34220d53-146f-454e-b764-1b89ffbf6154.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzczMjA2YmQ5LTI1N2MtNGY1MC1iMWYzLTU5YTMwNmUyNDA4NFwvZGZqdGg0dS0zNDIyMGQ1My0xNDZmLTQ1NGUtYjc2NC0xYjg5ZmZiZjYxNTQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.cdm24-P-uLNL7um8D0eidJcfEOxSAB3vTQkf7qTB_ws",
+    logo: "https://cdn1.epicgames.com/spt-assets/8ae3e6daa99b4f54aa17551d1818571f/high-on-life-logo-164um.png?h=270&quality=medium&resize=1&w=480", 
     facts: {
-      yearReleased: "1984",
-      gender: "Puzzle",
-      playingStyles: ["Rompecabezas de bloques"],
-      pointsOfView: "Vista superior",
-      multiplayer: "No",
+      yearReleased: "2022", 
+      gender: "Disparos", 
+      playingStyles: ["Aventura"],
+      pointsOfView: "Primera persona",
+      multiplayer: "No", 
     },
   },
   {
@@ -127,8 +127,8 @@ export default[
     imageUrl:
       "https://www.lascosasquenoshacenfelices.com/wp-content/uploads/2020/03/final-fantasy-vii-steam-edition-7477-backdrop.jpg",
     personajeUrl:
-      "https://e7.pngegg.com/pngimages/215/236/png-clipart-dissidia-final-fantasy-nt-final-fantasy-vii-cloud-strife-final-fantasy-video-game-fictional-character.png",
-    logo: "https://c0.klipartz.com/pngpicture/514/975/gratis-png-dirge-of-cerberus-final-fantasy-vii-cloud-strife-crisis-core-final-fantasy-vii-vincent-valentine-thumbnail.png",
+      "https://freepngimg.com/thumb/final_fantasy/116043-picture-cloud-strife-free-transparent-image-hq.png",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/final-fantasy-vii-logo-png-transparent.png",
     facts: {
       yearReleased: "1997",
       gender: "Rol",
@@ -147,7 +147,7 @@ export default[
     imageUrl:
       "https://as01.epimg.net/betech/imagenes/2017/09/20/portada/1505936498_948978_1505938201_noticia_normal.jpg",
     personajeUrl:
-      "https://media.tenor.com/Md5tohzP1fgAAAAC/minecraft-steve.gif",
+      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6a2ad942-994c-4562-aee6-8fff57630475/dfl7pi7-bf84fc7a-44a8-4530-b6a6-2816877be9e4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZhMmFkOTQyLTk5NGMtNDU2Mi1hZWU2LThmZmY1NzYzMDQ3NVwvZGZsN3BpNy1iZjg0ZmM3YS00NGE4LTQ1MzAtYjZhNi0yODE2ODc3YmU5ZTQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.pFOsi9ktlI7WgiS3uQcQWgCfrU3cpHxZT6x2KV9r9vg",
     logo: "https://1000logos.net/wp-content/uploads/2018/10/Minecraft-Logo.png",
     facts: {
       yearReleased: "2011",
@@ -168,7 +168,7 @@ export default[
       "https://m.media-amazon.com/images/M/MV5BMjI1NTM4MDQ0OF5BMl5BanBnXkFtZTgwNDE0MTY0MzI@._V1_.jpg",
     personajeUrl:
       "https://purepng.com/public/uploads/large/purepng.com-geralt-of-riviawitcherthe-witcherandrzej-sapkowskiwriterfantasy-serieswitcher-geralt-of-riviawitchersbooksmonster-hunterssupernaturaldeadly-beastsseriesvideo-gamesxbox-1701528660914sa4gm.png",
-    logo: "https://e7.pngegg.com/pngimages/975/398/png-clipart-the-witcher-3-wild-hunt-geralt-of-rivia-call-of-duty-infinite-warfare-the-game-awards-2015-witcher-3-logo-text-logo.png",
+    logo: "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2014/05/326738-cd-projekt-red-cambia-su-logotipo-witcher-3.png",
     facts: {
       yearReleased: "2015",
       gender: "Rol",
@@ -187,7 +187,7 @@ export default[
     imageUrl:
       "https://store-images.s-microsoft.com/image/apps.43444.13574127358458005.65070c14-0cf2-44ab-b4fc-c66107fdb092.5acef951-2322-424c-93ad-6bfc679a27ef?q=90&w=480&h=270",
     personajeUrl:
-      "https://c0.klipartz.com/pngpicture/27/382/gratis-png-fallout-4-fallout-3-fallout-new-vegas-fallout-76.png",
+      "https://pbs.twimg.com/media/CgAz9toWQAAw8S8.png",
     logo: "https://pngimg.es/d/fallout_PNG7.png",
     facts: {
       yearReleased: "2008",
@@ -207,8 +207,8 @@ export default[
       "The Elder Scrolls V: Skyrim es un juego de rol de mundo abierto desarrollado por Bethesda Game Studios. El juego se desarrolla en la provincia de Skyrim y presenta un vasto mundo lleno de aventuras, criaturas y misterios. Los jugadores asumen el papel de un Dovahkiin, un héroe destinado a enfrentarse al dragón Alduin. El juego ofrece una jugabilidad no lineal, lo que permite a los jugadores tomar decisiones que afectan la historia y explorar un mundo lleno de misiones secundarias y secretos. Skyrim se ha convertido en un título emblemático de los juegos de rol occidentales.",
     imageUrl: "https://gepig.com/game_cover_460w/3557.jpg",
     personajeUrl:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fdremoravalkynaz%2Fart%2FDovahkiin-265500170&psig=AOvVaw080EcBUXCXfEpSKemn11h9&ust=1701631097071000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDv5_q78YIDFQAAAAAdAAAAABAE",
-    logo: "https://static.wikia.nocookie.net/logopedia/images/8/8a/The_Elder_Scrolls_V_-_Skyrim.png/revision/latest?cb=20210725172416&path-prefix=es",
+      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/054a91f2-3cd8-45d1-89f2-dd4828550aeb/dfm86n8-f29ab4ee-9f4c-437a-a462-aa34f94dea70.png/v1/fill/w_1280,h_1435/dovahkiin_render_by_aeiouact4_dfm86n8-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQzNSIsInBhdGgiOiJcL2ZcLzA1NGE5MWYyLTNjZDgtNDVkMS04OWYyLWRkNDgyODU1MGFlYlwvZGZtODZuOC1mMjlhYjRlZS05ZjRjLTQzN2EtYTQ2Mi1hYTM0Zjk0ZGVhNzAucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.j_A9x3XAIqpj1Md3YI6xjzvFny_FmeqzaeKNwuBQbZw",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_Elder_Scrolls_V_-_Skyrim_logo.png/799px-The_Elder_Scrolls_V_-_Skyrim_logo.png",
     facts: {
       yearReleased: "2011",
       gender: "Rol",
@@ -246,8 +246,8 @@ export default[
     imageUrl:
       "https://cdn.cloudflare.steamstatic.com/steam/apps/400/capsule_616x353.jpg?t=1696346380",
     personajeUrl:
-      "https://static.wikia.nocookie.net/ficcion-sin-limites/images/4/40/Chell.png/revision/latest?cb=20230119211258&path-prefix=es",
-    logo: "https://assets.stickpng.com/images/584e8d0f6a5ae41a83ddee3d.png",
+      "https://upload.wikimedia.org/wikipedia/en/b/bf/Glados.png",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/d/df/Portal_logo.png",
 
     facts: {
       yearReleased: 2007,
@@ -268,7 +268,7 @@ export default[
       "https://i.blogs.es/68073b/650_1000_bioshock-infinite-llegara-a-linux/450_1000.jpg",
     personajeUrl:
       "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8d3cea73-e78d-4785-b48a-e9f25a7adc23/de6w8if-5513cfff-1411-4b9b-a8fa-cb935b0069d5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhkM2NlYTczLWU3OGQtNDc4NS1iNDhhLWU5ZjI1YTdhZGMyM1wvZGU2dzhpZi01NTEzY2ZmZi0xNDExLTRiOWItYThmYS1jYjkzNWIwMDY5ZDUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ke87_S4B4c7rrJnITeL0FKuVPmX8ix6533n_25EW5LM",
-    logo: "https://static.wikia.nocookie.net/logopedia/images/1/14/BioShock_Infinite_Logo.png/revision/latest?cb=20130915154603",
+    logo: "https://jonathancharlesbruce.com/images/blog/2013/64_logo.png",
     facts: {
       yearReleased: "2013",
       gender: "Disparos",
@@ -327,7 +327,7 @@ export default[
     imageUrl:
       "https://media.steampowered.com/apps/csgo/blog/images/fb_image.png?v=6",
     personajeUrl:
-      "https://static.wikia.nocookie.net/counterstrike/images/4/48/SAS.png/revision/latest?cb=20230214015504&path-prefix=es",
+      "https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react//cs2/header_ctt.png",
     logo: "https://www.freepnglogos.com/uploads/counter-strike-png-logo/counter-strike-symbol-png-logo-11.png",
     facts: {
       yearReleased: "2012",
@@ -387,7 +387,7 @@ export default[
     imageUrl:
       "https://static.13.cl/7/sites/default/files/esports/articulos/field-image/portadafortnite_10.jpg",
     personajeUrl:
-      "https://static.wikia.nocookie.net/fortnite/images/2/29/Black_Knight_%28Featured%29_-_Outfit_-_Fortnite.png/revision/latest?cb=20230113223203",
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOLtk0IlyLBOYVmLu0cKIQkS7-TeIbjkAwevDVLY2C6mletbFfso4UCSN59W98LaGTZQvzsP5yvuabQPVHqGd5dvjlnwyuTlpVPUrFnODGpPulk4138dgj-xH_gjzgyyqKF_5bG9u_iKHXhVvZ9cEGqu5AKPu3eU5z7Ah_rj6lcBR8L_dKO24yyFPd/s1600/personajes-Fortnite-PNG-Descarga-gratis-%20%285%29.png",
     logo: "https://static.vecteezy.com/system/resources/previews/027/127/477/non_2x/fortnite-logo-fortnite-icon-transparent-free-png.png",
     facts: {
       yearReleased: "2017",
@@ -405,10 +405,10 @@ export default[
     description:
       "Grand Theft Auto V (GTA V) es un juego de acción-aventura desarrollado por Rockstar North. El juego se desarrolla en la ficticia ciudad de Los Santos y sus alrededores. Los jugadores asumen los roles de tres personajes principales y pueden alternar entre ellos. GTA V es conocido por su mundo abierto, su narrativa ramificada y su libertad para realizar actividades delictivas. También incluye un modo en línea llamado Grand Theft Auto Online, que permite a los jugadores explorar y competir en el mismo mundo.",
     imageUrl:
-      "https://www.cinemascomics.com/wp-content/uploads/2014/09/gtav_ng.jpg",
+      "https://www.mundodeportivo.com/alfabeta/hero/2023/05/gta-v-portada.jpg?width=768&aspect_ratio=16:9&format=nowebp",
     personajeUrl:
-      "https://c0.klipartz.com/pngpicture/728/49/gratis-png-shawn-fonteno-grand-theft-auto-vs-grand-theft-auto-san-andres-franklinlin-clinton-gta5-thumbnail.png",
-    logo: "https://c0.klipartz.com/pngpicture/468/230/sticker-png-grand-theft-auto-v-logo-playstation-3-jpeg-gta-5-logo-text-logo-grand-theft-auto-v-area-symbol-thumbnail.png",
+      "https://freepngimg.com/save/169404-gta-characters-download-hq/900x740",
+    logo: "https://cdn.freebiesupply.com/logos/large/2x/grand-theft-auto-v-logo-png-transparent.png",
     facts: {
       yearReleased: "2013",
       gender: "Acción",
@@ -427,8 +427,8 @@ export default[
     imageUrl:
       "https://phantom-marca.unidadeditorial.es/8d87143c78ee004466437439e5df364d/resize/1200/f/webp/assets/multimedia/imagenes/2022/10/03/16648149397801.jpg",
     personajeUrl:
-      "https://c0.klipartz.com/pngpicture/555/466/gratis-png-overwatch-d-va-pixel-art-mercy-thumbnail.png",
-    logo: "https://c0.klipartz.com/pngpicture/377/566/gratis-png-logo-de-overwatch-overwatch-hearthstone-league-of-legends-esports-videojuego-overwatch-thumbnail.png",
+      "https://i.pinimg.com/originals/a7/af/3c/a7af3c58fe26e2b778850ec15b3aca85.png",
+    logo: "https://www.freepnglogos.com/uploads/overwatch---------------------------tokyo--30.png",
     facts: {
       yearReleased: "2016",
       gender: "Disparos",
@@ -447,8 +447,8 @@ export default[
     imageUrl:
       "https://www.tonica.la/export/sites/debate/img/2020/04/12/pokxmon-rojo-azul-portadas.jpg_1748969033.jpg",
     personajeUrl:
-      "https://static.wikia.nocookie.net/pelea-versus/images/7/72/Rojo_RFVH_%28Ilustraci%C3%B3n%29.png/revision/latest?cb=20141103203453&path-prefix=es",
-    logo: "https://c0.klipartz.com/pngpicture/579/122/gratis-png-mystic-pokemon-go-logo-pokemon-go-calcomania-pokemon-camiseta-en-blanco-y-negro-pokemon-go-thumbnail.png””https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a1a2ce7b-ba4e-41cd-aa86-cd3a69bf7cd9/daa2wnv-f9265191-85ec-4fd7-8143-0e560e4cf21b.png/v1/fill/w_1024,h_1024/team_valor_badge_by_joesboredomdesign_daa2wnv-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2ExYTJjZTdiLWJhNGUtNDFjZC1hYTg2LWNkM2E2OWJmN2NkOVwvZGFhMndudi1mOTI2NTE5MS04NWVjLTRmZDctODE0My0wZTU2MGU0Y2YyMWIucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.ayC2FWapFBscsZ89t5hb3TcNkhWoVYhrbaPA_i0MfSs",
+      "https://i.pinimg.com/originals/cf/45/d6/cf45d69375b8c17207893c1581680931.png",
+    logo: "https://1000marcas.net/wp-content/uploads/2020/01/Logo-Pokemon.png",
     facts: {
       yearReleased: "1996",
       gender: "Rol",
@@ -458,25 +458,26 @@ export default[
     },
   },
   {
-    id: "the-legend-of-zelda-breath-of-the-wild",
-    name: "The Legend of Zelda: Breath of the Wild",
+    id: "left-4-dead",
+    name: "Left 4 Dead",
     shortDescription:
-      "Explora el vasto mundo abierto de Hyrule y libera a la Princesa Zelda en esta épica aventura.",
+      "Sobrevive junto a tus amigos en un mundo postapocalíptico infestado de zombis.",
     description:
-      "The Legend of Zelda: Breath of the Wild es un juego de aventuras de mundo abierto desarrollado por Nintendo. El juego presenta un vasto y hermoso mundo abierto que los jugadores pueden explorar a su propio ritmo. Los jugadores asumen el papel de Link, quien debe despertar de un largo sueño para rescatar a la Princesa Zelda y derrotar al malvado Calamity Ganon. El juego es conocido por su libertad de exploración y su enfoque en la supervivencia. Ha sido elogiado por su diseño y su capacidad de redefinir los juegos de mundo abierto.",
+      "Left 4 Dead es un juego de disparos en primera persona cooperativo desarrollado por Valve. El juego pone a los jugadores en el papel de uno de los cuatro supervivientes en un mundo apocalíptico dominado por hordas de zombis. Con un énfasis en la cooperación y el trabajo en equipo, los jugadores deben trabajar juntos para luchar a través de las distintas campañas, cada una con su propia narrativa y objetivos. El juego también presenta un modo multijugador en el que los jugadores pueden asumir el papel de los zombis, ofreciendo una experiencia de juego dinámica y rejugable. Con su innovador sistema de IA Director, que cambia la ubicación de los enemigos y los recursos en cada partida, Left 4 Dead ofrece una experiencia tensa y emocionante con cada juego.",
     imageUrl:
-      "https://zelda.nintendo.com/breath-of-the-wild/assets/icons/BOTW-Share_icon.jpg",
+      "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/07/left-4-dead.jpg?tf=3840x", 
     personajeUrl:
-      "https://static.wikia.nocookie.net/zelda/images/1/1c/TotK_-_Link_imagen_oficial.png/revision/latest?cb=20230220223232&path-prefix=es",
-    logo: "https://static.wikia.nocookie.net/zelda/images/d/d7/Zelda_Breath_of_the_Wild_BotW_Logo.png/revision/latest?cb=20170523125012&path-prefix=es",
+      "https://steamuserimages-a.akamaihd.net/ugc/1843657389367004593/04E423033F5275DCAD9B9247A3A9CA200CA570D2/", 
+    logo: "https://upload.wikimedia.org/wikipedia/fr/6/6d/Left_4_Dead_Logo.png", 
     facts: {
-      yearReleased: "2017",
-      gender: "Aventuras",
-      playingStyles: ["Mundo abierto", "Aventuras"],
-      pointsOfView: "Tercera persona",
-      multiplayer: "No",
+      yearReleased: "2008",
+      gender: "Disparos", 
+      playingStyles: ["Shooter en primera persona"],
+      pointsOfView: "Primera persona",
+      multiplayer: "Sí",
     },
-  },
+  }
+  ,
   {
     id: "league-of-legends",
     name: "League of Legends",
@@ -564,7 +565,7 @@ export default[
       "God of War es una serie de juegos de acción y aventuras desarrollada por Santa Monica Studio. El protagonista, Kratos, es un guerrero espartano que busca vengarse de los dioses del Olimpo que lo traicionaron. Acompaña a Kratos en su viaje para enfrentar a criaturas mitológicas y resolver puzles en un mundo épico. La serie es conocida por su jugabilidad intensa y su narrativa épica, y el juego más reciente, lanzado en 2018, reinventó la franquicia con un enfoque en la relación entre Kratos y su hijo, Atreus.",
     imageUrl: "https://i.ytimg.com/vi/_20c_V2Er88/maxresdefault.jpg",
     personajeUrl:
-      "https://w7.pngwing.com/pngs/501/1001/png-transparent-god-of-war-kratos-god-of-war-iii-god-of-war-ascension-god-of-war-origins-collection-god-of-war-file-game-video-game-arm.png",
+      "https://i.redd.it/1z31z5y520r61.png",
     logo: "https://tuzonagamer.com/wp-content/uploads/2018/01/God-of-War-Logo-PNG-Photos.png",
     facts: {
       yearReleased: "2005",
@@ -588,7 +589,7 @@ export default[
     logo: "https://purepng.com/public/uploads/large/purepng.com-cyberpunk-2077-logologosgame-logogame-logosgameslogocyberpunk-2077-12715289961328hlgr.png",
     facts: {
       yearReleased: "2020",
-      genrder: "Acción",
+      gender: "Acción",
       playingStyles: ["Primera persona", "Mundo abierto"],
       pointsOfView: "Primera persona",
       multiplayer: "Sí",

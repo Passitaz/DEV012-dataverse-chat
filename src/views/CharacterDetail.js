@@ -1,21 +1,26 @@
 import data from "../data/dataset.js";
-//import { renderItems } from "../componets/view.js";
+import { renderDetails } from "../componets/detalles.js";
 import { footer } from "../componets/footer.js";
+import { characterDetail} from "../componets/detallesEstructura.js";
+import { botonRegresar} from "../componets/botonPrincipal.js";
 
-export const characterDetail = () => {
-  const detallesView = document.createElement("section");
-  const detallesDelPersonaje = `
-        <button data-testid="boton-home" name="boton-home">Salir</button>
-        <div id="detalles"></div>
-        <div id="chat-box" contenteditable="true"></div>
-        <div id="contenedor">
-        <textarea id=chatIndividual placeholder="Escribe aquí tu mensaje"></textarea>
-        <button data-testid="boton-enviar" name="boton-enviar>Enviar</button>
-        </div>`;
-//  detallesView += footer();
-  const conteinDetails = document.createElement("div");
-  conteinDetails.innerHTML = detallesDelPersonaje;
-  detallesView.appendChild(conteinDetails);
- // detallesView.appendChild(renderItems(data));
-  return detallesView;
-};
+export const characterDetails = () => {
+  const divCharacter = document.createElement('div');
+  divCharacter.setAttribute('id', 'vistaDetalles')
+
+  const characterView = document.createElement("section");
+  characterView.innerHTML = botonRegresar() + characterDetail() + footer();
+
+  const detallesDiv = document.createElement('div');
+  detallesDiv.setAttribute('id', 'detallesDiv');
+  detallesDiv.appendChild(renderDetails(data));
+  characterView.appendChild(detallesDiv);
+
+  divCharacter.appendChild(characterView);
+
+
+  return divCharacter;
+
+}
+
+ 

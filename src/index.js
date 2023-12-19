@@ -1,6 +1,6 @@
 import { setRootEl, setRoutes, navigateTo } from './router.js';
 import { Home } from './views/HOME.js';
-import { characterDetail } from './views/CharacterDetail.js';
+import {characterDetails} from './views/CharacterDetail.js';
 import {error} from './views/Error.js';
 import {chatGrupal} from './views/chatGrupal.js';
 import {api} from './views/api.js';
@@ -12,7 +12,7 @@ setRootEl(root);
 // Configura las rutas
 setRoutes({
     '/': Home,
-    '/detalle' : characterDetail,
+    '/detalle' : characterDetails,
     '/error': error,
     '/apiKey': api,
     '/chatGrupal':chatGrupal,
