@@ -184,24 +184,83 @@ button {
 }
 
 #chat_grupal{
-  color: black;
-  font-weight: bold; 
-  font-size: 20px; 
-  padding: 10px 10px;
-  background-color: #f9f9f9;
-  cursor: pointer;
+  color: whitesmoke;
+  font-family: 'Calibri', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #514E4E;
   border-radius: 10px;
-  position: relative;
-  top: -100px; 
-  margin-left: auto;
-  right: 50%; 
-  transform: translateX(50%); 
-  background-color: #F6F4E6;
+  position: absolute;
   top: 50px;
+  width: 100vw;
   margin-left: auto;
-  right: 50%; 
+  right: 50%;
   transform: translateX(50%);
   text-align: center;
+}
+
+.uno{
+  width: 800px; 
+  height: 500px; 
+  background-color: rgba(255, 255, 255, 0.5); 
+  border-radius: 5%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dos{
+  width: 750px; 
+  height: 425px; 
+  background-color: rgba(255, 255, 255, 0.967); 
+  border-radius: 5%;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tres{
+  width: 750px; 
+  height: 40px; 
+  background-color: #010562; 
+  border-radius: 7px 7px 7px 7px;
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tres textarea {
+  font-family: 'Calibri', sans-serif;
+  color: #656464; 
+  width: 550px;
+  height: calc(100% - 10px);
+  resize: none;
+  border: none;
+  border-radius: 7px 7px 7px 7px;
+  padding: 5px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%; 
+  left: 38%;
+  transform: translate(-50%, -50%);
+}
+
+#enviar-g {
+  background-color: #ffffff;
+  font-family: 'Calibri', sans-serif;
+  color: #656464;
+  padding: 7px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 7px 7px 7px 7px; 
+  cursor: pointer;
+  margin-left: 600px; 
+  margin-top: 3px;
+}
+
+#enviar-g:hover {
+  background-color: red;
 }
 
 #ingreso {
