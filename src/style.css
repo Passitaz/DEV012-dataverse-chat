@@ -210,8 +210,6 @@ button {
   transform: translateX(50%);
   text-align: center;
 }
-<<<<<<< main
-=======
 
 #ingreso::first-line {
   font-size: 1.7em; 
@@ -246,7 +244,6 @@ button {
   transform: translateX(-50%);
 }
 
->>>>>>> main
 footer {
   width: 100%;
   background-color: #333333;
