@@ -169,6 +169,20 @@ button {
   margin: 0 auto;
 }
 
+#enviar{
+  position: relative;
+  margin-top: 460px;
+}
+
+#botonRegresar{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 80px;
+  height: 35px;
+  font-size: medium;
+}
+
 #chat_grupal{
   color: black;
   font-weight: bold; 
