@@ -17,7 +17,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.1); /* Ajusta el último valor para la opacidad */
+  background-color: rgba(255, 255, 255, 0.1); 
   z-index: -1;
 }
 
@@ -34,17 +34,17 @@ body::before {
 
 
 header h1 {
-  font-size: 2.5vw; /* Comienza con un tamaño de fuente más pequeño */
-  line-height: 1.2; /* La altura de línea proporcional */
-  text-align: center; /* Alineación a la izquierda */
-  font-weight: 200; /* El peso de la fuente */
-  margin: 0 auto; /* Centrado automático */
-  max-width: 100%; /* Máximo ancho del título */
-  padding: 1em 0; /* Espacio arriba y abajo */
-  color: #F6F4E6; /* Color del texto */
-  font-family: "Georgia", serif; /* Tipo de letra */
+  font-size: 2.5vw;
+  line-height: 1.2; 
+  text-align: center; 
+  font-weight: 200; 
+  margin: 0 auto;
+  max-width: 100%; 
+  padding: 1em 0;
+  color: #F6F4E6;
+  font-family: "Georgia", serif; 
 }
-/* Contenedor principal que contiene todos los items (tarjetas) */
+
 ul {
   display: flex;
   flex-direction: row;
@@ -57,6 +57,7 @@ ul {
   width: 100%;
 }
 /* Estilos para los items (tarjetas) */
+
 li {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
@@ -90,6 +91,7 @@ img {
   max-width: 100%; /* Asegura que no sea más ancho que el padre */
   flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola fila */
 }
+
 label {
   font-family: "Georgia" ;
   font-size: 20px;
@@ -97,6 +99,7 @@ label {
   margin-left: 25px;
   text-align: right;
 }
+
 [data-testid="select-filter"] {
   font-size: 17px;
   font-family: "Balthazar", serif;
@@ -107,6 +110,7 @@ label {
   border: none;
   border-radius: 5px;
 }
+
 button {
   display: flex;
   border: none;
@@ -117,6 +121,7 @@ button {
   border-radius: 5px;
   background-color:#FDDB3A;
 }
+
 #chatGrupal {
   border: none;
   color: black;
@@ -128,6 +133,7 @@ button {
   order: 2; 
   margin-left: auto;
 }
+
 #estadistica{
   font-family: "Georgia" ;
   font-size: 20px;
@@ -135,6 +141,7 @@ button {
   margin-left: 25px;
   text-align: right;
 }
+
 #mensajeError{
   color: black;
   font-weight: bold; 
@@ -155,6 +162,7 @@ button {
   transform: translateX(50%);
   text-align: center;
 }
+
 #botonRegresar{
   display: flex;
   justify-content: center; 
@@ -183,80 +191,88 @@ button {
   font-size: medium;
 }
 
-#chat_grupal{
+#chat_grupal {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: whitesmoke;
   font-family: 'Calibri', sans-serif;
   font-weight: bold;
   font-size: 20px;
   background-color: #514E4E;
   border-radius: 10px;
-  position: absolute;
-  top: 50px;
-  width: 100vw;
+  margin-top: 50px;
+  width: 100vw; /* Ancho completo de la ventana */
   margin-left: auto;
-  right: 50%;
-  transform: translateX(50%);
-  text-align: center;
+  margin-right: auto;
 }
 
-.uno{
-  width: 800px; 
-  height: 500px; 
-  background-color: rgba(255, 255, 255, 0.5); 
+.uno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  max-width: 850px;
+  height: 70vh;
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5%;
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 5vh auto 0;
+  box-sizing: border-box;
 }
-.dos{
-  width: 750px; 
-  height: 425px; 
-  background-color: rgba(255, 255, 255, 0.967); 
+
+.dos {
+  display: flex;
+  width: 60%;
+  max-width: 750px;
+  height: 55vh;
+  background-color: rgba(255, 255, 255, 0.967);
   border-radius: 5%;
-  position: absolute;
-  top: 53%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: -65vh auto 0;
+  box-sizing: border-box;
 }
-.tres{
-  width: 750px; 
-  height: 40px; 
-  background-color: #010562; 
-  border-radius: 7px 7px 7px 7px;
-  position: absolute;
-  top: 87%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+.tres {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  max-width: 750px;
+  height: 6vh;
+  background-color: #010562;
+  border-radius: 7px;
+  margin: 2vh auto 0;
+  box-sizing: border-box;
 }
 
 .tres textarea {
-  font-family: 'Calibri', sans-serif;
-  color: #656464; 
-  width: 550px;
-  height: calc(100% - 10px);
-  resize: none;
-  border: none;
-  border-radius: 7px 7px 7px 7px;
-  padding: 5px;
-  box-sizing: border-box;
   position: absolute;
-  top: 50%; 
-  left: 38%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  width: 50%; /* Ajusta este valor según tus necesidades */
+  max-width: 450px;
+  height: 10vh; /* Ajusta este valor según tus necesidades */
+  max-height: 4vh;
+  font-family: 'Calibri', sans-serif;
+  color: #656464;
+  border-radius: 7px;
+  resize: none;
+  box-sizing: border-box;
+  left: 10px; /* Ajusta este valor para mover el textarea a la izquierda */
+  bottom: 8px; /* Ajusta este valor para alinear con el botón */
 }
 
 #enviar-g {
-  background-color: #ffffff;
   font-family: 'Calibri', sans-serif;
   color: #656464;
-  padding: 7px 30px;
+  padding: 5px 3vw; /* Ajusta este valor según tus necesidades */
   font-size: 16px;
   border: none;
-  border-radius: 7px 7px 7px 7px; 
+  border-radius: 7px;
   cursor: pointer;
-  margin-left: 600px; 
-  margin-top: 3px;
+  position: absolute;
+  bottom: 8px; /* Ajusta este valor para alinear con el textarea */
+  right: 10px; /* Ajusta este valor según tus necesidades */
 }
 
 #enviar-g:hover {
@@ -324,6 +340,8 @@ footer {
   margin: 0; /* Asegúrate de que no hay márgenes que empujen los bordes */
   padding: 7px 15px; /* Ajusta el padding como sea necesario */
 }
+
+
 @media (max-width: 912px) {
   #logo{
     position: relative;
