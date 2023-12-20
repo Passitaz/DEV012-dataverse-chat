@@ -16,7 +16,6 @@ setRoutes({
     '/error': error,
     '/apiKey': api,
     '/chatGrupal':chatGrupal,
-    // Aquí puedes añadir más rutas y vistas
 });
 
 // Función para manejar los cambios de ruta
