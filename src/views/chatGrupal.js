@@ -7,9 +7,9 @@ export const chatGrupal = () => {
           </div>
           <div class=uno></div>
           <div class=dos></div>
-          <<div class="tres">
-          <textarea placeholder="Escribe aquí"></textarea>
-          <button  id="enviar-g">Enviar</button>
+          <div class="tres">
+           <textarea id="miTextarea" name="miTextarea" placeholder="Tu mensaje aquí"></textarea>
+           <button  id="enviar-g">Enviar</button>
           </div>`;
     chatView.innerHTML = pantallaChatGrupal;
 

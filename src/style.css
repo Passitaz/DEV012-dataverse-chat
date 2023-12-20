@@ -48,7 +48,7 @@ header h1 {
   color: #f6f4e6; /* Color del texto */
   font-family: "Georgia", serif; /* Tipo de letra */
 }
-/* Contenedor principal que contiene todos los items (tarjetas) */
+
 ul {
   display: flex;
   flex-direction: row;
@@ -61,6 +61,7 @@ ul {
   width: 100%;
 }
 /* Estilos para los items (tarjetas) */
+
 li {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
@@ -94,6 +95,7 @@ img {
   max-width: 100%; /* Asegura que no sea más ancho que el padre */
   flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola fila */
 }
+
 label {
   font-family: "Georgia";
   font-size: 20px;
@@ -101,6 +103,7 @@ label {
   margin-left: 25px;
   text-align: right;
 }
+
 [data-testid="select-filter"] {
   font-size: 17px;
   font-family: "Balthazar", serif;
@@ -111,6 +114,7 @@ label {
   border: none;
   border-radius: 5px;
 }
+
 button {
   display: flex;
   border: none;
@@ -121,6 +125,7 @@ button {
   border-radius: 5px;
   background-color: #fddb3a;
 }
+
 #chatGrupal {
   border: none;
   color: black;
@@ -194,13 +199,10 @@ button {
   font-size: 20px;
   background-color: #514e4e;
   border-radius: 10px;
-  position: absolute;
-  top: 50px;
-  width: 100vw;
+  margin-top: 50px;
+  width: 100vw; /* Ancho completo de la ventana */
   margin-left: auto;
-  right: 50%;
-  transform: translateX(50%);
-  text-align: center;
+  margin-right: auto;
 }
 
 .uno {
@@ -208,20 +210,16 @@ button {
   height: 500px;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5%;
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 5vh auto 0;
+  box-sizing: border-box;
 }
 .dos {
   width: 750px;
   height: 425px;
   background-color: rgba(255, 255, 255, 0.967);
   border-radius: 5%;
-  position: absolute;
-  top: 53%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: -65vh auto 0;
+  box-sizing: border-box;
 }
 .tres {
   width: 750px;
@@ -254,7 +252,7 @@ button {
   background-color: #ffffff;
   font-family: "Calibri", sans-serif;
   color: #656464;
-  padding: 7px 30px;
+  padding: 5px 3vw; /* Ajusta este valor según tus necesidades */
   font-size: 16px;
   border: none;
   border-radius: 7px 7px 7px 7px;
@@ -384,6 +382,8 @@ footer {
   margin: 0; /* Asegúrate de que no hay márgenes que empujen los bordes */
   padding: 7px 15px; /* Ajusta el padding como sea necesario */
 }
+
+
 @media (max-width: 912px) {
   #logo {
     position: relative;
