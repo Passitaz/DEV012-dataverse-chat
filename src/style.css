@@ -1,7 +1,7 @@
 body {
   background-image: url("https://i.pinimg.com/736x/d1/2d/10/d12d10d136e57bf48bee776e84004f60.jpg");
   background-size: 1000px;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +17,12 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.1); 
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Ajusta el último valor para la opacidad */
   z-index: -1;
 }
 
@@ -32,17 +37,16 @@ body::before {
   margin-bottom: auto;
 }
 
-
 header h1 {
-  font-size: 2.5vw;
-  line-height: 1.2; 
-  text-align: center; 
-  font-weight: 200; 
-  margin: 0 auto;
-  max-width: 100%; 
-  padding: 1em 0;
-  color: #F6F4E6;
-  font-family: "Georgia", serif; 
+  font-size: 2.5vw; /* Comienza con un tamaño de fuente más pequeño */
+  line-height: 1.2; /* La altura de línea proporcional */
+  text-align: center; /* Alineación a la izquierda */
+  font-weight: 200; /* El peso de la fuente */
+  margin: 0 auto; /* Centrado automático */
+  max-width: 100%; /* Máximo ancho del título */
+  padding: 1em 0; /* Espacio arriba y abajo */
+  color: #f6f4e6; /* Color del texto */
+  font-family: "Georgia", serif; /* Tipo de letra */
 }
 
 ul {
@@ -61,7 +65,7 @@ ul {
 li {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -71,7 +75,7 @@ li {
   padding: 0 1em;
   justify-content: space-between;
   font-size: 1.3em;
-  font-family: 'Calibri', sans-serif;
+  font-family: "Calibri", sans-serif;
 }
 img {
   width: 100%;
@@ -82,7 +86,7 @@ img {
   display: flex;
   justify-content: space-between; /* Distribuye los elementos uniformemente */
   align-items: center; /* Centra los elementos verticalmente */
-  background-color:#41444B; /* Color de fondo */
+  background-color: #41444b; /* Color de fondo */
   padding: 1px 5px; /* Relleno interno */
   border-radius: 2px; /* Bordes redondeados */
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
@@ -93,9 +97,9 @@ img {
 }
 
 label {
-  font-family: "Georgia" ;
+  font-family: "Georgia";
   font-size: 20px;
-  color:#EAEAEA;
+  color: #eaeaea;
   margin-left: 25px;
   text-align: right;
 }
@@ -106,7 +110,7 @@ label {
   height: 30px;
   width: 120px;
   margin-left: 5px;
-  background-color: #52575D;
+  background-color: #52575d;
   border: none;
   border-radius: 5px;
 }
@@ -119,7 +123,7 @@ button {
   padding: 7px 7px;
   cursor: pointer;
   border-radius: 5px;
-  background-color:#FDDB3A;
+  background-color: #fddb3a;
 }
 
 #chatGrupal {
@@ -127,62 +131,59 @@ button {
   color: black;
   font-size: 17px;
   padding: 7px 7px;
-  background-color: #FDDB3A;
+  background-color: #fddb3a;
   cursor: pointer;
   border-radius: 5px;
-  order: 2; 
+  order: 2;
   margin-left: auto;
 }
-
-#estadistica{
-  font-family: "Georgia" ;
+#estadistica {
+  font-family: "Georgia";
   font-size: 20px;
-  color:#EAEAEA;
+  color: #eaeaea;
   margin-left: 25px;
   text-align: right;
 }
-
-#mensajeError{
+#mensajeError {
   color: black;
-  font-weight: bold; 
-  font-size: 20px; 
+  font-weight: bold;
+  font-size: 20px;
   padding: 10px 10px;
   background-color: #f9f9f9;
   cursor: pointer;
   border-radius: 10px;
   position: relative;
-  top: -100px; 
+  top: -100px;
   margin-left: auto;
-  right: 50%; 
-  transform: translateX(50%); 
-  background-color: #F6F4E6;
+  right: 50%;
+  transform: translateX(50%);
+  background-color: #f6f4e6;
   top: 50px;
   margin-left: auto;
-  right: 50%; 
+  right: 50%;
   transform: translateX(50%);
   text-align: center;
 }
-
-#botonRegresar{
+#botonRegresar {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   border: none;
   color: rgb(255, 255, 255);
-  font-size: 20px; 
-  padding: 10px 20px; 
+  font-size: 20px;
+  padding: 10px 20px;
   cursor: pointer;
   border-radius: 5px;
   background-color: #ff0000;
   margin: 0 auto;
 }
 
-#enviar{
+#enviar {
   position: relative;
   margin-top: 460px;
 }
 
-#botonRegresar{
+#botonRegresar {
   position: absolute;
   left: 0;
   top: 0;
@@ -192,15 +193,11 @@ button {
 }
 
 #chat_grupal {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: whitesmoke;
-  font-family: 'Calibri', sans-serif;
+  font-family: "Calibri", sans-serif;
   font-weight: bold;
   font-size: 20px;
-  background-color: #514E4E;
+  background-color: #514e4e;
   border-radius: 10px;
   margin-top: 50px;
   width: 100vw; /* Ancho completo de la ventana */
@@ -209,70 +206,59 @@ button {
 }
 
 .uno {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  max-width: 850px;
-  height: 70vh;
+  width: 800px;
+  height: 500px;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5%;
   margin: 5vh auto 0;
   box-sizing: border-box;
 }
-
 .dos {
-  display: flex;
-  width: 60%;
-  max-width: 750px;
-  height: 55vh;
+  width: 750px;
+  height: 425px;
   background-color: rgba(255, 255, 255, 0.967);
   border-radius: 5%;
   margin: -65vh auto 0;
   box-sizing: border-box;
 }
-
 .tres {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60%;
-  max-width: 750px;
-  height: 6vh;
+  width: 750px;
+  height: 40px;
   background-color: #010562;
-  border-radius: 7px;
-  margin: 2vh auto 0;
-  box-sizing: border-box;
+  border-radius: 7px 7px 7px 7px;
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .tres textarea {
-  position: absolute;
-  display: flex;
-  width: 50%; /* Ajusta este valor según tus necesidades */
-  max-width: 450px;
-  height: 10vh; /* Ajusta este valor según tus necesidades */
-  max-height: 4vh;
-  font-family: 'Calibri', sans-serif;
+  font-family: "Calibri", sans-serif;
   color: #656464;
-  border-radius: 7px;
+  width: 550px;
+  height: calc(100% - 10px);
   resize: none;
+  border: none;
+  border-radius: 7px 7px 7px 7px;
+  padding: 5px;
   box-sizing: border-box;
-  left: 10px; /* Ajusta este valor para mover el textarea a la izquierda */
-  bottom: 8px; /* Ajusta este valor para alinear con el botón */
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  transform: translate(-50%, -50%);
 }
 
 #enviar-g {
-  font-family: 'Calibri', sans-serif;
+  background-color: #ffffff;
+  font-family: "Calibri", sans-serif;
   color: #656464;
   padding: 5px 3vw; /* Ajusta este valor según tus necesidades */
   font-size: 16px;
   border: none;
-  border-radius: 7px;
+  border-radius: 7px 7px 7px 7px;
   cursor: pointer;
-  position: absolute;
-  bottom: 8px; /* Ajusta este valor para alinear con el textarea */
-  right: 10px; /* Ajusta este valor según tus necesidades */
+  margin-left: 600px;
+  margin-top: 3px;
 }
 
 #enviar-g:hover {
@@ -281,10 +267,10 @@ button {
 
 #ingreso {
   color: whitesmoke;
-  font-family: 'Calibri', sans-serif;
+  font-family: "Calibri", sans-serif;
   font-weight: bold;
   font-size: 20px;
-  background-color: #514E4E;
+  background-color: #514e4e;
   border-radius: 10px;
   position: absolute;
   top: 50px;
@@ -296,19 +282,18 @@ button {
 }
 
 #ingreso::first-line {
-  font-size: 1.7em; 
+  font-size: 1.7em;
 }
 
 #ingreso button {
-  font-family: 'Calibri', sans-serif;
-  padding: 5px 8px; 
+  font-family: "Calibri", sans-serif;
+  padding: 5px 8px;
   font-size: 14px;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
-
 #miTextarea {
-  width: 500px; 
+  width: 500px;
   height: 100px;
   border-radius: 25px;
   position: absolute;
@@ -316,16 +301,72 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  line-height: 100px; 
-  font-family: 'Calibri', sans-serif;
-  font-size: 18px; 
+  line-height: 100px;
+  font-family: "Calibri", sans-serif;
+  font-size: 18px;
 }
 
 #Regresar {
   position: absolute;
-  top: calc(50% + 70px); 
+  top: calc(50% + 70px);
   left: 50%;
   transform: translateX(-50%);
+}
+#detallesDiv{
+  position: relative;
+}
+#logoDetalles{
+  width: 210px;
+  height: 190px;
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  padding: 5px;
+}
+#fotoPersonaje{
+  width: 880px;
+  height: 830px;
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  padding: 5px;
+}
+#descripcion {
+  top: 20px;
+  left: 20px; 
+  background-color: rgba(0, 161, 213, 0.5); 
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px #000;
+  line-height: 1.6;
+  text-align: center;
+}
+
+#lanzamiento,
+#generoJuego,
+#estiloDeJuego,
+#perspectivaJuego,
+#multiplayerJuego {
+  background-color: rgba(255, 229, 0, 0.5);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Arial";
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF; /* Corregí el valor del color para que sea válido */
+  text-shadow: 1px 1px 2px #000;
+  display: list-item;
+  max-width: 300px;
+  min-width: 100px;
+  word-wrap: break-word;
 }
 
 footer {
@@ -336,18 +377,19 @@ footer {
   padding: 1em;
   margin-top: auto;
 }
-#chatGrupal, #estadistica {
+#chatGrupal,
+#estadistica {
   margin: 0; /* Asegúrate de que no hay márgenes que empujen los bordes */
   padding: 7px 15px; /* Ajusta el padding como sea necesario */
 }
 
 
 @media (max-width: 912px) {
-  #logo{
+  #logo {
     position: relative;
-    margin-left: auto ;
+    margin-left: auto;
     margin-top: auto;
-    padding:3px;
+    padding: 3px;
     width: 250px;
     height: 50px;
   }
@@ -367,7 +409,7 @@ footer {
     margin-top: 5%;
     cursor: pointer;
     border-radius: 5px;
-    background-color:#FDDB3A;
+    background-color: #fddb3a;
   }
   li {
     height: 350px;
@@ -380,7 +422,9 @@ footer {
     white-space: normal;
     overflow: visible;
     max-width: 100%;
-    flex-basis: calc(33.333% - 20px); /* Restar el total de márgenes y paddings */
+    flex-basis: calc(
+      33.333% - 20px
+    ); /* Restar el total de márgenes y paddings */
     margin: 10px; /* Se reduce el margen para ajustar las tarjetas */
     padding: 0 1em;
     justify-content: space-between;
@@ -391,7 +435,7 @@ footer {
     white-space: normal; /* Restaura el salto de línea en el texto */
     overflow: visible; /* Hace visible el contenido desbordado */
   }
-  img{
+  img {
     width: 180px;
     height: 130px;
     display: block;
@@ -406,8 +450,7 @@ footer {
 }
 /* dispostivo movil */
 
-@media (max-width:415px){
-
+@media (max-width: 415px) {
   #logo {
     position: relative;
     left: 50%;
@@ -418,7 +461,7 @@ footer {
     margin-top: auto;
     margin-bottom: auto;
   }
-  
+
   [data-testid="select-filter"] {
     display: flex;
     flex-direction: center;
@@ -437,9 +480,9 @@ footer {
     padding: 7px 7px;
     cursor: pointer;
     border-radius: 5px;
-    background-color:#FDDB3A;
+    background-color: #fddb3a;
   }
-  li  {
+  li {
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 10px;
@@ -447,7 +490,7 @@ footer {
     display: flex;
     justify-content: center; /* Centra verticalmente las tarjetas en la columna */
   }
-  img{
+  img {
     width: 180px;
     height: 130px;
     display: block;
@@ -456,7 +499,7 @@ footer {
     padding: 5px;
   }
 }
-@media (max-width:480px){
+@media (max-width: 480px) {
   #logo {
     position: relative;
     left: 50%;
@@ -484,9 +527,9 @@ footer {
     padding: 7px 7px;
     cursor: pointer;
     border-radius: 5px;
-    background-color:#FDDB3A;
+    background-color: #fddb3a;
   }
-  li  {
+  li {
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 10px;
@@ -494,7 +537,7 @@ footer {
     display: flex;
     justify-content: center; /* Centra verticalmente las tarjetas en la columna */
   }
-  img{
+  img {
     width: 180px;
     height: 130px;
     display: block;
@@ -502,5 +545,4 @@ footer {
     margin-top: 5px;
     padding: 5px;
   }
-
 }
