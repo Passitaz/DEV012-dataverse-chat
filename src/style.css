@@ -192,12 +192,17 @@ button {
   font-size: medium;
 }
 
+
 #chat_grupal {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: whitesmoke;
-  font-family: "Calibri", sans-serif;
+  font-family: 'Calibri', sans-serif;
   font-weight: bold;
   font-size: 20px;
-  background-color: #514e4e;
+  background-color: #514E4E;
   border-radius: 10px;
   margin-top: 50px;
   width: 100vw; /* Ancho completo de la ventana */
@@ -206,59 +211,70 @@ button {
 }
 
 .uno {
-  width: 800px;
-  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  max-width: 850px;
+  height: 70vh;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5%;
   margin: 5vh auto 0;
   box-sizing: border-box;
 }
+
 .dos {
-  width: 750px;
-  height: 425px;
+  display: flex;
+  width: 60%;
+  max-width: 750px;
+  height: 55vh;
   background-color: rgba(255, 255, 255, 0.967);
   border-radius: 5%;
   margin: -65vh auto 0;
   box-sizing: border-box;
 }
+
 .tres {
-  width: 750px;
-  height: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  max-width: 750px;
+  height: 6vh;
   background-color: #010562;
-  border-radius: 7px 7px 7px 7px;
-  position: absolute;
-  top: 87%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  border-radius: 7px;
+  margin: 2vh auto 0;
+  box-sizing: border-box;
 }
 
 .tres textarea {
-  font-family: "Calibri", sans-serif;
-  color: #656464;
-  width: 550px;
-  height: calc(100% - 10px);
-  resize: none;
-  border: none;
-  border-radius: 7px 7px 7px 7px;
-  padding: 5px;
-  box-sizing: border-box;
   position: absolute;
-  top: 50%;
-  left: 38%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  width: 50%; /* Ajusta este valor según tus necesidades */
+  max-width: 450px;
+  height: 10vh; /* Ajusta este valor según tus necesidades */
+  max-height: 4vh;
+  font-family: 'Calibri', sans-serif;
+  color: #656464;
+  border-radius: 7px;
+  resize: none;
+  box-sizing: border-box;
+  left: 10px; /* Ajusta este valor para mover el textarea a la izquierda */
+  bottom: 8px; /* Ajusta este valor para alinear con el botón */
 }
 
 #enviar-g {
-  background-color: #ffffff;
-  font-family: "Calibri", sans-serif;
+  font-family: 'Calibri', sans-serif;
   color: #656464;
   padding: 5px 3vw; /* Ajusta este valor según tus necesidades */
   font-size: 16px;
   border: none;
-  border-radius: 7px 7px 7px 7px;
+  border-radius: 7px;
   cursor: pointer;
-  margin-left: 600px;
-  margin-top: 3px;
+  position: absolute;
+  bottom: 8px; /* Ajusta este valor para alinear con el textarea */
+  right: 10px; /* Ajusta este valor según tus necesidades */
 }
 
 #enviar-g:hover {
