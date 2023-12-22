@@ -7,15 +7,31 @@ export const setRootEl = (newRootElement) => {
 };
 
 export const setRoutes = (newRoutes) => {
-    routes = newRoutes;
+  if (typeof newRoutes === "object") {
+    if(newRoutes["/error"]){
+      routes = newRoutes;
+    }
+  }
 };
 
-export const navigateTo = (pathname) => {
-    const viewFunction = routes[pathname];
-    if (viewFunction) {
-        rootElement.innerHTML = '';
-        rootElement.appendChild(viewFunction());
+export const renderView = (pathname) => {
+    const root = rootElement;
+    root.innerHTML = '';
+    if (root[pathname]) {
+      const template = routes[pathname]();
+        
+        root.appendChild(template);
     } else {
-        // Manejar ruta no encontrada
+        root.appendChild["/error"];
     }
-};
+  };
+
+export const navigateTo = (pathname, props={}) => {
+  const URLvisited = window.location.hostname + pathname;
+  history.pushState({}, "", URLvisited);
+  renderView(pathname);  
+}
+
+export const URLChange = (location) => {
+  renderView(location);
+}
