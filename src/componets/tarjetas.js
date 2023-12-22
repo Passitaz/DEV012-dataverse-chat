@@ -1,3 +1,5 @@
+import { navigateTo } from "../router.js";
+
 export const renderItems = (data) => {
   const contenedorUl = document.createElement("ul");
   
@@ -31,7 +33,12 @@ export const renderItems = (data) => {
     grupodl.appendChild(dd2);
     dd2.setAttribute("itemprop", "shortDescription");
     dd2.textContent = datos.shortDescription;
+
+    contenedorLi.addEventListener("click",()=>{ 
+      navigateTo('/detalle')
+    })
   }
-  
+
+
   return contenedorUl;
 };
