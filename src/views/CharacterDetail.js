@@ -4,12 +4,14 @@ import { footer } from "../componets/footer.js";
 import { characterDetail} from "../componets/detallesEstructura.js";
 import { botonRegresar} from "../componets/botonPrincipal.js";
 
+
+
 export const characterDetails = () => {
   const divCharacter = document.createElement('div');
   divCharacter.setAttribute('id', 'vistaDetalles')
 
   const characterView = document.createElement("section");
-  characterView.innerHTML = botonRegresar() + characterDetail() + footer();
+  characterView.innerHTML = botonRegresar() + characterDetail()  //footer();
 
   const detallesDiv = document.createElement('div');
   detallesDiv.setAttribute('id', 'detallesDiv');
