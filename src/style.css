@@ -335,27 +335,28 @@ button {
 }
 .contenedorPrincipal {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   width: 90%;
-  max-width: 1350px;
+  max-width: 2550px;
   height: 90vh;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5%;
   margin: 5vh auto 0;
   box-sizing: border-box;
 }
-
 .contenedorTexto {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
   align-items:right;
   width: 45%;
-  max-width: 568px;
+  max-width: 720px;
   height: 85vh;
   background-color: rgba(255, 255, 255, 0.967);
   border-radius: 5%;
-  margin: auto ;
-  margin-left: 107vh;
+  margin: 0 20px ;
   box-sizing: border-box;
 }
 
