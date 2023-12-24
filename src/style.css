@@ -278,7 +278,7 @@ button {
 }
 
 .enviar-g:hover {
-  background-color: #01046288;
+  background-color: #010562;
   color: #f9f9f9;
 }
 
@@ -419,7 +419,8 @@ button {
 }
 
 .enviar-chat:hover {
-  background-color: blue;
+  background-color: #010562;
+  color: #f9f9f9;
 }
 
 #logoDetalles{
