@@ -237,7 +237,7 @@ button {
 .tres {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   width: 60%;
   max-width: 750px;
@@ -251,8 +251,8 @@ button {
 .tres textarea {
   position: absolute;
   display: flex;
-  width: 50%; /* Ajusta este valor según tus necesidades */
-  max-width: 450px;
+  width: 80%; /* Ajusta este valor según tus necesidades */
+  max-width: 750px;
   height: 10vh; /* Ajusta este valor según tus necesidades */
   max-height: 4vh;
   font-family: 'Calibri', sans-serif;
@@ -274,7 +274,7 @@ button {
   cursor: pointer;
   position: absolute;
   bottom: 8px; /* Ajusta este valor para alinear con el textarea */
-  right: 10px; /* Ajusta este valor según tus necesidades */
+   
 }
 
 .enviar-g:hover {
