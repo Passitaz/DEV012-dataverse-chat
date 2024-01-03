@@ -1,12 +1,12 @@
-import data from "../data/dataset.js";
 import { renderDetails } from "../componets/detalles.js";
-import { footer } from "../componets/footer.js";
+//import { footer } from "../componets/footer.js";
 import { characterDetail} from "../componets/detallesEstructura.js";
 import { botonRegresar} from "../componets/botonPrincipal.js";
 
 
 
-export const characterDetails = () => {
+export const characterDetails = (props) => {
+  console.log(props)
   const divCharacter = document.createElement('div');
   divCharacter.setAttribute('id', 'vistaDetalles')
 
@@ -15,7 +15,7 @@ export const characterDetails = () => {
 
   const detallesDiv = document.createElement('div');
   detallesDiv.setAttribute('id', 'detallesDiv');
-  detallesDiv.appendChild(renderDetails(data));
+  detallesDiv.appendChild(renderDetails(props));
   characterView.appendChild(detallesDiv);
 
   divCharacter.appendChild(characterView);

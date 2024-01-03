@@ -1,8 +1,8 @@
-export const renderDetails = (data) => {
+export const renderDetails = (detalles) => {
+  console.log(detalles)
   const detallesContenedor = document.createElement("div");
   detallesContenedor.classList.add("detalles-contenedor");
 
-  for (const detalles of data) {
     const logoDetalles = document.createElement("img");
     detallesContenedor.appendChild(logoDetalles);
     logoDetalles.setAttribute("id", "logoDetalles");
@@ -21,8 +21,8 @@ export const renderDetails = (data) => {
     const lanzamiento = document.createElement("div");
     detallesContenedor.appendChild(lanzamiento);
     lanzamiento.setAttribute("id", "lanzamiento");
-    lanzamiento.textContent =
-      "Año de lanzamiento: " + detalles.facts.yearReleased;
+    //lanzamiento.textContent =
+      //"Año de lanzamiento: " + detalles.facts.yearReleased;
 
     const generoJuego = document.createElement("div");
     detallesContenedor.appendChild(generoJuego);
@@ -45,6 +45,6 @@ export const renderDetails = (data) => {
     detallesContenedor.appendChild(multiplayerJuego);
     multiplayerJuego.setAttribute("id", "multiplayerJuego");
     multiplayerJuego.textContent = "Multiplayer: " + detalles.facts.multiplayer;
-  }
+
   return detallesContenedor;
 };
