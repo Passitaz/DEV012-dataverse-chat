@@ -37,6 +37,7 @@ export const  vistaFiltro = () => {
     </div>
   <div class="contenedor-flex" id= "contenedor-2">
     <button data-testid="botonChatGrupal" name="chatGrupalBoton"  id="chatGrupal">Chat Grupal</button>
+    <button data-testid="botonApiKey" name="chatApiKey"  id="botonApiKey">Api Key</button>
   </div>`;
   return filtrosHtml;
 };

@@ -79,6 +79,13 @@ export const Home = () => {
     alert("Hola");
   }
 
+  const botonApi = divHome.querySelector('[data-testid="botonApiKey"]');
+  botonApi.addEventListener("click", abrir);
+
+  function abrir() {
+    alert("Hola");
+  }
+
   document.body.appendChild(divHome);
   agregarEventosFiltros();
   aplicarFiltros();
