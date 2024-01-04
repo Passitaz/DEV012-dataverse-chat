@@ -1,7 +1,9 @@
+import { renderDetails } from "../componets/detalles.js";
+
 export const characterDetail = () => {
   const detallesDelPersonaje = `
     <div class=contenedorPrincipal>
-    <div id="detalles">
+    <div class="detallesJuegos2" id="detallesJuegos">
     </div>
     <div class=contenedorTexto>
     <div class="barraChat">

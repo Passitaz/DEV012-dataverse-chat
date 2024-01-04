@@ -35,7 +35,7 @@ export const renderItems = (data) => {
     dd2.textContent = datos.shortDescription;
 
     contenedorLi.addEventListener("click",()=>{ 
-      navigateTo('/detalle')
+      navigateTo('/detalle',datos)
     })
   }
 
