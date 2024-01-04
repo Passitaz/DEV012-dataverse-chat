@@ -1,3 +1,5 @@
+import { botonRegresar} from "../componets/botonPrincipal.js";
+
 export const chatGrupal = () => {
     const chatView = document.createElement("section");
     const pantallaChatGrupal= `
