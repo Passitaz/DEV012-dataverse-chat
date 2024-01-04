@@ -1,3 +1,5 @@
+import { botonRegresar} from "../componets/botonPrincipal.js";
+
 export const api = () => {
     const apiKeyView = document.createElement("section");
     const pantallaApiKey  = `

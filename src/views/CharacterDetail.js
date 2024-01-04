@@ -2,14 +2,13 @@ import { renderDetails } from "../componets/detalles.js";
 import { characterDetail} from "../componets/detallesEstructura.js";
 import { botonRegresar} from "../componets/botonPrincipal.js";
 
-
-
 export const characterDetails = (props) => {
   const divCharacter = document.createElement('div');
   divCharacter.setAttribute('id', 'vistaDetalles')
+  divCharacter.appendChild(botonRegresar());
 
   const characterView = document.createElement("section");
-  characterView.innerHTML = botonRegresar() + characterDetail();
+  characterView.innerHTML = characterDetail();
   
   const detallesElemento = renderDetails(props);
   const contenedorDetalles = characterView.querySelector('#detallesJuegos');

@@ -1,5 +1,4 @@
 export const renderDetails = (detalles) => {
-  console.log(detalles)
   const detallesContenedor = document.createElement("div");
   detallesContenedor.classList.add("detalles-contenedor");
 
