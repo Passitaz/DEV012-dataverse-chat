@@ -1,6 +1,11 @@
+import { navigateTo } from "../router.js";
+
 export const botonRegresar = () => {
-  const botonRegresarComponent = `
-    <button data-testid="boton-regresar" name="boton-regresar" id="botonRegresar">Regresar</button>
-    `;
+  const botonRegresarComponent = document.createElement("button");
+  botonRegresarComponent.setAttribute("id", "botonRegresar");
+  botonRegresarComponent.textContent = "Regresar";
+  botonRegresarComponent.addEventListener("click", () => {
+    navigateTo("/");
+  })
   return botonRegresarComponent;
 };
