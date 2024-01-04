@@ -15,7 +15,7 @@ export const characterDetails = () => {
 
   const detallesDiv = document.createElement('div');
   detallesDiv.setAttribute('id', 'detallesDiv');
-  detallesDiv.appendChild(renderDetails(data));
+  detallesDiv.appendChild(renderDetails(detallles));
   characterView.appendChild(detallesDiv);
 
   divCharacter.appendChild(characterView);
