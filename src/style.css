@@ -384,6 +384,7 @@ position: absolute;
   border-radius: 5%;
   margin: 5vh auto 0;
   box-sizing: border-box;
+  overflow-y: auto;
 }
 .contenedorTexto {
   display: flex;
