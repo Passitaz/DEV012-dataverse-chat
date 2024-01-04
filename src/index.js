@@ -17,7 +17,7 @@ const routes = {
 // Configura el elemento raíz
 const root = document.getElementById('root');
 setRoutes(routes);
-setRootEl('root'); 
+setRootEl(root); 
 
 // Función para manejar los cambios de ruta
 document.addEventListener("DOMContentLoaded", (event) => {

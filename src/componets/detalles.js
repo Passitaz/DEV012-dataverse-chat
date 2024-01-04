@@ -21,8 +21,7 @@ export const renderDetails = (detalles) => {
     const lanzamiento = document.createElement("div");
     detallesContenedor.appendChild(lanzamiento);
     lanzamiento.setAttribute("id", "lanzamiento");
-    //lanzamiento.textContent =
-      //"Año de lanzamiento: " + detalles.facts.yearReleased;
+    lanzamiento.textContent = "Año de lanzamiento: " + detalles.facts.yearReleased;
 
     const generoJuego = document.createElement("div");
     detallesContenedor.appendChild(generoJuego);

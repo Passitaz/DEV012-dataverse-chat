@@ -353,6 +353,7 @@ button {
 .contenedorPrincipal {
   display: flex;
   justify-content: end;
+  justify-content:space-around;
   align-items: center;
   width: 90%;
   max-width: 2550px;
@@ -422,60 +423,79 @@ button {
   background-color: #010562;
   color: #f9f9f9;
 }
+#detallesJuegos{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 55%;
+  flex-wrap:wrap;
+  Align-items:stretch;
+}
 
 #logoDetalles{
   display: flex;
-  width: 210px;
-  height: 190px;
-  display: flex;
-  margin: auto;
-  margin-top: 5px;
+  width: 125px;
+  height: 125px;
+  margin: left;
   padding: 5px;
+  flex-wrap:wrap;
 }
 #fotoPersonaje{
-  width: 880px;
-  height: 830px;
+  width: 40%;
+  height: 35%;
+  max-width: 300px;
+  max-height: 280px;
   display: block;
   margin: auto;
-  margin-top: 5px;
-  padding: 5px;
+  padding: -10px;
+  flex-wrap:wrap;
 }
 #descripcion {
-  top: 20px;
-  left: 20px; 
-  background-color: rgba(0, 161, 213, 0.5); 
-  padding: 20px;
-  margin: 20px;
+  top: 5px;
+  left: 5px; 
+  width: 100%;
+  height: 50%;
+  background-color:rgba(255, 255, 255, 0.5) ; 
+  padding: 5px;
+  margin: 5px;
   border-radius: 10px;
+  border: 4px solid rgba(1, 135, 180, 0.914);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: 'Arial', sans-serif;
-  font-size: 24px;
+  font-size: 17px;
   font-weight: bold;
-  color: #FFFFFF;
-  text-shadow: 1px 1px 2px #000;
+  color: #060606;
   line-height: 1.6;
-  text-align: center;
+  text-align:left;
+  flex-wrap:wrap;
 }
+
 
 #lanzamiento,
 #generoJuego,
 #estiloDeJuego,
 #perspectivaJuego,
 #multiplayerJuego {
-  background-color: rgba(255, 229, 0, 0.5);
+  word-wrap: break-word;
+  flex-wrap:wrap;
+  display: inline-flex;
+  justify-content: space-around;
+  gap: 10px;
+  top: 1px;
+  left: 1px; 
+  width: 20%;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.5) ;
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
+  border: 4px solid #FFE500;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: "Arial";
-  font-size: 24px;
+  font-size: 17px;
   font-weight: bold;
-  color: #FFFFFF; /* Corregí el valor del color para que sea válido */
-  text-shadow: 1px 1px 2px #000;
-  display: list-item;
-  max-width: 300px;
-  min-width: 100px;
-  word-wrap: break-word;
+  color: #000000;
+  
 }
 
 footer {
