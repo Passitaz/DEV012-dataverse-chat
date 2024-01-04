@@ -5,6 +5,7 @@ import { header } from "../componets/header.js";
 import { vistaFiltro } from "../componets/filtros.js";
 import { filtrosT } from "../lib/dataFunctions.js";
 import { estadisticaJuegos } from "../componets/estadistica.js";
+import { navigateTo } from "../router.js";
 
 let newData = data.slice();
 
@@ -73,18 +74,15 @@ export const Home = () => {
   }
 
   const boton2 = divHome.querySelector('[data-testid="botonChatGrupal"]');
-  boton2.addEventListener("click", abrir);
-
-  function abrir() {
-    alert("Hola");
-  }
+  boton2.addEventListener("click", () => {
+    navigateTo("/chatGrupal");
+  })
 
   const botonApi = divHome.querySelector('[data-testid="botonApiKey"]');
-  botonApi.addEventListener("click", abrir);
-
-  function abrir() {
-    alert("Hola");
-  }
+  botonApi.addEventListener("click", () => {
+    navigateTo("/apiKey");
+  })
+ 
 
   document.body.appendChild(divHome);
   agregarEventosFiltros();
