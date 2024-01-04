@@ -1,9 +1,12 @@
 import { botonRegresar} from "../componets/botonPrincipal.js";
 
 export const chatGrupal = () => {
+  const divChat = document.createElement('div');
+  divChat.setAttribute("id","vistaChat");
+  divChat.appendChild(botonRegresar());
+
     const chatView = document.createElement("section");
     const pantallaChatGrupal= `
-          <button data-testid="boton-regresar" name="boton-regresar" id="botonRegresar">Regresar</button>
           <div class="contenedorFlex" id="chat_grupal">
             <p>Chatea con todos las juegos</p>
           </div>
@@ -15,5 +18,7 @@ export const chatGrupal = () => {
           </div>`;
     chatView.innerHTML = pantallaChatGrupal;
 
-    return chatView;
+    divChat.appendChild(chatView);
+
+    return divChat;
 }
