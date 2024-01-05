@@ -3,7 +3,7 @@ import { Home } from './views/HOME.js';
 import { characterDetails } from './views/CharacterDetail.js';
 import { error } from './views/Error.js';
 import { chatGrupal } from './views/chatGrupal.js';
-import { api } from './views/api.js';
+import { api } from './views/apiView.js';
 
 // Configura las rutas
 const routes = {

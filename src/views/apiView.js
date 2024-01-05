@@ -10,7 +10,9 @@ export const api = () => {
   const contenedorApiKeyDiv = document.createElement("div");
   contenedorApiKeyDiv.id = "ingreso";
 
-  const pTexto= document.createTextNode("Api Key Admin \n Desde aquí puedes administrar la API Key a utilizar");
+  const pTexto = document.createTextNode(
+    "Api Key Admin \n Desde aquí puedes administrar la API Key a utilizar"
+  );
   const pElemento = document.createElement("p");
   pElemento.appendChild(pTexto);
   contenedorApiKeyDiv.appendChild(pElemento);
@@ -18,19 +20,19 @@ export const api = () => {
   const segundoDiv = document.createElement("div");
 
   const contenidoTextarea = document.createElement("textarea");
-  contenidoTextarea.setAttribute("id","apiTex");
-  contenidoTextarea.setAttribute("name","Api");
-  contenidoTextarea.setAttribute("rows","4");
-  contenidoTextarea.setAttribute("cols","50");
-  contenidoTextarea.setAttribute("placeholder","API KEY");
-  contenidoTextarea.setAttribute("class","apiText");
+  contenidoTextarea.setAttribute("id", "apiTex");
+  contenidoTextarea.setAttribute("name", "Api");
+  contenidoTextarea.setAttribute("rows", "4");
+  contenidoTextarea.setAttribute("cols", "50");
+  contenidoTextarea.setAttribute("placeholder", "API KEY");
+  contenidoTextarea.setAttribute("class", "apiText");
 
   const botonEnviar = document.createElement("button");
-  botonEnviar.setAttribute("data-testid","boton-enviar");
-  botonEnviar.setAttribute("name","boton-enviar");
-  botonEnviar.setAttribute("id","enviar");
+  botonEnviar.setAttribute("data-testid", "boton-enviar");
+  botonEnviar.setAttribute("name", "boton-enviar");
+  botonEnviar.setAttribute("id", "enviar");
   botonEnviar.appendChild(document.createTextNode("Enviar"));
-  
+
   segundoDiv.appendChild(contenidoTextarea);
   segundoDiv.appendChild(botonEnviar);
 
@@ -40,7 +42,14 @@ export const api = () => {
   document.body.appendChild(apiKeyView);
 
   botonEnviar.addEventListener("click", () => {
-    localStorage.setItem("apiKey", contenidoTextarea.value);
+    const apiKey = contenidoTextarea.value;
+
+    if (apiKey) {
+      localStorage.setItem("apiKey", apiKey);
+      alert("La apikey ha sido validada correctamente");
+    } else {
+      alert("Ha habido un error. Por favor, introduce una API key válida");
+    }
   });
 
   divApiKey.appendChild(apiKeyView);
