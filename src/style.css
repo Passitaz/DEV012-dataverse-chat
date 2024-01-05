@@ -125,12 +125,11 @@ button {
   border-radius: 5px;
   background-color: #fddb3a;
 }
-
+/*Aqui empiezan los estilos de nustra segunda barra de la vista Home donde esta contenida la estadistica y los botones de ApiKey y Chat Grupal */
 #contenedor-2 {
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
   justify-content: flex-end;
-  align-items: flex-end; /* Cambiado a align-items: flex-start para alinear a la izquierda */
+  align-items: flex-end; 
   width: 100%;
   height: 35px;
 }
@@ -165,7 +164,7 @@ button {
 #botonApiKey{
 position: absolute;
 }
-
+/* Aqui empiezan los estilos para la vista de error */
 #mensajeError {
   color: black;
   font-weight: bold;
@@ -214,6 +213,7 @@ position: absolute;
   font-size: medium;
 }
 
+/* Aqui empiezan los estilos para la vista de Chat grupal */
 
 #chat_grupal {
   text-align: center;
@@ -304,6 +304,8 @@ position: absolute;
   color: #f9f9f9;
 }
 
+/* Aqui empiezan los estilos de la vista de la ApiKey */
+
 #ingreso {
   text-align: center;
   display: flex;
@@ -368,11 +370,9 @@ position: absolute;
   transform: translateX(-50%);
 }
 
-#detallesDiv{
-  display: flex;
-  position: relative;
-}
-.contenedorPrincipal {
+/*Aqui empiezan los estilos de la vista de chat individual  */
+
+.contenedorPrincipal {  /*Este contenedor contiene a el cuadro de texto y las imagenes mostradas en la vista*/
   display: flex;
   justify-content: end;
   justify-content:space-around;
@@ -523,6 +523,7 @@ position: absolute;
   color: #000000;
   
 }
+/* Estilos para el footer */
 
 footer {
   width: 100%;
@@ -533,35 +534,54 @@ footer {
   margin-top: auto;
 }
 
+/* Aqui empiezan los estilos para las tablets */
+/* Estilospara la vita home */
+@media (max-width: 1029px) {
+  .logo-container {
+    display: flex;
+    justify-content: center;  /* Centrar horizontalmente */
+    align-items: center;      /* Centrar verticalmente */
+    text-align: center;
+}
 
-
-@media (max-width: 912px) {
-  #logo {
-    position: relative;
-    margin-left: auto;
-    margin-top: auto;
-    padding: 3px;
+.logo-container img{
+    margin-left:15px ;
     width: 250px;
     height: 50px;
   }
-  [data-testid="select-filter"] {
-    margin-right: 10px;
+
+  contenedor-flex {
     display: flex;
-    flex-direction: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+[data-testid="select-filter"] {
+    display: flex;
+    flex-direction: column;  /* Cambiado a column para apilar verticalmente */
+    justify-content: center; /* Centrar verticalmente los elementos hijos */
+    align-items: center;     /* Centrar horizontalmente los elementos hijos */
     width: 100%;
     text-align: center;
-  }
-  button {
+}
+
+button {
     border: none;
     color: black;
     font-size: 17px;
-    padding: 7px 7px;
-    margin-left: 300px;
     margin-top: 5%;
     cursor: pointer;
     border-radius: 5px;
     background-color: #fddb3a;
+}
+  #chatGrupal{
+    position: absolute;
+    margin: 0 16%;
   }
+  
+  
   li {
     height: 350px;
     width: calc(50% - 10px);
@@ -599,6 +619,9 @@ footer {
     text-overflow: clip;
   }
 }
+/* Pantalla ApiKey */
+
+
 /* dispostivo movil */
 
 @media (max-width: 415px) {
