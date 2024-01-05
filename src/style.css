@@ -460,9 +460,12 @@ position: absolute;
   width: 125px;
   height: 125px;
   margin: left;
+  margin-top: 32%;
+  margin-top: min(25% 50px);
   padding: 5px;
   flex-wrap:wrap;
 }
+
 #fotoPersonaje{
   width: 40%;
   height: 35%;
