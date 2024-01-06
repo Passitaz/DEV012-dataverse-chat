@@ -372,10 +372,9 @@ position: absolute;
 
 /*Aqui empiezan los estilos de la vista de chat individual  */
 
-.contenedorPrincipal {  /*Este contenedor contiene a el cuadro de texto y las imagenes mostradas en la vista*/
+.contenedorPrincipal {
   display: flex;
-  justify-content: end;
-  justify-content:space-around;
+  justify-content: space-around; /* Ajusta según tus necesidades */
   align-items: center;
   width: 90%;
   max-width: 2550px;
@@ -386,6 +385,7 @@ position: absolute;
   box-sizing: border-box;
   overflow-y: auto;
 }
+
 .contenedorTexto {
   display: flex;
   flex-direction: column;
@@ -398,55 +398,58 @@ position: absolute;
   border-radius: 5%;
   margin: 0 20px;
   box-sizing: border-box;
+  position: relative; /* Agrega esta propiedad */
 }
 
-.barraChat{
+
+.barraChat {
   position: relative;
   display: flex;
-  justify-content: end;
+  justify-content: end; /* Ajusta según tus necesidades */
   align-items: center;
   width: 92%;
   max-width: 540px;
   height: 6vh;
   background-color: #010562;
   border-radius: 7px;
-  margin: 77vh auto 0;
+  margin: 77vh auto 0; /* Ajusta según tus necesidades */
   box-sizing: border-box;
 }
 
-.barraChat textarea {
-  position: absolute;
-  display: flex;
-  width: 80%; /* Ajusta este valor según tus necesidades */
+#chatIndividual {
+  width: calc(100% - 20px);
   max-width: 450px;
-  height: 10vh; /* Ajusta este valor según tus necesidades */
+  height: 10vh;
   max-height: 4vh;
   font-family: 'Calibri', sans-serif;
   color: #656464;
   border-radius: 7px;
   resize: none;
   box-sizing: border-box;
-  left: 10px; /* Ajusta este valor para mover el textarea a la izquierda */
-  bottom: 8px; /* Ajusta este valor para alinear con el botón */
+  left: 10px;
+  bottom: 8px;
+  position: absolute; /* Ajusta según tus necesidades */
 }
 
-.enviar-chat {
+#botonEnviar {
   font-family: 'Calibri', sans-serif;
   color: #656464;
-  padding: 5px 3vw; /* Ajusta este valor según tus necesidades */
+  padding: 5px 3vw;
   font-size: 16px;
   border: none;
   border-radius: 7px;
   cursor: pointer;
-  bottom: 8px; /* Ajusta este valor para alinear con el textarea */
-  right: 10px; /* Ajusta este valor según tus necesidades */
+  bottom: 8px;
+  right: 10px;
+  position: absolute; /* Ajusta según tus necesidades */
 }
+
 
 .enviar-chat:hover {
   background-color: #010562;
   color: #f9f9f9;
 }
-#detallesJuegos{
+.detallesJuegos2{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
