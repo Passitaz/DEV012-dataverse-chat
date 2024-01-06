@@ -1,3 +1,4 @@
+import { chatPeticion } from "../lib/Api.js";
 import { renderDetails } from "../componets/detalles.js";
 import { botonRegresar } from "../componets/botonPrincipal.js";
 
@@ -36,30 +37,46 @@ export const characterDetails = (props) => {
 
   characterView.appendChild(contenedorDetalles);
   characterView.appendChild(barraChat);
+//
+  const enviarMensaje = async () => {
+    const mensajeUsuario = textarea.value.trim();
 
-  const enviarMensaje = () => {
-    const mensaje = textarea.value.trim();
-    if (mensaje !== "") {
-      const nuevoMensaje = document.createElement("p");
-      nuevoMensaje.textContent = mensaje;
-      contenedorMensajes.appendChild(nuevoMensaje);
+    if (mensajeUsuario !== "") {
+      const nuevoMensajeUsuario = document.createElement("p");
+      nuevoMensajeUsuario.textContent = mensajeUsuario;
+      contenedorMensajes.appendChild(nuevoMensajeUsuario);
       textarea.value = "";
-      nuevoMensaje.style.backgroundColor = "lightblue";
-      nuevoMensaje.style.padding = "10px";
-      nuevoMensaje.style.borderRadius = "5px";
+      nuevoMensajeUsuario.style.backgroundColor = "lightblue";
+      nuevoMensajeUsuario.style.padding = "10px";
+      nuevoMensajeUsuario.style.borderRadius = "5px";
+
+      try {
+        // Llamada a chatPeticion para obtener la respuesta
+        const respuesta = await chatPeticion(mensajeUsuario, props.personaje);
+
+        // Verificar que la respuesta tenga la estructura esperada
+        if (respuesta.choices && respuesta.choices[0] && respuesta.choices[0].message) {
+          // Agregar la respuesta al contenedor de mensajes
+          const nuevoMensajeAI = document.createElement("p");
+          nuevoMensajeAI.textContent = respuesta.choices[0].message.content;
+          contenedorMensajes.appendChild(nuevoMensajeAI);
+          nuevoMensajeAI.style.backgroundColor = "lightgreen";
+          nuevoMensajeAI.style.padding = "10px";
+          nuevoMensajeAI.style.borderRadius = "5px";
+        } else {
+          console.error('La respuesta del modelo no tiene la estructura esperada:', respuesta);
+        }
+      } catch (error) {
+        console.error('Error al obtener respuesta del modelo:', error.message);
+      }
     }
   };
-  
-  // Evento al hacer clic en el botón
+
   button.addEventListener("click", enviarMensaje);
-  
 
   textarea.addEventListener("keydown", (event) => {
-    // Verificar si la tecla presionada es Enter
     if (event.key === "Enter") {
-      // Evitar el salto de línea por defecto en el textarea
       event.preventDefault();
-      // Llamar a la función para enviar el mensaje
       enviarMensaje();
     }
   });
@@ -67,5 +84,3 @@ export const characterDetails = (props) => {
   divCharacter.appendChild(characterView);
   return divCharacter;
 };
-
- 
