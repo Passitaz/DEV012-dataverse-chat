@@ -37,14 +37,30 @@ export const characterDetails = (props) => {
   characterView.appendChild(contenedorDetalles);
   characterView.appendChild(barraChat);
 
-  // Lógica de manejo de mensajes
-  button.addEventListener("click", () => {
+  const enviarMensaje = () => {
     const mensaje = textarea.value.trim();
     if (mensaje !== "") {
       const nuevoMensaje = document.createElement("p");
       nuevoMensaje.textContent = mensaje;
       contenedorMensajes.appendChild(nuevoMensaje);
       textarea.value = "";
+      nuevoMensaje.style.backgroundColor = "lightblue";
+      nuevoMensaje.style.padding = "10px";
+      nuevoMensaje.style.borderRadius = "5px";
+    }
+  };
+  
+  // Evento al hacer clic en el botón
+  button.addEventListener("click", enviarMensaje);
+  
+
+  textarea.addEventListener("keydown", (event) => {
+    // Verificar si la tecla presionada es Enter
+    if (event.key === "Enter") {
+      // Evitar el salto de línea por defecto en el textarea
+      event.preventDefault();
+      // Llamar a la función para enviar el mensaje
+      enviarMensaje();
     }
   });
 
