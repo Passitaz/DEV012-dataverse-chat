@@ -1,30 +1,30 @@
-import { setRootEl, setRoutes, URLChange } from './router.js';
-import { Home } from './views/HOME.js';
-import { characterDetails } from './views/CharacterDetail.js';
-import { error } from './views/Error.js';
-import { chatGrupal } from './views/chatGrupal.js';
-import { api } from './views/apiView.js';
+import { setRootEl, setRoutes, URLChange } from "./router.js";
+import { Home } from "./views/HOME.js";
+import { characterDetails } from "./views/CharacterDetail.js";
+import { error } from "./views/Error.js";
+import { chatGrupal } from "./views/chatGrupal.js";
+import { api } from "./views/apiView.js";
 
 // Configura las rutas
 const routes = {
-    '/': Home,
-    '/detalle': characterDetails,
-    '/error': error,
-    '/apiKey': api,
-    '/chatGrupal': chatGrupal,
+  "/": Home,
+  "/detalle": characterDetails,
+  "/error": error,
+  "/apiKey": api,
+  "/chatGrupal": chatGrupal,
 };
 
 // Configura el elemento raíz
-const root = document.getElementById('root');
+const root = document.getElementById("root");
 setRoutes(routes);
-setRootEl(root); 
+setRootEl(root);
 
 // Función para manejar los cambios de ruta
 document.addEventListener("DOMContentLoaded", (event) => {
-    URLChange(event.target.location.pathname);
+  URLChange(event.target.location.pathname);
 });
 
 // Eventos para manejar el cambio de ruta
-window.addEventListener('popstate', () => {
-    URLChange(window.location.pathname);
+window.addEventListener("popstate", () => {
+  URLChange(window.location.pathname);
 });

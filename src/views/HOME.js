@@ -7,7 +7,7 @@ import { filtrosT } from "../lib/dataFunctions.js";
 import { estadisticaJuegos } from "../componets/estadistica.js";
 import { navigateTo } from "../router.js";
 
-let newData = data.slice();
+const newData = data.slice();
 
 export const Home = () => {
   const divHome = document.createElement('div');
