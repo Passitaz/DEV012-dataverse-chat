@@ -399,6 +399,7 @@ position: absolute;
   margin: 0 20px;
   box-sizing: border-box;
   position: relative; /* Agrega esta propiedad */
+  overflow-y: auto
 }
 
 
