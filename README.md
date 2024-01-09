@@ -1,4 +1,5 @@
-# Dataverse Chat - ![image](https://github.com/Benb0x/DEV012-dataverse-chat/assets/144946997/57d8cd99-f33a-419c-adf4-e2e713e85fb6)
+# Dataverse Chat 
+![image](https://github.com/Benb0x/DEV012-dataverse-chat/assets/144946997/57d8cd99-f33a-419c-adf4-e2e713e85fb6)
 
 
 ## Índice
