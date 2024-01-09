@@ -1,8 +1,8 @@
-import { characterDetails } from '../views/characterDetails';
+import { characterDetails } from '../src/views/CharacterDetail.js';
 
 describe('characterDetails', () => {
   test('debería enviar mensajes correctamente', async () => {
-    // Arrange: Configurar el entorno de prueba
+    // Arrange: Configurar el entorno de pruebI
     const props = {
       name: 'NombreDelPersonaje', // Proporciona un nombre para las pruebas
     };
