@@ -4,7 +4,7 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
+* [1. INTRODUCCIÓN](#1-introducción)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Funcionalidades](#4-funcionalidades)
@@ -16,25 +16,21 @@
 
 ***
 
-## 1. Preámbulo
+## 1. INTRODUCCIÓN
 
-En nuestro día a día, las aplicaciones web son como amigas
-inseparables. Desde las redes sociales hasta las herramientas de
-trabajo, las usamos todo el tiempo. Pero lo que hace que este
-momento sea realmente especial es que estas aplicaciones nos pueden
-abrir una puerta a algo asombroso: la interacción con inteligencia
-artificial.
+Bienvenido al emocionante mundo de la interacción con videojuegos a través de nuestro innovador proyecto desarrollado durante el Bootcamp de Laboratoria en Desarrollo Web. Esta fascinante Single Page Application (SPA) te sumergirá en el universo del gaming al permitirte explorar y conversar con personajes de tus juegos favoritos.
 
-¿Qué tal si pudiéramos conversar con alguien que vivió hace más de
-cien años o incluso con los personajes de nuestras series y
-películas favoritas o con entidades que normalmente no pueden hablar
-como por ejemplo planetas o animales? La inteligencia artificial nos
-puede ayudar a entender el pasado y a conectarnos con figuras
-históricas, así como a sumergirnos en mundos ficticios.
+Imagina poder filtrar y ordenar los juegos por género y punto de vista, facilitándote la búsqueda del videojuego que se ajuste a tus preferencias.
 
-![Preview app](https://github-production-user-asset-6210df.s3.amazonaws.com/123121338/271433237-2bd1477b-15ef-49d4-9fcb-226b3263c46a.png)
+Pero aquí viene la emocionante vuelta de tuerca: hemos llevado la interactividad al siguiente nivel. ¿Alguna vez soñaste con charlar con tus juegos favoritos? En nuestra aplicación, podrás acceder a una vista detallada de cada juego, con la increíble posibilidad de interactuar con ellos a través de un sistema de chat impulsado por la potente API de OpenAI.
 
-## 2. Resumen del proyecto
+Imagina charlar con el protagonista de tu videojuego favorito o tener una conversación intrigante con el villano maestro del juego. Esta experiencia única te permite explorar las profundidades de los personajes de una manera nunca antes vista.
+
+En resumen, nuestro proyecto fusiona la magia de los videojuegos con la emocionante posibilidad de entablar conversaciones con los personajes de tu elección. ¡Sumérgete en esta experiencia única y descubre un nuevo nivel de conexión con el mundo de los juegos!
+
+
+
+## 2. RESUMEN DEL PROYECTO
 
 En este proyecto convertirás la aplicación desarrollada
 en Dataverse en una
