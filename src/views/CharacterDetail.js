@@ -86,14 +86,14 @@ export const characterDetails = (props) => {
           nuevoMensajeAI.style.borderRadius = "5px";
         } else {
           // Imprime un mensaje de error si la respuesta del modelo no tiene la estructura esperada
-          console.error(
+          /*   console.error(
             "La respuesta del modelo no tiene la estructura esperada:",
             respuesta
-          );
+          ); */
         }
       } catch (error) {
         // Captura y maneja errores al obtener la respuesta del modelo
-        console.error("Error al obtener respuesta del modelo:", error.message);
+        /*  console.error("Error al obtener respuesta del modelo:", error.message); */
       }
     }
   };
