@@ -5,7 +5,7 @@
 ## Índice
 
 * [1. INTRODUCCIÓN](#1-introducción)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [2. RESUMEN DEL PROYECTO](#2-resumen-del-proyecto)
 * [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Funcionalidades](#4-funcionalidades)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
@@ -28,6 +28,7 @@ Imagina charlar con el protagonista de tu videojuego favorito o tener una conver
 
 En resumen, nuestro proyecto fusiona la magia de los videojuegos con la emocionante posibilidad de entablar conversaciones con los personajes de tu elección. ¡Sumérgete en esta experiencia única y descubre un nuevo nivel de conexión con el mundo de los juegos!
 
+![image](https://github.com/Benb0x/DEV012-dataverse-chat/assets/144946997/29c0fd40-201b-4b53-9f89-8b4b83144956)
 
 
 ## 2. RESUMEN DEL PROYECTO
