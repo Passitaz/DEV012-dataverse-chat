@@ -58,92 +58,21 @@ a través de un sistema de chat impulsado por la
 Esta aplicación web se ha desarrollado a partir de un prototipo de alta fidelidad. Este ha sido diseñado cuidadosamente para incorporar requisitos esenciales, asegurando así una plataforma fácil de usar para cualquier usuario.
 
 El prototipo de alta fidelidad fue diseñado utilizando la aplicación Figma. En este proceso, se establecieron elementos clave, como la paleta de colores, el estilo visual y el funcionamiento inicial. Este prototipo de alta fidelidad sirve como una representación avanzada y detallada de la visión conceptual.
+
 ![image](https://github.com/Benb0x/DEV012-dataverse-chat/assets/144946997/5e068998-c1fc-4886-a4f6-142b84f2b2e3)
 
 
 
-## 4. Funcionalidades
+## 4.FUNCIONALIDADES
 
-El entregable final será una Single Page Application (SPA) que permitira al usuario **visualizar la información, filtrarla, ordenarla y calcular alguna estadística**, tal como se hizo en Dataverse. Además, deberá permitir  acceder a una página que muestre el detalle de cada personaje para  _interactuar_ con cada una de las entidades del set de datos que utilizaste anteriormente.
+### `Home`
 
-A continuación, detallamos las funcionalidades mínimas que tu proyecto debe cumplir:
+La interfaz de la primera vista (HOME) está constituida por dos filtros que nos ayudan a seleccionar el género y POV de los juegos que se muestran. También encontramos una estadística que nos indica cuántos juegos existen actualmente en la página. Contamos con un
+botón para limpiar nuestros filtros y así mostrar nuestra data original. En nuestro home, encontramos un botón que nos lleva a una vista para introducir nuestra API key y poder empezar a interactuar con nuestros juegos favoritos. Por último, nos encontramos con
+nuestras tarjetas, donde se muestran nuestros videojuegos con una foto y una breve descripción de cada uno.
 
-* La aplicación debe ser _responsive_
-* La aplicación debe ser una SPA con múltiples vistas:
-  - Implementar un sistema de enrutamiento que permita la navegación
-    dentro de la aplicación.
-  - Cada vista de la aplicación debe ser cargada dinámicamente
-    mediante JavaScript.
-  - Asegurarse de que la URL se actualice de manera acorde a la vista
-    cargada al igual que el `title` del documento (la pestaña del navegador).
-  - La aplicación debe ser capaz de cargar la vista correspondiente a
-    la URL actual al iniciar la aplicación.
-* La aplicación debe mantener las funcionalidades de Dataverse: visualizar,
-  filtrar, ordenar y calcular estadística de la data.
-* Al hacer clic en una tarjeta de personaje/entidad, la aplicación debe
-  redirigirse a una vista **con su propia URL** que muestre la información
-  detallada sobre ese personaje/entidad en particular
-* La aplicación debe permitir a la usuaria configurar la API Key para
-  interactuar con la API de Open AI
-* Usando la API de Open AI, la aplicación debe permitir al usuario
-  interactuar con un personaje/entidad a través de un chat.
-  Por ejemplo, si usamos la data de ejemplo de Dataverse, correspondiente
-  a las mujeres con mayores contribuciones a la programación en la historia,
-  una usuaria puede establecer una conversación
-  interactiva con
-  [Ada Lovelace](https://es.wikipedia.org/wiki/Ada_Lovelace)
-  a través del sistema de chat, obteniendo
-  información sobre sus logros, desafíos y contribuciones a la informática.
-  La inteligencia artificial de OpenAI permite que las respuestas sean
-  informativas y personalizadas según las preguntas de los usuarios.
+![image](https://github.com/Benb0x/DEV012-dataverse-chat/assets/144946997/63985d35-90e8-4a36-aa19-3e2d358ff41d)
 
-```text
-Usuaria: "Hola, Ada. Cuéntame más sobre tus contribuciones a la informática."
-
-Ada Lovelace (AI de OpenAI): "¡Hola! Claro, estaré encantada de hablar sobre eso.
-Mis contribuciones más destacadas se relacionan con el trabajo junto a Charles Babbage
-en el diseño de la Máquina Analítica. Además, desarrollé el primer algoritmo destinado
-a ser procesado por una máquina, lo que me convierte en la primera programadora de la historia.
-¿Hay algo más en particular que te gustaría saber?"
-
-Usuaria: "¡Eso es fascinante! ¿Qué desafíos enfrentaste en ese tiempo?"
-
-Ada Lovelace (AI de OpenAI): "En ese tiempo, enfrenté varios desafíos, uno de los
-principales fue la limitación de recursos y la falta de reconocimiento del potencial
-de la Máquina Analítica. También tuve que superar las restricciones sociales de
-la época, ya que las mujeres tenían un acceso limitado a la educación en
-matemáticas y ciencias. Sin embargo, mi pasión por la matemática y la visión
-de lo que estas máquinas podrían lograr me impulsaron a seguir adelante."
-```
-
-* La aplicación debe  permitir al usuario interactuar de manera simultánea
-  con **todos** los personajes/entidades a través de un chat:
-  - Esta funcionalidad debe cargarse en la URL `/panel`
-  - La usuaria puede ingresar su pregunta o mensaje para todos los
-    personajes/entidades en un cuadro de texto y enviarlo con un botón
-  - El mensaje de la usuaria debe ser ajustado para cada personaje/entidad,
-    con el objetivo que este genere una respuesta basada en su personalidad
-    y conocimiento
-  - Las respuestas de todos los personajes se muestran de acuerdo al orden
-    respuesta.
-  - Indicar visualmente cuando uno o varios personajes/entidades esten
-    generando una respuesta al mensaje enviado
-* La aplicacion debe informar a la usuaria los errores que puedan surgir al
-  interactuar con la API, como por ejemplo alcanzar la cuota de tokens por
-  minuto o cualquier otro error relacionado con la API. Debería
-  proporcionarse una descripción clara de la causa del problema y posibles
-  soluciones.
-
-Para que los chats anteriores puedan funcionar, es esencial que la aplicación
-se integre con la IA a través de la API de OpenAI. Para ello, el equipo de
-Laboratoria te proporcionará una API Key que la usuaria deberá poder ingresar
-en la aplicación que tu construirás.
-
-_Nota_: puedes revisar esta [implementación](https://laboratoria-dataverse-talks.netlify.app/)
-de ejemplo, cuyo principal objetivo es mostrarte cómo se vería la
-funcionalidad de chat en tu aplicación, más no tomes el diseño como
-referencia para tu proyecto, siente libre de hacer volar tu imaginación
-diseñando tu propia interfaz.
 
 ## 5. Consideraciones técnicas
 
