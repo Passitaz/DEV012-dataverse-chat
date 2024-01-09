@@ -53,35 +53,14 @@ a través de un sistema de chat impulsado por la
 * Entender la asincronía en JavaScript
 * Crear una suite de pruebas unitarias que permitan testear código asíncrono
 
-## 3. Consideraciones generales
+## 3. PROTOTIPADO
 
-* Este proyecto se debe resolver en duplas.
+Esta aplicación web se ha desarrollado a partir de un prototipo de alta fidelidad. Este ha sido diseñado cuidadosamente para incorporar requisitos esenciales, asegurando así una plataforma fácil de usar para cualquier usuario.
 
-* El rango de tiempo estimado para completar el proyecto es de 4 a 5 Sprints.
+El prototipo de alta fidelidad fue diseñado utilizando la aplicación Figma. En este proceso, se establecieron elementos clave, como la paleta de colores, el estilo visual y el funcionamiento inicial. Este prototipo de alta fidelidad sirve como una representación avanzada y detallada de la visión conceptual.
+![image](https://github.com/Benb0x/DEV012-dataverse-chat/assets/144946997/5e068998-c1fc-4886-a4f6-142b84f2b2e3)
 
-* La lógica del proyecto debe estar implementada completamente en JavaScript
-  (ES6+), HTML y CSS. Para este proyecto **no está permitido** utilizar
-  _frameworks_ o librerías de CSS y JS.
 
-* Es fundamental reutilizar parte del código del proyecto Dataverse, especialmente la sección relacionada con el dataset. Además, es esencial llevar a cabo una refactorización del código con el objetivo de hacerlo más modular y reutilizable. Esto implica la creación de nuevas funciones que permitan alcanzar las funcionalidades requeridas en el proyecto.
-
-* Para este proyecto **no está permitido** utilizar `async/await`.
-
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y deberás desplegarlo utilizando cualquiera de estas opciones:
-  [Vercel](https://vercel.com/) o [Netlify](https://www.netlify.com/).
-
-* La división y organización del trabajo debe permitir, sin excepciones, que
-  **cada integrante** del equipo practique el aprendizaje de todo lo involucrado
-  en **cada historia**. _No se dividan el trabajo como en una fábrica._
-  - ¿Hasta acá has avanzado en tus proyectos con cierta fluidez y sin mayores
-    problemas? Sé generosa con tus compañeras, permíteles aprender y practicar
-    sin restricciones, aunque tome un poco más de tiempo. Aproveha de
-    _coachearlas_, de hacer _pair programming_, una de las mejores maneras de
-    aprender es explicando verbalmente.
-  - ¿Se te está haciendo difícil y te cuesta un poco más avanzar? No te quedes
-    con las partes "fáciles" del proyecto, conversa, negocia, exige tu oportunidad
-    para practicar y aprender lo que se te hace más difícil.
-    Para comenzar tendrás que hacer un _fork_ y _clonar_ este repositorio.
 
 ## 4. Funcionalidades
 
