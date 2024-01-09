@@ -1,32 +1,43 @@
-/*import { jest } from "@jest/globals";
-import { describe } from "yargs";
+import { chatPeticion } from "../src/lib/Api.js";
 
 const openAiRespuesta = jest.fn();
-global.fetch = jest.fn(() => Promise.resolve({ json: openAiRespuesta }));
+global.fetch = jest.fn(() => Promise.resolve({ json:()=> openAiRespuesta() }));
 
 describe("Endpoint de openIA", () => {
   it("La API es llamada con los datos adecuados", () => {
-    openAiRespuesta.mockRejectedValueOnce({ choices: [{ message: "foo" }] });
+    localStorage.setItem("apiKey", "123");
+    openAiRespuesta.mockResolvedValueOnce({ choices: [{ message: "foo" }] });
 
-    const mensaje = [{ role: "user", content: "foo" }];
+    const mensajeUsuaria = "foo";
+    const personaje = "Mario";
 
-    chatCompletions("12563", mensaje);
-
-    expect(global.fetch).toBeCalledWith(
-      "https://api.openai.com/v1/chat/completions",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer 12563`,
-        },
-        body: JSON.stringify({
-          model: "gpt-3.5-turbo",
-          mensaje,
-        }),
-      }
-    );
+    chatPeticion(mensajeUsuaria, personaje).then(() => {
+      expect(global.fetch).toBeCalledWith(
+        "https://api.openai.com/v1/chat/completions",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer 123`,
+          },
+          body: JSON.stringify({
+            model: "gpt-3.5-turbo",
+            messages: [
+              {
+                role: "system",
+                content: `Toma como rol el personaje principal del videojuego ${personaje} , responde como si fueses dicho personaje`,
+              },
+              {
+                role: "user",
+                content: mensajeUsuaria,
+              },
+            ],
+          }),
+        }
+      );
+    });
   });
+
   it("El edpoint responde de manera corecta", () => {
     const response = {
       choices: [
@@ -38,5 +49,9 @@ describe("Endpoint de openIA", () => {
         },
       ],
     };
+    openAiRespuesta.mockResolvedValueOnce(response);
+    chatPeticion("foo", "Mario").then((respuesta) => {
+      expect(respuesta).toEqual(response);
+    });
   });
-});*/
+});

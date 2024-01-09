@@ -1,4 +1,4 @@
-import { header } from "../componets/header.js";
+import { header } from "../src/componets/header.js";
 
 describe("header", () => {
   it("debería generar el header correctamente", () => {
