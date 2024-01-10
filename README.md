@@ -108,7 +108,8 @@ test.
 | [<img src="https://avatars.githubusercontent.com/u/144946997?v=4" width=115px><br><sub>Barbara Trejo<sub>](https://github.com/Benb0x)
 | :---: |
 
-[<img src="https://avatars.githubusercontent.com/u/144946997?v=4" width=115px><br><sub>Barbara Trejo<sub>](https://github.com/Benb0x) |
-[<img src="https://avatars.githubusercontent.com/u/142710621?v=4" width=115px><br><sub>Itzel García<sub>](https://github.com/MrMidnight02) 
+
+| [<img src="https://avatars.githubusercontent.com/u/142710621?v=4" width=115px><br><sub>Itzel García<sub>](https://github.com/MrMidnight02) 
+| :---: |
 
 
