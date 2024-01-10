@@ -73,6 +73,12 @@ nuestras tarjetas, donde se muestran nuestros videojuegos con una foto y una bre
 
 ![image](https://github.com/Benb0x/DEV012-dataverse-chat/assets/144946997/63985d35-90e8-4a36-aa19-3e2d358ff41d)
 
+### `Detalle`
+
+La vista de detalle ofrece una descripción detallada del juego seleccionado, proporcionando información interesante, junto con una imagen de alguno de los protagonistas. Además, cuenta con un chat que incorpora una inteligencia artificial (IA), permitiendo a los usuarios entablar conversaciones en tiempo real con los personajes del videojuego.
+
+![image](https://github.com/Benb0x/DEV012-dataverse-chat/assets/144946997/b31faafd-e928-466c-b132-497c2330fe56)
+
 
 ## 5. Consideraciones técnicas
 
