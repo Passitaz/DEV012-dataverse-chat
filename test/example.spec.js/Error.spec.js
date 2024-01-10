@@ -1,5 +1,5 @@
-import { error } from "../src/views/Error.js";
-import { botonRegresar } from "../src/componets/botonPrincipal.js";
+import { error } from "../../src/views/Error.js";
+import { botonRegresar } from "../../src/componets/botonPrincipal.js";
 
 describe("error", () => {
   test("debería renderizarse sin errores", async () => {
@@ -21,3 +21,4 @@ describe("error", () => {
 
   // Puedes agregar más pruebas según sea necesario
 });
+ 
