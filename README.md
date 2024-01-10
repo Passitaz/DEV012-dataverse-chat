@@ -8,8 +8,9 @@
 * [2. RESUMEN DEL PROYECTO](#2-resumen-del-proyecto)
 * [3. PROTOTIPADO](#3-PROTOTIPADO)
 * [4. FUNCIONALIDADES](#4-funcionalidades)
-* [5. Consideraciones técnicas](#5-consideraciones-técnicas)
-* [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
+* [5. HISTORIAS DE USUARIO](#5-consideraciones-técnicas)
+* [6. PRUEBAS UNITARIAS Y ASÍNCORONAS](#6-criterios-de-aceptación-mínimos-del-proyecto)
+* [7. DESARROLLADORAS DEL PROYECTO](#6-desarrolladoras-del-proyecto)
 
 ***
 
@@ -88,13 +89,24 @@ Finalmente, al intentar acceder a un URL inválido se despliega una vista de ero
 
 ![image](https://github.com/Benb0x/DEV012-dataverse-chat/assets/144946997/70fd8c7e-482d-4272-9958-a8792d0d1169)
 
+## 5. HISTORIAS DE USUARIO 
 
+En el desarrollo de las historias de usuario, se ha seguido un enfoque centrado en el visitante, incorporando una serie de preguntas que consideran las necesidades y expectativas del navegante final. Estas preguntas han sido fundamentales para estructurar un proceso lógico e intuitivo dentro de la aplicación web.
 
+A partir de las respuestas recopiladas, se ha implementado un plan de trabajo que ha permitido establecer objetivos claros. Este enfoque ha sido esencial para diseñar una serie de prototipos que aborden de manera específica las necesidades planteadas en las historias de usuario. Este proceso orientado al usuario ha sido clave para asegurar que la aplicación no solo cumpla con los requisitos técnicos, sino que también ofrezca una experiencia satisfactoria y efectiva para el visitante final.
 
-## 5. Consideraciones técnicas
+Para consultar las historias de usuario, puedes entrar a este enlace:https://docs.google.com/document/d/113xfdWNs5TrdUbIRNLRUJVEQJaDPDkWY90HPhaorMMQ/edit#heading=h.m9gdb6sgs64i
+
+## 6. PRUEBAS UNITARIAS Y ASÍNCORONAS
 
 A lo largo del proyecto, hemos implementado un total de 10 pruebas unitarias que evalúan el funcionamiento de los filtros de Género, Punto de Vista (POV) y los ordenamientos ascendente y descendente además de 2 pruebas que permiten testear código asíncrono. Dentro
 de estas pruebas unitarias hicimos uso de diversos jest test typecSript. Estas pruebas unitarias han sido diseñadas para garantizar la integridad y precisión de estas funcionalidades dentro de la aplicación. Estas pruebas se ejecutan utilizando el comando npm run
 test.
+
+## 7. DESARROLLADORAS DEL PROYECTO
+
+| [<img src="https://avatars.githubusercontent.com/u/144946997?v=4" width=115px><br><sub>Barbara Trejo<sub>](https://github.com/Benb0x)
+| :---: |
+| [<img src="https://avatars.githubusercontent.com/u/142710621?v=4" width=115px><br><sub>Itzel García<sub>](https://github.com/MrMidnight02)
 
 
