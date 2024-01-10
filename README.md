@@ -6,13 +6,10 @@
 
 * [1. INTRODUCCIÓN](#1-introducción)
 * [2. RESUMEN DEL PROYECTO](#2-resumen-del-proyecto)
-* [3. Consideraciones generales](#3-consideraciones-generales)
-* [4. Funcionalidades](#4-funcionalidades)
+* [3. PROTOTIPADO](#3-PROTOTIPADO)
+* [4. FUNCIONALIDADES](#4-funcionalidades)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
 * [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Consideraciones para pedir tu Project Feedback](#9-consideraciones-para-pedir-tu-project-feedback)
 
 ***
 
@@ -95,6 +92,9 @@ Finalmente, al intentar acceder a un URL inválido se despliega una vista de ero
 
 
 ## 5. Consideraciones técnicas
-La lógica del proyecto está implementada completamente en JavaScript (ES6), HTML y CSS.
 
-F:\Laboratoria\DEV012-dataverse-chat\src
+A lo largo del proyecto, hemos implementado un total de 10 pruebas unitarias que evalúan el funcionamiento de los filtros de Género, Punto de Vista (POV) y los ordenamientos ascendente y descendente además de 2 pruebas que permiten testear código asíncrono. Dentro
+de estas pruebas unitarias hicimos uso de diversos jest test typecSript. Estas pruebas unitarias han sido diseñadas para garantizar la integridad y precisión de estas funcionalidades dentro de la aplicación. Estas pruebas se ejecutan utilizando el comando npm run
+test.
+
+
