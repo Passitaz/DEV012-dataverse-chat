@@ -1,4 +1,5 @@
-import { renderDetails } from "../componets/detalles.js";
+import { chatCompletions } from "../lib/openIaAPI";
+
 
 export const characterDetail = () => {
   const detallesDelPersonaje = `
@@ -12,3 +13,8 @@ export const characterDetail = () => {
     </div></div></div>`;
   return detallesDelPersonaje;
 };
+
+
+//1.-boton botonEnviar(traer el valor de localStorage)
+//2.-cuando se tenga el valor envia a chatCompletions
+

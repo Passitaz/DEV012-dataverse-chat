@@ -10,6 +10,14 @@ body {
   box-sizing: border-box;
 }
 
+#error-page {
+  background-image: url("https://raw.githubusercontent.com/Passitaz/DEV012-dataverse-chat/main/Pantalla%20de%20error.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+}
+
 body::before {
   content: "";
   position: fixed;
@@ -167,12 +175,12 @@ position: absolute;
 }
 
 #mensajeError {
+  width: 60vw;
   color: black;
   font-weight: bold;
   font-size: 20px;
   padding: 10px 10px;
   background-color: #f9f9f9;
-  cursor: pointer;
   border-radius: 10px;
   position: relative;
   top: -100px;
@@ -198,14 +206,6 @@ position: absolute;
   border-radius: 5px;
   background-color: #ff0000;
   margin: 0 auto;
-}
-
-#enviar {
-  position: relative;
-  margin-top: 460px;
-}
-
-#botonRegresar {
   position: absolute;
   left: 0;
   top: 0;
@@ -214,7 +214,24 @@ position: absolute;
   font-size: medium;
 }
 
+#botonEnviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: yellow;
+    width: 80px;
+    height: 35px;
+    font-size: medium;
+    margin: auto;
+  }
 
+  
 #chat_grupal {
   text-align: center;
   display: flex;

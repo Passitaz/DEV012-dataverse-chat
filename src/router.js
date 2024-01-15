@@ -23,6 +23,7 @@ const renderView = (pathname, props = {}) => {
         renderView("/error");
     }
 };
+
 export const navigateTo = (pathname, props = {}) => {
     // update window history with pushState
     let URLvisited = window.location.origin + pathname;
@@ -32,6 +33,7 @@ export const navigateTo = (pathname, props = {}) => {
     history.pushState({}, "", URLvisited);
     renderView(pathname, { ...props });
   };
+  
 export const URLChange = (location) => {
     renderView(location);
 };

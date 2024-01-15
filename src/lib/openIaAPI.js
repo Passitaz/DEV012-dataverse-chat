@@ -14,3 +14,9 @@ export const chatCompletions = (APIKEY, chatMessage) => {
     })
 })
 }
+
+
+//3.-con el boton enviar apikey y mensajes
+
+//comentar linea 4 a la 15
+-//console.log

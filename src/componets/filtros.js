@@ -1,7 +1,10 @@
-export const  vistaFiltro = () => {
-  const filtrosHtml = `
-    <div class="contenedor-flex">
+import { navigateTo} from "../router.js";
 
+export const  vistaFiltro = () => {
+
+  const contenedorFiltros = document.createElement('div');
+  contenedorFiltros.setAttribute('class', 'contenedor-flex');
+  const filtrosHtml = `
     <label class="label-select" for="filtrar-por-género">Filtrar por género</label>
     <select  data-testid="select-filter"  name="género"  id="filtrar-por-género">
       <option value="nada"></option>
@@ -31,14 +34,12 @@ export const  vistaFiltro = () => {
       <option value="desc">Z - A</option>
     </select>
 
-    <button data-testid="restablecerFiltros" name="limpiarFiltros" id="restablecer-Filtros">Restablecer Filtros</button>
-    
-
-    </div>
-  <div class="contenedor-flex" id= "contenedor-2">
-    <button data-testid="botonChatGrupal" name="chatGrupalBoton"  id="chatGrupal">Chat Grupal</button>
-    <button data-testid="botonApiKey" name="chatApiKey"  id="botonApiKey">Api Key</button>
-  </div>`;
-  return filtrosHtml;
+    <button data-testid="restablecerFiltros" name="limpiarFiltros" id="restablecer-Filtros">Restablecer Filtros</button>`;
+    contenedorFiltros.innerHTML = filtrosHtml;
+    const contendorEstadistica = document.createElement('div');
+    contendorEstadistica.setAttribute('id', 'contenedor-2');
+    contendorEstadistica.setAttribute('class', 'contenedor-flex');
+    contenedorFiltros.append(contendorEstadistica);
+  return contenedorFiltros;
 };
 
