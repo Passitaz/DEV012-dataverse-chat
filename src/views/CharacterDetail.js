@@ -7,7 +7,7 @@ export const characterDetails = (props) => {
   divCharacter.setAttribute('id', 'vistaDetalles');
 
   const characterView = document.createElement("section"); 
-  characterView.appendChild(characterDetail());
+  characterView.appendChild(characterDetail(props));
   characterView.appendChild(botonRegresar());
   console.log(props);
   

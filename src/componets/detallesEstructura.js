@@ -1,13 +1,13 @@
 import { chatCompletions } from "../lib/openIaAPI.js"
 
-export const characterDetail = () => {
+export const characterDetail = (props) => {
     const contenedorPrincipal = document.createElement("div");
     contenedorPrincipal.className = "contenedorPrincipal";
     contenedorPrincipal.innerHTML=`<div class="detallesJuegos2" id="detallesJuegos"></div>`;
     const contenedorTexto = document.createElement("div");
     contenedorTexto.className = "contenedorTexto";
     const contenedorConversacion = document.createElement("div");
-    contenedorConversacion.setAttribute('id', 'contenedor-conversación');
+    contenedorConversacion.setAttribute('id', 'contenedor-conversacion');
     const barraChat = document.createElement("div");
     barraChat.className = "barraChat";
     const textArea = document.createElement("textarea");
@@ -32,17 +32,11 @@ export const characterDetail = () => {
         const mensaje = document.createElement('div');
         mensaje.textContent = "Usuario: " + textArea.value;
         contenedorConversacion.appendChild(mensaje);
+
+        chatCompletions(textArea.value, contenedorConversacion, props.personaje, props.name)
         textArea.value = '';
       }
-
     })
-
-    // añadir evento al boton enviar
-    // capturar el valor del textarea 
-    // capturar el personaje
-    // enviar a chatCompletion los dos valores 
-    // chatCompletions (personaje, mensaje)
-
   return contenedorPrincipal;
 };
 
