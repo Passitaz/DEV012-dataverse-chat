@@ -2,6 +2,7 @@ export default[
   {
     id: "super-mario-bros",
     name: "Super Mario Bros",
+    personaje: "Mario",
     shortDescription:
       "Icono de los videojuegos, Mario lucha contra Bowser para rescatar a la princesa Peach.",
     description:
@@ -22,6 +23,7 @@ export default[
   {
     id: "the-legend-of-zelda",
     name: "The Legend of Zelda",
+    personaje: "Link",
     shortDescription:
       "Link se embarca en una aventura épica para rescatar a la princesa Zelda y derrotar a Ganon.",
     description:
@@ -42,6 +44,7 @@ export default[
   {
     id: "street-fighter-ii",
     name: "Street Fighter II",
+    personaje: "Ryu",
     shortDescription:
       "Luchadores de todo el mundo se enfrentan en intensos combates uno contra uno.",
     description:
@@ -61,6 +64,7 @@ export default[
   {
     id: "pac-man",
     name: "Pac-Man",
+    personaje: "Pac-Man",
     shortDescription:
       "Controla a Pac-Man y come todos los puntos mientras evitas a los fantasmas.",
     description:
@@ -80,6 +84,7 @@ export default[
   {
     id: "doom",
     name: "Doom",
+    personaje: "Doomguy",
     shortDescription:
       "Enfréntate a hordas de demonios en este clásico shooter en primera persona.",
     description:
@@ -100,6 +105,7 @@ export default[
   {
     id: "high-on-life",
     name: "High On Life",
+    personaje: "Kenny",
     shortDescription:
       "Explora mundos alienígenas y lucha contra enemigos con un arsenal de armas parlantes.",
     description:
@@ -120,6 +126,7 @@ export default[
   {
     id: "final-fantasy-vii",
     name: "Final Fantasy VII",
+    personaje: "Bartz",
     shortDescription:
       "Acompaña a Cloud Strife en su lucha contra el malvado Shinra Corporation y Sephiroth.",
     description:
@@ -140,6 +147,7 @@ export default[
   {
     id: "minecraft",
     name: "Minecraft",
+    personaje: "Steve",
     shortDescription:
       "Crea y explora un mundo de bloques en este juego de construcción y supervivencia.",
     description:
@@ -160,6 +168,7 @@ export default[
   {
     id: "the-witcher-3-wild-hunt",
     name: "The Witcher 3: Wild Hunt",
+    personaje: "Geralt",
     shortDescription:
       "Embárcate en una épica cacería de monstruos en un mundo de fantasía oscuro y envolvente.",
     description:
@@ -180,6 +189,7 @@ export default[
   {
     id: "fallout-3",
     name: "Fallout 3",
+    personaje: "Trotamundo solitario",
     shortDescription:
       "Sobrevive en un mundo postapocalíptico y busca a tu padre en este juego de rol.",
     description:
@@ -201,6 +211,7 @@ export default[
   {
     id: "the-elder-scrolls-v-skyrim",
     name: "The Elder Scrolls V: Skyrim",
+    personaje: "Dovahkiin",
     shortDescription:
       "Explora un mundo de fantasía épico y embárcate en una búsqueda heroica en Skyrim.",
     description:
@@ -220,6 +231,7 @@ export default[
   {
     id: "red-dead-redemption-2",
     name: "Red Dead Redemption 2",
+    personaje: "Arthur Morgan",
     shortDescription:
       "Embárcate en una epopeya del viejo oeste como Arthur Morgan en este juego de mundo abierto.",
     description:
@@ -239,6 +251,7 @@ export default[
   {
     id: "portal",
     name: "Portal",
+    personaje: "Chell",
     shortDescription:
       "Resuelve rompecabezas en este juego de plataformas en primera persona con un portal de teletransporte.",
     description:
@@ -260,6 +273,7 @@ export default[
   {
     id: "bioshock-infinite",
     name: "BioShock Infinite",
+    personaje: "Robert",
     shortDescription:
       "Explora la ciudad flotante de Columbia en este juego de disparos en primera persona con elementos de ciencia ficción.",
     description:
@@ -280,6 +294,7 @@ export default[
   {
     id: "the-elder-scrolls-iv-oblivion",
     name: "The Elder Scrolls IV: Oblivion",
+    personaje: "Jack Harper",
     shortDescription:
       "Embárcate en una epopeya de fantasía y aventura en el mundo de Cyrodiil.",
     description:
@@ -300,6 +315,7 @@ export default[
   {
     id: "diablo-ii",
     name: "Diablo II",
+    personaje: "Aidan",
     shortDescription:
       "Enfrenta a las hordas del infierno en este juego de rol de acción y loot.",
     description:
@@ -320,6 +336,7 @@ export default[
   {
     id: "counter-strike-global-offensive",
     name: "Counter-Strike: Global Offensive",
+    personaje: "Minh Le",
     shortDescription:
       "Participa en combates tácticos en equipos como terroristas o fuerzas especiales.",
     description:
@@ -340,6 +357,7 @@ export default[
   {
     id: "half-life",
     name: "Half-Life",
+    personaje: "Gordon Freeman",
     shortDescription:
       "Juega como Gordon Freeman en esta aventura de ciencia ficción en primera persona.",
     description:
@@ -360,6 +378,7 @@ export default[
   {
     id: "world-of-warcraft",
     name: "World of Warcraft",
+    personaje: "Thrall",
     shortDescription:
       "Adéntrate en un vasto mundo de fantasía y completa misiones en línea con jugadores de todo el mundo.",
     description:
@@ -380,6 +399,7 @@ export default[
   {
     id: "fortnite",
     name: "Fortnite",
+    personaje: "El Cientifico",
     shortDescription:
       "Enfréntate en emocionantes batallas en línea de Battle Royale en un mundo colorido.",
     description:
@@ -400,6 +420,7 @@ export default[
   {
     id: "grand-theft-auto-v",
     name: "Grand Theft Auto V",
+    personaje: "Michael",
     shortDescription:
       "Explora el mundo abierto de Los Santos y participa en actividades delictivas y misiones.",
     description:
@@ -420,6 +441,7 @@ export default[
   {
     id: "overwatch",
     name: "Overwatch",
+    personaje: "Winston",
     shortDescription:
       "Participa en emocionantes combates en equipos con héroes únicos y habilidades especiales.",
     description:
@@ -440,6 +462,7 @@ export default[
   {
     id: "pokemon-red-blue",
     name: "Pokémon Red/Blue",
+    personaje: "Red",
     shortDescription:
       "Embárcate en una aventura para capturar y entrenar a criaturas conocidas como Pokémon.",
     description:
@@ -460,6 +483,7 @@ export default[
   {
     id: "left-4-dead",
     name: "Left 4 Dead",
+    personaje: "Zoey",
     shortDescription:
       "Sobrevive junto a tus amigos en un mundo postapocalíptico infestado de zombis.",
     description:
@@ -481,6 +505,7 @@ export default[
   {
     id: "league-of-legends",
     name: "League of Legends",
+    personaje: "Ezreal",
     shortDescription:
       "Participa en emocionantes partidas en línea con campeones y estrategias únicas.",
     description:
@@ -501,6 +526,7 @@ export default[
   {
     id: "dota-2",
     name: "Dota 2",
+    personaje: "Dawnbreaker",
     shortDescription:
       "Participa en partidas en línea estratégicas con héroes poderosos en este juego de batalla de equipos.",
     description:
@@ -520,6 +546,7 @@ export default[
   {
     id: "the-elder-scrolls-iii-morrowind",
     name: "The Elder Scrolls III: Morrowind",
+    personaje: "The Nerevarine",
     shortDescription:
       "Explora la exótica isla de Vvardenfell en este juego de rol de mundo abierto.",
     description:
@@ -540,6 +567,7 @@ export default[
   {
     id: "resident-evil-4",
     name: "Resident Evil 4",
+    personaje: "Ashley",
     shortDescription:
       "Enfréntate a horrores biológicos en esta entrega de la serie Resident Evil.",
     description:
@@ -559,6 +587,7 @@ export default[
   {
     id: "god-of-war",
     name: "God of War",
+    personaje: "Kratos",
     shortDescription:
       "Acompaña a Kratos en su viaje para enfrentar a los dioses y redimir sus pecados.",
     description:
@@ -578,6 +607,7 @@ export default[
   {
     id: "cyberpunk-2077",
     name: "Cyberpunk 2077",
+    personaje: "Valerie",
     shortDescription:
       "Embárcate en un viaje futurista en Night City, luchando por la supervivencia y el poder en un mundo ciberpunk.",
     description:

@@ -9,6 +9,7 @@ export const characterDetails = (props) => {
   const characterView = document.createElement("section"); 
   characterView.appendChild(characterDetail());
   characterView.appendChild(botonRegresar());
+  console.log(props);
   
   const detallesElemento = renderDetails(props);
   const contenedorDetalles = characterView.querySelector('#detallesJuegos');
