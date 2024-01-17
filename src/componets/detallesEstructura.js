@@ -1,5 +1,4 @@
-import { chatCompletions } from "../lib/openIaAPI";
-
+import { chatCompletions } from "../lib/openIaAPI.js"
 
 export const characterDetail = () => {
   const detallesDelPersonaje = `
@@ -11,10 +10,16 @@ export const characterDetail = () => {
     <textarea id=chatIndividual placeholder="Escribe aquí tu mensaje"></textarea>
     <button data-testid="boton-enviar" name="boton-enviar class="enviar-chat">Enviar</button>
     </div></div></div>`;
+    // añadir evento al boton enviar
+    // capturar el valor del textarea 
+    // capturar el personaje
+    // enviar a chatCompletion los dos valores 
+    // chatCompletions (personaje, mensaje)
+
   return detallesDelPersonaje;
 };
 
 
-//1.-boton botonEnviar(traer el valor de localStorage)
-//2.-cuando se tenga el valor envia a chatCompletions
+
+
 

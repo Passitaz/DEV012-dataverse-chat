@@ -81,7 +81,6 @@ export const Home = () => {
 
   return divHome;
 };
-//
 
 
 
