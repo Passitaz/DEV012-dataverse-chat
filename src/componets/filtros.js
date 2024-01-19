@@ -1,6 +1,4 @@
-import { navigateTo} from "../router.js";
-
-export const  vistaFiltro = () => {
+export const vistaFiltro = () => {
 
   const contenedorFiltros = document.createElement('div');
   contenedorFiltros.setAttribute('class', 'contenedor-flex');
@@ -17,7 +15,6 @@ export const  vistaFiltro = () => {
       <option value="Lucha">Lucha</option>
     </select>
 
-
     <label class="label-select" for="filtrar-por-POV">Filtrar por POV</label>
     <select data-testid="select-filter" name="POV"  id="filtrar-por-POV">
       <option value="nada"></option>
@@ -27,6 +24,7 @@ export const  vistaFiltro = () => {
       <option value="Vista superior">Vista superior</option>
       <option value="Vista lateral">Vista lateral</option>
     </select>
+
     <label class="label-select" for="ordenar-por">Ordenar por</label>
     <select data-testid="select-filter" name="alfabet" id="ordenar-por">
       <option value="nada"></option>
@@ -35,11 +33,12 @@ export const  vistaFiltro = () => {
     </select>
 
     <button data-testid="restablecerFiltros" name="limpiarFiltros" id="restablecer-Filtros">Restablecer Filtros</button>`;
-    contenedorFiltros.innerHTML = filtrosHtml;
-    const contendorEstadistica = document.createElement('div');
-    contendorEstadistica.setAttribute('id', 'contenedor-2');
-    contendorEstadistica.setAttribute('class', 'contenedor-flex');
-    contenedorFiltros.append(contendorEstadistica);
+  
+  contenedorFiltros.innerHTML = filtrosHtml;
+  const contendorEstadistica = document.createElement('div');
+  contendorEstadistica.setAttribute('id', 'contenedor-2');
+  contendorEstadistica.setAttribute('class', 'contenedor-flex');
+  contenedorFiltros.append(contendorEstadistica);
+  
   return contenedorFiltros;
 };
-

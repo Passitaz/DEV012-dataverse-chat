@@ -1,5 +1,3 @@
-import data from "../data/dataset.js";
-
 export const filtrosT = (data, genero, pov, orden) => {
   let dataFiltrada = data;
   if (genero !== "nada") {
@@ -18,12 +16,12 @@ export const filtrosT = (data, genero, pov, orden) => {
 };
 
 export const filtroGenero = (data, genero) => {
-  const filtro1 = data.filter((items) => items.facts.gender === genero);
+  const filtro1 = data.filter((item) => item.facts.gender === genero);
   return filtro1;
 };
 
 export const filtroPOV = (data, POV) => {
-  const filtro1 = data.filter((items) => items.facts.pointsOfView === POV);
+  const filtro1 = data.filter((item) => item.facts.pointsOfView === POV);
   return filtro1;
 };
 export const ordenaAZ = (data) => {
@@ -49,5 +47,3 @@ export const ordenaZA = (data) => {
   });
   return ordenaZa;
 };
-
-

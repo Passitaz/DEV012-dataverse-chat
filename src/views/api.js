@@ -17,7 +17,6 @@ export const api = () => {
 
     localStorage.setItem('apikey', apiText.querySelector('textarea[name="Api"]').value);
   })
-  console.log(localStorage);
   apiKeyView.appendChild(apiText);
   apiKeyView.appendChild(botonRegresar());
 

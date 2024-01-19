@@ -1,8 +1,8 @@
-import { botonRegresar} from "../componets/botonPrincipal.js";
+import { botonRegresar } from "../componets/botonPrincipal.js";
 
 export const chatGrupal = () => {
-    const chatView = document.createElement("section");
-    const pantallaChatGrupal= `
+  const chatView = document.createElement("section");
+  const pantallaChatGrupal = `
           <div class="contenedorFlex" id="chat_grupal">
             <p>Chatea con todos las juegos</p>
           </div>
@@ -12,7 +12,7 @@ export const chatGrupal = () => {
            <textarea class="miTextarea" name="miTextarea" placeholder="Tu mensaje aquí"></textarea>
            <button  class="enviar-chat">Enviar</button>
           </div>`;
-    chatView.innerHTML =  botonRegresar() + pantallaChatGrupal;
+  chatView.innerHTML = botonRegresar() + pantallaChatGrupal;
 
-    return chatView;
+  return chatView;
 }
